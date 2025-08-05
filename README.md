@@ -1,5 +1,5 @@
 # SkyShards Parser
-###Python script to algorithmically generate all possible recipes based on info from the wiki
+### Python script to algorithmically generate all possible recipes based on info from the wiki
 ## Steps
 1. Download the html from the [attributes page](https://wiki.hypixel.net/Attributes) on the Hypixel Wiki. Only the HTML is needed
 2. Run `scrape-html.py` and fix any mistakes such as missing icons in the wiki
