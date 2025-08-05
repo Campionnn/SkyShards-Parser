@@ -188,6 +188,7 @@ def generate_fusion_recipes():
             if result:
                 fusion_key = f"{input1}+{input2}"
                 fusion_recipes_[fusion_key] = result
+        print(f"Processed all permutations for {i+1}/{len(all_ids)} shards")
     return fusion_recipes_
 
 
