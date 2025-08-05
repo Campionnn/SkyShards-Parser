@@ -41,7 +41,7 @@ def chameleon_helper(input_, results):
         new_id = get_next_id(f"{next_rarity}{new_id[1:] if new_id else 0}")
         if next_rarity == last_id[0] and new_id[1:] >= last_id[1:]:
             return None
-        if new_id in all_ids and new_id not in results:
+        if new_id in all_ids and new_id not in results and new_id != "L4":
             return new_id
     return None
 
@@ -116,7 +116,9 @@ def get_name(input_):
 
 
 def match_member(input_, member):
-    if member.strip("+") in rarities:
+    if member == "Any":
+        return True
+    elif member.strip("+") in rarities:
         return check_rarity_match(input_, member)
     elif member in categories:
         return get_category_membership(input_, member)
@@ -149,8 +151,10 @@ def find_special_fusion_results(input1, input2):
     for id_, attributes_ in data.items():
         sp_input1 = attributes_.get("input1", None)
         sp_input2 = attributes_.get("input2", None)
-        if not sp_input1 or not sp_input2:
-            continue
+        if sp_input1 and not sp_input2:
+            sp_input2 = "Any"
+        elif not sp_input1 and sp_input2:
+            sp_input1 = "Any"
         sp_fusion_map[id_] = [sp_input1, sp_input2]
     matching_fusions = []
     for id_, inputs in sp_fusion_map.items():

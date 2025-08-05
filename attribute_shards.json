@@ -489,7 +489,7 @@
       "Bug"
     ],
     "input1": "Pest Shard",
-    "input2": "Pest Shard",
+    "input2": "Pest Shard|Combat",
     "id_result": "Bambuleaf"
   },
   "U24": {
@@ -966,7 +966,7 @@
     "family": [
       "Bug"
     ],
-    "input1": "Cropeetle Shard",
+    "input1": "Cropeetle|Termite Shard",
     "input2": "Bug",
     "id_result": "Dreadwing"
   },
@@ -1432,7 +1432,7 @@
     "family": [
       "Bug"
     ],
-    "input1": "Lunar Moth Shard",
+    "input1": "Lunar Moth|Praying Mantis Shard",
     "input2": "Bezal|Lava Flame|Fire Eel|Bal|Flare|Cinder Bat|Flaming Spider Shard",
     "id_result": "XYZ"
   },
@@ -1621,7 +1621,7 @@
       "Bug"
     ],
     "input1": "Dragonfly|Golden Beetle Shard",
-    "input2": "Legendary+",
+    "input2": "Lunar Moth Shard",
     "id_result": "Cinderbat"
   },
   "L14": {
@@ -1776,7 +1776,7 @@
     "category": "Water",
     "family": [],
     "input1": "Shinyfish Shard",
-    "input2": "Shinyfish Shard",
+    "input2": "Bezal|Lava Flame|Fire Eel|Bal|Flare|Cinder Bat|Flaming Spider Shard",
     "id_result": "Titanoboa"
   },
   "L33": {
