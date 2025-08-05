@@ -7,6 +7,11 @@ with open("attribute_shards.json", "r", encoding="utf-8") as f:
 
 results_length = 3
 all_ids = list(data.keys())
+name_map = {}
+for id_, attributes in data.items():
+    name = attributes.get("name", "")
+    if name:
+        name_map[name] = id_
 rarities = ["Common", "Uncommon", "Rare", "Epic", "Legendary"]
 rarity_letters = [rarity[0] for rarity in rarities]
 categories = ["Forest", "Water", "Combat"]
@@ -55,40 +60,30 @@ def find_chameleon_results(input_):
     return results
 
 
-def map_name_to_id():
-    name_to_id = {}
-    for id_, attributes_ in data.items():
-        name = attributes_.get("name", "")
-        if name:
-            name_to_id[name] = id_
-    return name_to_id
-
-
 def get_category(input_):
     return data.get(input_, {}).get("category", None)
 
 
-def get_id_result(input_, name_map):
+def get_id_result(input_):
     return name_map.get(data.get(input_, {}).get("id_result"), None)
 
 
 def find_id_fusion_results(input1, input2):
     results = []
-    name_map = map_name_to_id()
     if get_category(input1) != get_category(input2):
-        result1 = get_id_result(input1, name_map)
+        result1 = get_id_result(input1)
         if result1:
             results.append(result1)
-        result2 = get_id_result(input2, name_map)
+        result2 = get_id_result(input2)
         if result2:
             results.append(result2)
     else:
-        result2 = get_id_result(input2, name_map)
+        result2 = get_id_result(input2)
         if result2:
             if result2 != input1:
                 results.append(result2)
             else:
-                result1 = get_id_result(input1, name_map)
+                result1 = get_id_result(input1)
                 if result1:
                     results.append(result1)
     return results
@@ -148,21 +143,21 @@ def check_membership(input_, group):
 
 def find_special_fusion_results(input1, input2):
     sp_fusion_map = {}
-    for id_, attributes_ in data.items():
+    for id__, attributes_ in data.items():
         sp_input1 = attributes_.get("input1", None)
         sp_input2 = attributes_.get("input2", None)
         if sp_input1 and not sp_input2:
             sp_input2 = "Any"
         elif not sp_input1 and sp_input2:
             sp_input1 = "Any"
-        sp_fusion_map[id_] = [sp_input1, sp_input2]
+        sp_fusion_map[id__] = [sp_input1, sp_input2]
     matching_fusions = []
-    for id_, inputs in sp_fusion_map.items():
-        if id_ == input1 or id_ == input2:
+    for id__, inputs in sp_fusion_map.items():
+        if id__ == input1 or id__ == input2:
             continue
         if ((check_membership(input1, inputs[0]) and check_membership(input2, inputs[1])) or
             (check_membership(input1, inputs[1]) and check_membership(input2, inputs[0]))):
-            matching_fusions.append(id_)
+            matching_fusions.append(id__)
     return matching_fusions
 
 
