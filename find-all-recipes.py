@@ -158,7 +158,8 @@ def find_special_fusion_results(input1, input2):
         if ((check_membership(input1, inputs[0]) and check_membership(input2, inputs[1])) or
             (check_membership(input1, inputs[1]) and check_membership(input2, inputs[0]))):
             matching_fusions.append(id__)
-    return matching_fusions
+    matching_fusions.sort(key=lambda x: (len(rarity_letters) - rarity_letters.index(x[0]), int(x[1:])))
+    return matching_fusions[:results_length]
 
 
 def test_fusion(input1_, input2_):

@@ -489,7 +489,7 @@
       "Bug"
     ],
     "input1": "Pest Shard",
-    "input2": "Pest Shard|Combat",
+    "input2": "Combat",
     "id_result": "Bambuleaf"
   },
   "U24": {
@@ -784,8 +784,8 @@
     "family": [
       "Bug"
     ],
-    "input1": "Termite|Invisibug Shard",
-    "input2": "Forest",
+    "input1": "Termite Shard",
+    "input2": "Praying Mantis Shard",
     "id_result": "Dreadwing"
   },
   "R18": {
@@ -966,8 +966,8 @@
     "family": [
       "Bug"
     ],
-    "input1": "Cropeetle|Termite Shard",
-    "input2": "Bug",
+    "input1": "Termite Shard",
+    "input2": "Invisibug Shard",
     "id_result": "Dreadwing"
   },
   "R44": {
@@ -1432,7 +1432,7 @@
     "family": [
       "Bug"
     ],
-    "input1": "Lunar Moth|Praying Mantis Shard",
+    "input1": "Praying Mantis Shard",
     "input2": "Bezal|Lava Flame|Fire Eel|Bal|Flare|Cinder Bat|Flaming Spider Shard",
     "id_result": "XYZ"
   },
@@ -1620,7 +1620,7 @@
     "family": [
       "Bug"
     ],
-    "input1": "Dragonfly|Golden Beetle Shard",
+    "input1": "Dragonfly Shard",
     "input2": "Lunar Moth Shard",
     "id_result": "Cinderbat"
   },
