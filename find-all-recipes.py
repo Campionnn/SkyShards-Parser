@@ -78,14 +78,24 @@ def find_id_fusion_results(input1, input2):
         if result2:
             results.append(result2)
     else:
-        result2 = get_id_result(input2)
-        if result2:
-            if result2 != input1:
-                results.append(result2)
-            else:
+        if input1[0] == input2[0]:
+            result2 = get_id_result(input2)
+            if result2:
+                if result2 != input1:
+                    results.append(result2)
+                else:
+                    result1 = get_id_result(input1)
+                    if result1:
+                        results.append(result1)
+        else:
+            if rarity_letters.index(input1[0]) > rarity_letters.index(input2[0]):
                 result1 = get_id_result(input1)
                 if result1:
                     results.append(result1)
+            else:
+                result2 = get_id_result(input2)
+                if result2:
+                    results.append(result2)
     return results
 
 
