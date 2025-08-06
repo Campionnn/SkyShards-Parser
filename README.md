@@ -7,4 +7,4 @@
 4. This will generate `attribute_shards.json` and any fusion info can be adjusted for wiki inaccuracies
 5. Run `find-all-recipes.py` which will generate `fusion-recipes.json` of all possible fusions based on the rules of fusion and wiki data
 6. Run `format-fusion.py` to format the data in a way that's easier to be used
-7. This will create `fusion-data.py` which is used by [SkyShards](https://skyshards.com)
+7. This will create `fusion-data.json` which is used by [SkyShards](https://skyshards.com)
