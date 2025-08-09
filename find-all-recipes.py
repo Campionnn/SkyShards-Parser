@@ -99,7 +99,7 @@ def find_id_fusion_results(input1, input2):
     return results
 
 
-def check_rarity_match(input_, group):
+def get_rarity_membership(input_, group):
     if "+" in group:
         input_index = rarity_letters.index(input_[0])
         group_index = rarity_letters.index(group[0])
@@ -124,7 +124,7 @@ def match_member(input_, member):
     if member == "Any":
         return True
     elif member.strip("+") in rarities:
-        return check_rarity_match(input_, member)
+        return get_rarity_membership(input_, member)
     elif member in categories:
         return get_category_membership(input_, member)
     elif member in families:
@@ -151,16 +151,18 @@ def check_membership(input_, group):
         return match_member(input_, group)
 
 
+sp_fusion_map = {}
+for id_, attributes in data.items():
+    sp_input1 = attributes.get("input1", None)
+    sp_input2 = attributes.get("input2", None)
+    if sp_input1 and not sp_input2:
+        sp_input2 = "Any"
+    elif not sp_input1 and sp_input2:
+        sp_input1 = "Any"
+    sp_fusion_map[id_] = [sp_input1, sp_input2]
+
+
 def find_special_fusion_results(input1, input2):
-    sp_fusion_map = {}
-    for id__, attributes_ in data.items():
-        sp_input1 = attributes_.get("input1", None)
-        sp_input2 = attributes_.get("input2", None)
-        if sp_input1 and not sp_input2:
-            sp_input2 = "Any"
-        elif not sp_input1 and sp_input2:
-            sp_input1 = "Any"
-        sp_fusion_map[id__] = [sp_input1, sp_input2]
     matching_fusions = []
     for id__, inputs in sp_fusion_map.items():
         if id__ == input1 or id__ == input2:
