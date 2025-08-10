@@ -1,7 +1,7 @@
 import json
 
 
-with open("attribute_shards.json", "r", encoding="utf-8") as f:
+with open("fusion-properties.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 
@@ -20,6 +20,10 @@ for attributes in data.values():
     family = attributes.get("family", None)
     if family and len(family) > 0:
         families.update(set(family))
+shard_groups = {
+    "Mining Shards": ["C10", "C36", "U6", "R33", "E15", "E36"]
+    # "Fiery Shards": ["C30", "U33", "R56", "E14", "E15", "E18", "L28"] # Might be useful later
+}
 
 
 def get_next_id(current_id, count=1):
@@ -129,15 +133,14 @@ def match_member(input_, member):
         return get_category_membership(input_, member)
     elif member in families:
         return get_family_membership(input_, member)
+    elif member in shard_groups:
+        return input_ in shard_groups[member]
     else:
         if member.endswith(" Shard"):
             if get_name(input_) != member.replace(" Shard", ""):
                 return False
         if get_name(input_) == member.replace(" Shard", ""):
             return True
-        if member == "Mining Shards":
-            return input_ in ["C10", "C36", "U6", "R33", "E15", "E36"]
-        # print("unhandled member:", member, "for input:", input_)
         return False
 
 def check_membership(input_, group):
@@ -208,5 +211,5 @@ def generate_fusion_recipes():
 fusion_data = {}
 fusion_recipes = generate_fusion_recipes()
 fusion_data["recipes"] = fusion_recipes
-with open("fusion_recipes.json", "w", encoding="utf-8") as f:
+with open("fusion-recipes.json", "w", encoding="utf-8") as f:
     json.dump(fusion_data, f, indent=2, ensure_ascii=False)

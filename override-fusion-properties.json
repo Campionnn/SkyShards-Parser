@@ -1,0 +1,62 @@
+{
+  "C29": {
+    "_name": "Azure",
+    "id_result": "Bezal"
+  },
+  "U22": {
+    "_name": "Praying Mantis",
+    "input1": "Pest Shard",
+    "input2": "Combat"
+  },
+  "R16": {
+    "_name": "Cropeetle",
+    "input1": "Termite Shard",
+    "input2": "Praying Mantis Shard"
+  },
+  "R43": {
+    "_name": "Ladybug",
+    "input1": "Termite Shard",
+    "input2": "Invisibug Shard"
+  },
+  "E2": {
+    "_name": "Cryo",
+    "id_result": "Water Hydra"
+  },
+  "E5": {
+    "_name": "Leviathan",
+    "id_result": "Water Hydra"
+  },
+  "E7": {
+    "_name": "Fenlord",
+    "id_result": "Water Hydra"
+  },
+  "E11": {
+    "_name": "Moray Eel",
+    "id_result": "Water Hydra"
+  },
+  "E14": {
+    "_name": "Fire Eel",
+    "input1": "Moray Eel Shard",
+    "input2": "Firefly|Eel Shard"
+  },
+  "E31": {
+    "_name": "Firefly",
+    "input1": "Praying Mantis Shard",
+    "input2": "Bezal|Lava Flame|Fire Eel|Bal|Flare|Cinderbat|Flaming Spider Shard"
+  },
+  "L12": {
+    "_name": "Lapis Creeper",
+    "input1": "Lapis Skeleton Shard",
+    "input2": ""
+  },
+  "L13": {
+    "_name": "Wartybug",
+    "input1": "Dragonfly Shard",
+    "input2": "Lunar Moth Shard"
+  },
+  "L32": {
+    "_name": "Sun Fish",
+    "input1": "Shinyfish Shard",
+    "input2": "Bezal|Lava Flame|Fire Eel|Bal|Flare|Cinderbat|Flaming Spider Shard"
+  }
+}
