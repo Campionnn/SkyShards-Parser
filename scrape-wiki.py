@@ -42,8 +42,8 @@ for section_id in rarity_names.keys():
         input1 = cols[7].get_text(strip=True).replace('—', '').replace('⟦AND⟧', '&').replace('⟦OR⟧', '|')
         input2 = cols[8].get_text(strip=True).replace('—', '').replace('⟦AND⟧', '&').replace('⟦OR⟧', '|')
         id_result = cols[9].get_text(strip=True).replace('—', '')
-        # id_origin = cols[10].get_text(strip=True).replace('—', '').replace('"	"', '')
-        # id_origin = [item.strip().strip('"') for item in id_origin.split(',') if item.strip().strip('"')]
+        id_origin = cols[10].get_text(strip=True).replace('—', '').replace('"	"', '')
+        id_origin = [item.strip().strip('"') for item in id_origin.split(',') if item.strip().strip('"')]
 
         shard_id = f"{id_text}"
         if shard_id.isdigit():
@@ -59,6 +59,7 @@ for section_id in rarity_names.keys():
             "input1": input1,
             "input2": input2,
             "id_result": id_result,
+            "id_origin": id_origin,
         }
 
 # Add override properties
@@ -78,6 +79,7 @@ for shard_id, properties in override_data.items():
             "input1": properties.get("input1", ""),
             "input2": properties.get("input2", ""),
             "id_result": properties.get("id_result", ""),
+            "id_origin": properties.get("id_origin", []),
         }
         output_items = list(output.items())
         insert_index = 0
