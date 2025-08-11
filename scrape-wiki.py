@@ -1,6 +1,23 @@
+from bisect import insort
 from bs4 import BeautifulSoup
+from functools import cmp_to_key
+import hashlib
 import json
 import os
+import sys
+
+output_path = "dist/fusion-properties.json"
+override_path = "override-fusion-properties.json"
+hashes_path = "shard-hashes.json"
+
+github_actions = os.environ.get('GITHUB_ACTIONS')
+
+# Parse arguments (cba to do this properly)
+update_hashes = False
+for arg in sys.argv[1:]:
+    match arg:
+        case "--update-hashes":
+            update_hashes = True
 
 # Load HTML content
 with open("Attributes - Hypixel SkyBlock Wiki.htm", encoding="utf-8") as f:
@@ -15,6 +32,10 @@ rarity_names = {
     "Legendary_": "Legendary"
 }
 rarity_letters = [rarity[0] for rarity in rarity_names.values()]
+
+def cmp_id(a, b):
+    rarity_cmp = rarity_letters.index(a[0]) - rarity_letters.index(b[0])
+    return rarity_cmp or int(a[1:]) - int(b[1:])
 
 output = {}
 
@@ -63,14 +84,34 @@ for section_id in rarity_names.keys():
         }
 
 # Add override properties
-with open("override-fusion-properties.json", "r") as f:
+with open(override_path, encoding="utf-8") as f:
+
     override_data = json.load(f)
-for shard_id, properties in override_data.items():
+if update_hashes:
+    hashes = {}
+else:
+    with open(hashes_path, encoding="utf-8") as f:
+        hashes = json.load(f)
+for shard_id in sorted(output.keys() | override_data.keys(), key=cmp_to_key(cmp_id)):
+    stored_hash = hashes.get(shard_id)
+    properties = override_data.get(shard_id, {})
     if shard_id in output:
+        pretty_name = f"{output[shard_id]["name"]}({shard_id})"
+        hash_ = hashlib.sha256(json.dumps(output[shard_id]).encode('utf-8')).digest().hex()
+        mismatch = False
+        if update_hashes:
+            hashes[shard_id] = hash_
+        elif stored_hash != hash_:
+            mismatch = True
+            if github_actions:
+                print("::warning file={override_path},title=Hash mismatch: {pretty_name}::expected: {hash_}")
+            else:
+                print(f"Hash mismatch: {pretty_name}\n"
+                      f"  expected: {hash_}")
         for property_ in properties:
             if property_[0] != "_":
                 output[shard_id][property_] = properties[property_]
-    else:
+    elif properties:
         new_entry = {
             "name": properties.get("name", shard_id),
             "rarity": properties.get("rarity", ""),
@@ -82,19 +123,9 @@ for shard_id, properties in override_data.items():
             "id_origin": properties.get("id_origin", []),
         }
         output_items = list(output.items())
-        insert_index = 0
-        for idx, (existing_id, _) in enumerate(output_items):
-            rarity_cmp = rarity_letters.index(existing_id[0]) - rarity_letters.index(shard_id[0])
-            if rarity_cmp < 0:
-                insert_index = idx + 1
-                continue
-            elif rarity_cmp > 0:
-                break
-            if int(existing_id[1:]) < int(shard_id[1:]):
-                insert_index = idx + 1
-            else:
-                break
-        output_items.insert(insert_index, (shard_id, new_entry))
+        insort(output_items, (shard_id, new_entry), key=cmp_to_key(
+            lambda a, b: cmp_id(a[0], b[0])
+        ))
         output = dict(output_items)
 
 # Make dist directory if it doesn't exist
@@ -102,6 +133,8 @@ if not os.path.exists("dist"):
     os.makedirs("dist")
 
 # Save to JSON
-output_path = "dist/fusion-properties.json"
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(output, f, indent=2, ensure_ascii=False)
+if update_hashes:
+    with open(hashes_path, "w", encoding="utf-8") as f:
+        json.dump(hashes, f, indent=2, ensure_ascii=False)
