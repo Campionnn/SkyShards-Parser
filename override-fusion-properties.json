@@ -39,6 +39,14 @@
     "input1": "Moray Eel Shard",
     "input2": "Firefly|Eel Shard"
   },
+  "E27": {
+    "_name": "Barbarian Duke X",
+    "id_result": "Hellwisp"
+  },
+  "E29": {
+    "_name": "Hellwisp",
+    "id_result": "Ghost"
+  },
   "E31": {
     "_name": "Firefly",
     "input1": "Praying Mantis Shard",
