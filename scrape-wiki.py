@@ -65,7 +65,7 @@ with open("override-fusion-properties.json", "r") as f:
     override_data = json.load(f)
 for shard_id, properties in override_data.items():
     for property_ in properties:
-        if property_ != "_name":
+        if property_[0] != "_":
             output[shard_id][property_] = properties[property_]
 
 # Save to JSON
