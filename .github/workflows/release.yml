@@ -46,19 +46,31 @@ jobs:
           prerelease: false
 
       - name: Upload fusion-data.json
-        uses: softprops/action-gh-release@v2
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          files: fusion-data.json
-          tag_name: ${{ env.TAG }}
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: fusion-data.json
+          asset_name: fusion-data.json
+          asset_content_type: application/json
 
       - name: Upload fusion-properties.json
-        uses: softprops/action-gh-release@v2
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          files: fusion-properties.json
-          tag_name: ${{ env.TAG }}
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: fusion-properties.json
+          asset_name: fusion-properties.json
+          asset_content_type: application/json
 
       - name: Upload fusion-recipes.json
-        uses: softprops/action-gh-release@v2
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          files: fusion-recipes.json
-          tag_name: ${{ env.TAG }}
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: fusion-recipes.json
+          asset_name: fusion-recipes.json
+          asset_content_type: application/json
