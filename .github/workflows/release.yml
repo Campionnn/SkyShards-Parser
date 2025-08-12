@@ -22,6 +22,10 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install beautifulsoup4
 
+      - name: Set release tag
+        id: set_tag
+        run: echo "TAG=release-$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
+
       - name: Run scrape-wiki.py
         run: python scrape-wiki.py
 
@@ -35,8 +39,8 @@ jobs:
         id: create_release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.sha }}
-          name: Automated Release ${{ github.sha }}
+          tag_name: ${{ env.TAG }}
+          name: Automated Release ${{ env.TAG }}
           body: 'Automated release of fusion data and recipes.'
           draft: false
           prerelease: false
@@ -45,17 +49,16 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: fusion-data.json
-          tag_name: ${{ github.sha }}
+          tag_name: ${{ env.TAG }}
 
       - name: Upload fusion-properties.json
         uses: softprops/action-gh-release@v2
         with:
           files: fusion-properties.json
-          tag_name: ${{ github.sha }}
+          tag_name: ${{ env.TAG }}
 
       - name: Upload fusion-recipes.json
         uses: softprops/action-gh-release@v2
         with:
           files: fusion-recipes.json
-          tag_name: ${{ github.sha }}
-
+          tag_name: ${{ env.TAG }}
