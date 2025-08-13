@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import json
+import os
 
 # Load HTML content
 with open("Attributes - Hypixel SkyBlock Wiki.htm", encoding="utf-8") as f:
@@ -93,6 +94,10 @@ for shard_id, properties in override_data.items():
                 break
         output_items.insert(insert_index, (shard_id, new_entry))
         output = dict(output_items)
+
+# Make dist directory if it doesn't exist
+if not os.path.exists("dist"):
+    os.makedirs("dist")
 
 # Save to JSON
 output_path = "dist/fusion-properties.json"
