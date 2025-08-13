@@ -28,7 +28,7 @@ for section_id in rarity_names.keys():
     if not table:
         continue
 
-    rows = table.find_all("tr")[1:]  # skip header row
+    rows = table.find_all("tr")[1:]
     for row in rows:
         cols = row.find_all("td")
         if len(cols) < 6:
