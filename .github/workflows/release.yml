@@ -48,3 +48,10 @@ jobs:
             dist/fusion-data.json
             dist/fusion-properties.json
             dist/fusion-recipes.json
+
+      - name: Update SkyShards fusion data
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.PAT }}
+          repository: Campionnn/SkyShards
+          event-type: update-fusion-data
