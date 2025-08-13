@@ -1,7 +1,7 @@
 import json
 
 
-with open("fusion-properties.json", "r", encoding="utf-8") as f:
+with open("dist/fusion-properties.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 
@@ -211,5 +211,5 @@ def generate_fusion_recipes():
 fusion_data = {}
 fusion_recipes = generate_fusion_recipes()
 fusion_data["recipes"] = fusion_recipes
-with open("fusion-recipes.json", "w", encoding="utf-8") as f:
+with open("dist/fusion-recipes.json", "w", encoding="utf-8") as f:
     json.dump(fusion_data, f, indent=2, ensure_ascii=False)

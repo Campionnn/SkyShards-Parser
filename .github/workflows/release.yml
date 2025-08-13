@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install beautifulsoup4
+          python -m pip install -r requirements.txt
 
       - name: Set release tag
         id: set_tag
@@ -45,6 +45,6 @@ jobs:
           draft: false
           prerelease: false
           files: |
-            fusion-data.json
-            fusion-properties.json
-            fusion-recipes.json
+            dist/fusion-data.json
+            dist/fusion-properties.json
+            dist/fusion-recipes.json

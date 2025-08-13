@@ -14,7 +14,7 @@ def parse_component(component):
     return 999, 999
 
 
-with open('fusion-recipes.json', 'r') as f:
+with open('dist/fusion-recipes.json', 'r') as f:
     data = json.load(f)
 
 # transform the recipes
@@ -89,5 +89,5 @@ class JsonEncoder(json.JSONEncoder):
 
 json_str = json.dumps(data, indent=2, cls=JsonEncoder)
 
-with open('fusion-data.json', 'w') as f:
+with open('dist/fusion-data.json', 'w') as f:
     f.write(json_str)

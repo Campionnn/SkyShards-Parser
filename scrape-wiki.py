@@ -95,6 +95,6 @@ for shard_id, properties in override_data.items():
         output = dict(output_items)
 
 # Save to JSON
-output_path = "fusion-properties.json"
+output_path = "dist/fusion-properties.json"
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(output, f, indent=2, ensure_ascii=False)
