@@ -59,8 +59,7 @@
   "L12": {
     "_name": "Lapis Creeper",
     "input1": "Lapis Skeleton Shard",
-    "_note": "this is a test delete later",
-    "input2": "Ghost"
+    "input2": ""
   },
   "L13": {
     "_name": "Wartybug",
