@@ -13,7 +13,7 @@ hashes_path = "shard-hashes.json"
 github_actions = os.environ.get('GITHUB_ACTIONS')
 
 # Parse arguments (cba to do this properly)
-update_hashes = False
+update_hashes = github_actions
 for arg in sys.argv[1:]:
     match arg:
         case "--update-hashes":
@@ -85,27 +85,22 @@ for section_id in rarity_names.keys():
 
 # Add override properties
 with open(override_path, encoding="utf-8") as f:
-
     override_data = json.load(f)
-if update_hashes:
-    hashes = {}
-else:
-    with open(hashes_path, encoding="utf-8") as f:
-        hashes = json.load(f)
+with open(hashes_path, encoding="utf-8") as f:
+    hashes = json.load(f)
+updated_hashes = {}
+changed_shards = []
 for shard_id in sorted(output.keys() | override_data.keys(), key=cmp_to_key(cmp_id)):
     stored_hash = hashes.get(shard_id)
     properties = override_data.get(shard_id, {})
     if shard_id in output:
         pretty_name = f"{output[shard_id]["name"]}({shard_id})"
         hash_ = hashlib.sha256(json.dumps(output[shard_id]).encode('utf-8')).digest().hex()
-        mismatch = False
-        if update_hashes:
-            hashes[shard_id] = hash_
-        elif stored_hash != hash_:
-            mismatch = True
+        updated_hashes[shard_id] = hash_
+        if stored_hash != hash_:
             if github_actions:
-                print("::warning file={override_path},title=Hash mismatch: {pretty_name}::expected: {hash_}")
-            else:
+                changed_shards.append(pretty_name)
+            elif not update_hashes:
                 print(f"Hash mismatch: {pretty_name}\n"
                       f"  expected: {hash_}")
         for property_ in properties:
@@ -137,4 +132,8 @@ with open(output_path, "w", encoding="utf-8") as f:
     json.dump(output, f, indent=2, ensure_ascii=False)
 if update_hashes:
     with open(hashes_path, "w", encoding="utf-8") as f:
-        json.dump(hashes, f, indent=2, ensure_ascii=False)
+        json.dump(updated_hashes, f, indent=2, ensure_ascii=False)
+if github_actions:
+    with open("changed-shards.txt", "w", encoding="utf-8") as f:
+        for name in changed_shards:
+            f.write(f"{name}\n")
