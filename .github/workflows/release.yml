@@ -37,6 +37,15 @@ jobs:
       - name: Run format-fusions.py
         run: python format-fusions.py
 
+      - name: Check for changed shards
+        id: shards_changed
+        run: |
+          if [ -s changed-shards.txt ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Push changed hashes
         run: |
           git config user.name 'github-actions[bot]'
@@ -46,6 +55,7 @@ jobs:
           git push
 
       - name: Create Release
+        if: steps.shards_changed.outputs.changed == 'true'
         id: create_release
         uses: softprops/action-gh-release@v2
         with:
@@ -60,6 +70,7 @@ jobs:
             dist/fusion-recipes.json
 
       - name: Update SkyShards fusion data
+        if: steps.shards_changed.outputs.changed == 'true'
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.PAT }}
