@@ -46,6 +46,17 @@ jobs:
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
 
+      - name: Detect target branch from commit message
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          if echo "$COMMIT_MSG" | grep -iq '\[dev\]'; then
+            echo "TARGET_BRANCH=dev" >> $GITHUB_ENV
+          elif echo "$COMMIT_MSG" | grep -iq '\[master\]'; then
+            echo "TARGET_BRANCH=master" >> $GITHUB_ENV
+          else
+            echo "TARGET_BRANCH=master" >> $GITHUB_ENV
+          fi
+
       - name: Push changed hashes
         run: |
           git config user.name 'github-actions[bot]'
@@ -68,17 +79,6 @@ jobs:
             dist/fusion-data.json
             dist/fusion-properties.json
             dist/fusion-recipes.json
-
-      - name: Detect target branch from commit message
-        run: |
-          COMMIT_MSG=$(git log -1 --pretty=%B)
-          if echo "$COMMIT_MSG" | grep -iq '\[dev\]'; then
-            echo "TARGET_BRANCH=dev" >> $GITHUB_ENV
-          elif echo "$COMMIT_MSG" | grep -iq '\[master\]'; then
-            echo "TARGET_BRANCH=master" >> $GITHUB_ENV
-          else
-            echo "TARGET_BRANCH=master" >> $GITHUB_ENV
-          fi
 
       - name: Update SkyShards fusion data
         if: steps.shards_changed.outputs.changed == 'true'
