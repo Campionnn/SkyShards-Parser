@@ -2,6 +2,7 @@ import json
 from collections import defaultdict, OrderedDict
 import re
 import hashlib
+import subprocess
 
 
 prefix_order = {'C': 0, 'U': 1, 'R': 2, 'E': 3, 'L': 4}
@@ -98,18 +99,30 @@ with open('dist/fusion-data.json', 'rb') as f:
     fusion_data_hash = hashlib.sha256(fusion_data_bytes).hexdigest()
 
 shard_hashes_path = 'shard-hashes.json'
+
+try:
+    result = subprocess.run(['git', 'show', 'HEAD:shard-hashes.json'], capture_output=True, text=True, check=True)
+    committed_hashes = json.loads(result.stdout)
+    old_fusion_data_hash = committed_hashes.get('fusion-data')
+except (subprocess.CalledProcessError, json.JSONDecodeError, FileNotFoundError):
+    old_fusion_data_hash = None
+
 try:
     with open(shard_hashes_path, 'r') as f:
         shard_hashes = json.load(f)
 except FileNotFoundError:
     shard_hashes = {}
 
-old_fusion_data_hash = shard_hashes.get('fusion-data')
 if old_fusion_data_hash != fusion_data_hash:
     with open('changed-shards.txt', 'a') as f:
         f.write(f"fusion-data hash changed from {old_fusion_data_hash} to {fusion_data_hash}\n")
 
-shard_hashes['fusion-data'] = fusion_data_hash
+ordered_hashes = OrderedDict()
+ordered_hashes['fusion-data'] = fusion_data_hash
+
+for key, value in shard_hashes.items():
+    if key != 'fusion-data':
+        ordered_hashes[key] = value
 
 with open(shard_hashes_path, 'w') as f:
-    json.dump(shard_hashes, f, indent=2)
+    json.dump(ordered_hashes, f, indent=2)
