@@ -69,6 +69,17 @@ jobs:
             dist/fusion-properties.json
             dist/fusion-recipes.json
 
+      - name: Detect target branch from commit message
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          if echo "$COMMIT_MSG" | grep -iq '\[dev\]'; then
+            echo "TARGET_BRANCH=dev" >> $GITHUB_ENV
+          elif echo "$COMMIT_MSG" | grep -iq '\[master\]'; then
+            echo "TARGET_BRANCH=master" >> $GITHUB_ENV
+          else
+            echo "TARGET_BRANCH=master" >> $GITHUB_ENV
+          fi
+
       - name: Update SkyShards fusion data
         if: steps.shards_changed.outputs.changed == 'true'
         uses: peter-evans/repository-dispatch@v3
@@ -76,3 +87,7 @@ jobs:
           token: ${{ secrets.PAT }}
           repository: Campionnn/SkyShards
           event-type: update-fusion-data
+          client-payload: |
+            {
+              "target_branch": "${{ env.TARGET_BRANCH }}"
+            }

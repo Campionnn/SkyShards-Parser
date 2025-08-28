@@ -94,7 +94,7 @@ for shard_id in sorted(output.keys() | override_data.keys(), key=cmp_to_key(cmp_
     stored_hash = hashes.get(shard_id)
     properties = override_data.get(shard_id, {})
     if shard_id in output:
-        pretty_name = f"{output[shard_id]["name"]}({shard_id})"
+        pretty_name = f"{output[shard_id]['name']}({shard_id})"
         hash_ = hashlib.sha256(json.dumps(output[shard_id]).encode('utf-8')).digest().hex()
         updated_hashes[shard_id] = hash_
         if stored_hash != hash_:
