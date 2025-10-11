@@ -1,6 +1,7 @@
 from bisect import insort
 from bs4 import BeautifulSoup
 from functools import cmp_to_key
+from typing import Any
 import hashlib
 import json
 import os
@@ -37,7 +38,7 @@ def cmp_id(a, b):
     rarity_cmp = rarity_letters.index(a[0]) - rarity_letters.index(b[0])
     return rarity_cmp or int(a[1:]) - int(b[1:])
 
-output = {}
+output: dict[str, dict[str, Any]] = {}
 
 # Extract tables by rarity section
 for section_id in rarity_names.keys():
@@ -125,6 +126,17 @@ for shard_id in sorted(output.keys() | override_data.keys(), key=cmp_to_key(cmp_
             lambda a, b: cmp_id(a[0], b[0])
         ))
         output = dict(output_items)
+
+        pretty_name = f"{new_entry['name']}({shard_id})"
+        hash_ = hashlib.sha256(json.dumps(new_entry).encode('utf-8')).digest().hex()
+        updated_hashes[shard_id] = hash_
+        if stored_hash != hash_:
+            if github_actions:
+                changed_shards.append(pretty_name)
+            elif not update_hashes:
+                print(f"Hash mismatch: {pretty_name}\n"
+                      f"  expected: {stored_hash}\n"
+                      f"  got:      {hash_}")
 
 # Make dist directory if it doesn't exist
 if not os.path.exists("dist"):

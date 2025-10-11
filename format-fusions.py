@@ -3,9 +3,12 @@ from collections import defaultdict, OrderedDict
 import re
 import hashlib
 import subprocess
+import os
 
 
 prefix_order = {'C': 0, 'U': 1, 'R': 2, 'E': 3, 'L': 4}
+
+github_actions = os.environ.get('GITHUB_ACTIONS')
 
 
 def parse_component(component):
@@ -94,9 +97,9 @@ json_str = json.dumps(data, indent=2, cls=JsonEncoder)
 with open('dist/fusion-data.json', 'w') as f:
     f.write(json_str)
 
-with open('dist/fusion-data.json', 'rb') as f:
-    fusion_data_bytes = f.read()
-    fusion_data_hash = hashlib.sha256(fusion_data_bytes).hexdigest()
+with open('dist/fusion-data.json', 'r') as f:
+    fusion_data_content = f.read()
+fusion_data_hash = hashlib.sha256(fusion_data_content.encode('utf-8')).hexdigest()
 
 shard_hashes_path = 'shard-hashes.json'
 
@@ -114,8 +117,13 @@ except FileNotFoundError:
     shard_hashes = {}
 
 if old_fusion_data_hash != fusion_data_hash:
-    with open('changed-shards.txt', 'a') as f:
-        f.write(f"fusion-data hash changed from {old_fusion_data_hash} to {fusion_data_hash}\n")
+    if github_actions:
+        with open('changed-shards.txt', 'a') as f:
+            f.write(f"fusion-data hash changed from {old_fusion_data_hash} to {fusion_data_hash}\n")
+    else:
+        print(f"fusion-data hash mismatch:\n"
+              f"  expected: {old_fusion_data_hash}\n"
+              f"  got:      {fusion_data_hash}")
 
 ordered_hashes = OrderedDict()
 ordered_hashes['fusion-data'] = fusion_data_hash
