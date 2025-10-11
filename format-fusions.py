@@ -81,7 +81,7 @@ class JsonEncoder(json.JSONEncoder):
         json_result = base_json + shards_block + "\n}"
 
         json_result = re.sub(
-            r'\[\s*"([^"]+)",\s*"([^"]+)"\s*\]',
+            r'\[\s*"([^"]+)",\s*"([^"]+)"\s*]',
             r'["\1", "\2"]',
             json_result
         )

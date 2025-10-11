@@ -7,11 +7,7 @@ with open("dist/fusion-properties.json", "r", encoding="utf-8") as f:
 
 results_length = 3
 all_ids = list(data.keys())
-name_map = {}
-for id_, attributes in data.items():
-    name = attributes.get("name", "")
-    if name:
-        name_map[name] = id_
+name_map = {v["name"]: k for k, v in data.items()}
 rarities = ["Common", "Uncommon", "Rare", "Epic", "Legendary"]
 rarity_letters = [rarity[0] for rarity in rarities]
 categories = ["Forest", "Water", "Combat"]
@@ -186,12 +182,12 @@ def test_fusion(input1_, input2_):
         return [{"id": res, "count": 1} for res in results]
     id_results = find_id_fusion_results(input1_, input2_)
     sp_results = find_special_fusion_results(input1_, input2_)
-    results_ = []
+    results = []
     for res in id_results:
-        results_.append({"id": res, "count": 1})
+        results.append({"id": res, "count": 1})
     for res in sp_results:
-        results_.append({"id": res, "count": 2})
-    return results_[:results_length]
+        results.append({"id": res, "count": 2})
+    return results[:results_length]
 
 
 def generate_fusion_recipes():

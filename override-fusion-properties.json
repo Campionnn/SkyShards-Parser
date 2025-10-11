@@ -5,7 +5,16 @@
   },
   "C29": {
     "_name": "Azure",
-    "id_result": "Bezal"
+    "id_result": "Bezal",
+    "id_origin": [
+      "Golden Ghoul"
+    ]
+  },
+  "C30": {
+    "_name": "Bezal",
+    "id_origin": [
+      "Azure"
+    ]
   },
   "U22": {
     "_name": "Praying Mantis",
@@ -17,31 +26,87 @@
     "input1": "Termite Shard",
     "input2": "Praying Mantis Shard"
   },
+  "R31": {
+    "_name": "Thyst",
+    "id_result": "Kada Knight"
+  },
+  "R36": {
+    "_name": "Kada Knight",
+    "id_origin": [
+      "Skeletor",
+      "Thyst",
+      "Quartzfang"
+    ]
+  },
   "R43": {
     "_name": "Ladybug",
     "input1": "Termite Shard",
     "input2": "Invisibug Shard"
   },
+  "R46": {
+    "_name": "Bullfrog",
+    "id_result": "Joydive"
+  },
+  "R50": {
+    "_name": "Joydive",
+    "id_origin": [
+      "Lumisquid",
+      "Bullfrog"
+    ]
+  },
   "E2": {
     "_name": "Cryo",
     "id_result": "Water Hydra"
+  },
+  "E3": {
+    "_name": "Aero",
+    "id_result": "Bal"
   },
   "E5": {
     "_name": "Leviathan",
     "id_result": "Water Hydra"
   },
+  "E6": {
+    "_name": "Alligator",
+    "id_result": "Bal"
+  },
   "E7": {
     "_name": "Fenlord",
     "id_result": "Water Hydra"
+  },
+  "E9": {
+    "_name": "Basilisk",
+    "id_result": "Bal"
   },
   "E11": {
     "_name": "Moray Eel",
     "id_result": "Water Hydra"
   },
+  "E12": {
+    "_name": "DELETE"
+  },
   "E14": {
     "_name": "Fire Eel",
     "input1": "Moray Eel Shard",
     "input2": "Firefly|Eel Shard"
+  },
+  "E15": {
+    "_name": "Bal",
+    "id_origin": [
+      "Aero",
+      "Alligator",
+      "Basilisk"
+    ]
+  },
+  "E17": {
+    "_name": "Water Hydra",
+    "id_origin": [
+      "Cryo",
+      "Leviathan",
+      "Fenlord",
+      "Moray Eel",
+      "Fire Eel"
+    ]
   },
   "E27": {
     "_name": "Barbarian Duke X",
@@ -49,21 +114,94 @@
   },
   "E29": {
     "_name": "Hellwisp",
-    "id_result": "Ghost"
+    "id_result": "Ghost",
+    "id_origin": [
+      "Barbarian Duke X"
+    ]
   },
   "E31": {
     "_name": "Firefly",
     "input1": "Praying Mantis Shard",
     "input2": "Bezal|Lava Flame|Fire Eel|Bal|Flare|Cinderbat|Flaming Spider Shard"
   },
+  "E33": {
+    "_name": "Ghost",
+    "id_origin": [
+      "Hellwisp",
+      "Caiman"
+    ]
+  },
   "L13": {
     "_name": "Wartybug",
     "input1": "Dragonfly Shard",
     "input2": "Lunar Moth Shard"
   },
+  "L30": {
+    "_name": "Power Dragon",
+    "id_result": "Thorn"
+  },
   "L32": {
     "_name": "Sun Fish",
     "input1": "Shinyfish Shard",
     "input2": "Bezal|Lava Flame|Fire Eel|Bal|Flare|Cinderbat|Flaming Spider Shard"
+  },
+  "L33": {
+    "_name": "Apex Dragon",
+    "id_result": "Thorn"
+  },
+  "L36": {
+    "_name": "Jormung",
+    "id_result": "Thorn"
+  },
+  "L39": {
+    "_name": "Etherdrake",
+    "id_result": "Thorn"
+  },
+  "L42": {
+    "_name": "Molthorn",
+    "id_result": "Thorn"
+  },
+  "L44": {
+    "_name": "Starborn",
+    "category": "Water",
+    "id_result": "Titanoboa"
+  },
+  "L47": {
+    "_name": "Titanoboa",
+    "id_origin": [
+      "Lord Jawbus",
+      "Megalith",
+      "Sun Fish",
+      "Galaxy Fish",
+      "Starborn"
+    ]
+  },
+  "L48": {
+    "name": "Thorn",
+    "rarity": "Legendary",
+    "category": "Combat",
+    "family": [],
+    "input1": "",
+    "input2": "",
+    "id_result": "Scarf",
+    "id_origin": [
+      "Power Dragon",
+      "Apex Dragon",
+      "Jormung",
+      "Etherdrake",
+      "Molthorn"
+    ]
+  },
+  "L51": {
+    "name": "Scarf",
+    "rarity": "Legendary",
+    "category": "Combat",
+    "family": [],
+    "input1": "",
+    "input2": "",
+    "id_result": "",
+    "id_origin": [
+      "Thorn"
+    ]
   }
 }
