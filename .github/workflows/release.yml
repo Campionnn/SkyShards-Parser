@@ -59,6 +59,7 @@ jobs:
               echo "TARGET_BRANCH=dev" >> $GITHUB_ENV
             else
               echo "TARGET_BRANCH=master" >> $GITHUB_ENV
+            fi
           fi
 
       - name: Push changed hashes
