@@ -232,6 +232,14 @@
       "fuse_amount": 5,
       "internal_id": "SHARD_MINER_ZOMBIE"
     },
+    "C100": {
+      "name": "Cretan Bull",
+      "family": "",
+      "type": "Combat",
+      "rarity": "common",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_CRETAN_BULL"
+    },
     "U1": {
       "name": "Bramble",
       "family": "Elemental Family",
@@ -864,6 +872,14 @@
       "fuse_amount": 2,
       "internal_id": "SHARD_GECKO"
     },
+    "R63": {
+      "name": "Minotaur",
+      "family": "",
+      "type": "Combat",
+      "rarity": "rare",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MINOTAUR"
+    },
     "R64": {
       "name": "Hummingbird",
       "family": "Bird",
@@ -1127,6 +1143,22 @@
       "rarity": "epic",
       "fuse_amount": 5,
       "internal_id": "SHARD_DRAGONFLY"
+    },
+    "E100": {
+      "name": "King Minos",
+      "family": "",
+      "type": "Combat",
+      "rarity": "epic",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_KING_MINOS"
+    },
+    "E101": {
+      "name": "Sphinx",
+      "family": "",
+      "type": "Combat",
+      "rarity": "epic",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SPHINX"
     },
     "L1": {
       "name": "Tenebris",
