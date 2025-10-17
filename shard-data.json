@@ -234,7 +234,7 @@
     },
     "C100": {
       "name": "Cretan Bull",
-      "family": "",
+      "family": "Unknown Family",
       "type": "Combat",
       "rarity": "common",
       "fuse_amount": 5,
@@ -874,7 +874,7 @@
     },
     "R63": {
       "name": "Minotaur",
-      "family": "",
+      "family": "Unknown Family",
       "type": "Combat",
       "rarity": "rare",
       "fuse_amount": 5,
@@ -1146,7 +1146,7 @@
     },
     "E100": {
       "name": "King Minos",
-      "family": "",
+      "family": "Unknown Family",
       "type": "Combat",
       "rarity": "epic",
       "fuse_amount": 5,
@@ -1154,7 +1154,7 @@
     },
     "E101": {
       "name": "Sphinx",
-      "family": "",
+      "family": "Unknown Family",
       "type": "Combat",
       "rarity": "epic",
       "fuse_amount": 5,
