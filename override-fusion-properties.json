@@ -16,6 +16,16 @@
       "Azure"
     ]
   },
+  "C100": {
+    "name": "Cretan Bull",
+    "rarity": "Common",
+    "category": "Combat",
+    "family": [],
+    "input1": "",
+    "input2": "",
+    "id_result": "",
+    "id_origin": []
+  },
   "U22": {
     "_name": "Praying Mantis",
     "input1": "Pest Shard",
@@ -52,6 +62,22 @@
     "id_origin": [
       "Lumisquid",
       "Bullfrog"
+    ]
+  },
+  "R60": {
+    "_name": "Wither",
+    "id_result": "Minotaur"
+  },
+  "R63": {
+    "name": "Minotaur",
+    "rarity": "Rare",
+    "category": "Combat",
+    "family": [],
+    "input1": "",
+    "input2": "",
+    "id_result": "",
+    "id_origin": [
+      "Wither"
     ]
   },
   "E2": {
@@ -114,10 +140,14 @@
   },
   "E29": {
     "_name": "Hellwisp",
-    "id_result": "Ghost",
+    "id_result": "King Minos",
     "id_origin": [
       "Barbarian Duke X"
     ]
+  },
+  "E30": {
+    "_name": "Caiman",
+    "id_result": "King Minos"
   },
   "E31": {
     "_name": "Firefly",
@@ -126,9 +156,34 @@
   },
   "E33": {
     "_name": "Ghost",
+    "id_result": "Sphinx",
+    "id_origin": [
+      "King Minos"
+    ]
+  },
+  "E100": {
+    "name": "King Minos",
+    "rarity": "Epic",
+    "category": "Combat",
+    "family": [],
+    "input1": "",
+    "input2": "",
+    "id_result": "Ghost",
     "id_origin": [
       "Hellwisp",
       "Caiman"
+    ]
+  },
+  "E101": {
+    "name": "Sphinx",
+    "rarity": "Epic",
+    "category": "Combat",
+    "family": [],
+    "input1": "",
+    "input2": "",
+    "id_result": "",
+    "id_origin": [
+      "Ghost"
     ]
   },
   "L13": {
