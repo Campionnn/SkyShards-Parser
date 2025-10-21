@@ -109,6 +109,8 @@ for shard_id in sorted(output.keys() | override_data.keys(), key=cmp_to_key(cmp_
                       f"  expected: {hash_}")
         for property_ in properties:
             if property_[0] != "_":
+                if property_ in output[shard_id] and output[shard_id][property_] == properties[property_]:
+                    print(f"Redundant override for {pretty_name}: {property_} = {properties[property_]}")
                 output[shard_id][property_] = properties[property_]
     elif properties:
         new_entry = {

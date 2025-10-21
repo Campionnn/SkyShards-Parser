@@ -16,7 +16,11 @@
       "Azure"
     ]
   },
-  "C100": {
+  "C36": {
+    "_name": "Miner Zombie",
+    "id_result": "Cretan Bull"
+  },
+  "C39": {
     "name": "Cretan Bull",
     "rarity": "Common",
     "category": "Combat",
@@ -24,7 +28,9 @@
     "input1": "",
     "input2": "",
     "id_result": "",
-    "id_origin": []
+    "id_origin": [
+      "Miner Zombie"
+    ]
   },
   "U22": {
     "_name": "Praying Mantis",
@@ -140,14 +146,10 @@
   },
   "E29": {
     "_name": "Hellwisp",
-    "id_result": "King Minos",
+    "id_result": "Ghost",
     "id_origin": [
       "Barbarian Duke X"
     ]
-  },
-  "E30": {
-    "_name": "Caiman",
-    "id_result": "King Minos"
   },
   "E31": {
     "_name": "Firefly",
@@ -158,24 +160,29 @@
     "_name": "Ghost",
     "id_result": "Sphinx",
     "id_origin": [
-      "King Minos"
+      "Hellwisp",
+      "Caiman"
     ]
   },
-  "E100": {
-    "name": "King Minos",
+  "E36": {
+    "_name": "Cavernshade",
+    "id_result": "Sphinx"
+  },
+  "E39": {
+    "name": "Sphinx",
     "rarity": "Epic",
     "category": "Combat",
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Ghost",
+    "id_result": "King Minos",
     "id_origin": [
-      "Hellwisp",
-      "Caiman"
+      "Ghost",
+      "Cavernshade"
     ]
   },
-  "E101": {
-    "name": "Sphinx",
+  "E42": {
+    "name": "King Minos",
     "rarity": "Epic",
     "category": "Combat",
     "family": [],
@@ -183,7 +190,7 @@
     "input2": "",
     "id_result": "",
     "id_origin": [
-      "Ghost"
+      "Sphinx"
     ]
   },
   "L13": {
