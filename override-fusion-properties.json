@@ -1,19 +1,12 @@
 {
-  "C27": {
-    "_name": "Golden Ghoul",
+  "C23": {
+    "_name": "Coralot",
     "id_result": "Azure"
   },
   "C29": {
     "_name": "Azure",
-    "id_result": "Bezal",
     "id_origin": [
-      "Golden Ghoul"
-    ]
-  },
-  "C30": {
-    "_name": "Bezal",
-    "id_origin": [
-      "Azure"
+      "Coralot"
     ]
   },
   "C36": {
