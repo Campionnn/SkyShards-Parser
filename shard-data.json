@@ -1160,6 +1160,14 @@
       "fuse_amount": 5,
       "internal_id": "SHARD_KING_MINOS"
     },
+    "E45": {
+      "name": "Littlefoot",
+      "family": "Arctic Family",
+      "type": "Mining",
+      "rarity": "epic",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LITTLEFOOT"
+    },
     "L1": {
       "name": "Tenebris",
       "family": "Elemental Family",
@@ -1191,6 +1199,14 @@
       "rarity": "legendary",
       "fuse_amount": 1,
       "internal_id": "SHARD_CHAMELEON"
+    },
+    "L5": {
+      "name": "Nessie",
+      "family": "Reptile Family",
+      "type": "Fishing",
+      "rarity": "legendary",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_NESSIE"
     },
     "L6": {
       "name": "Tiamat",

@@ -182,15 +182,55 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "",
+    "id_result": "Littlefoot",
     "id_origin": [
       "Sphinx"
+    ]
+  },
+  "E45": {
+    "name": "Littlefoot",
+    "rarity": "Epic",
+    "category": "Combat",
+    "family": [
+      "Arctic"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": "",
+    "id_origin": [
+      "King Minos"
+    ]
+  },
+  "L2": {
+    "_name": "Blizzard",
+    "id_result": "Nessie"
+  },
+  "L5": {
+    "name": "Nessie",
+    "rarity": "Legendary",
+    "category": "Water",
+    "family": [
+      "Reptile"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": "Spike",
+    "id_origin": [
+      "Blizzard"
     ]
   },
   "L13": {
     "_name": "Wartybug",
     "input1": "Dragonfly Shard",
     "input2": "Lunar Moth Shard"
+  },
+  "L14": {
+    "_name": "Spike",
+    "id_origin": [
+      "Tortoise",
+      "Naga",
+      "Nessie"
+    ]
   },
   "L30": {
     "_name": "Power Dragon",
