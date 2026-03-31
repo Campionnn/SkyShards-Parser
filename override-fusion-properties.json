@@ -232,9 +232,17 @@
       "Nessie"
     ]
   },
+  "L28": {
+    "_name": "Cinderbat",
+    "id_result": "Cocoaleech"
+  },
   "L30": {
     "_name": "Power Dragon",
     "id_result": "Thorn"
+  },
+  "L31": {
+    "_name": "Condor",
+    "id_result": "Cocoaleech"
   },
   "L32": {
     "_name": "Sun Fish",
@@ -244,6 +252,10 @@
   "L33": {
     "_name": "Apex Dragon",
     "id_result": "Thorn"
+  },
+  "L34": {
+    "_name": "Dodo",
+    "id_result": "Cocoaleech"
   },
   "L36": {
     "_name": "Jormung",
@@ -261,6 +273,22 @@
     "_name": "Starborn",
     "category": "Water",
     "id_result": "Titanoboa"
+  },
+  "L46": {
+    "name": "Cocoaleech",
+    "rarity": "Legendary",
+    "category": "Forest",
+    "family": [
+      "Bug"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": "",
+    "id_origin": [
+      "Cinderbat",
+      "Condor",
+      "Dodo"
+    ]
   },
   "L47": {
     "_name": "Titanoboa",

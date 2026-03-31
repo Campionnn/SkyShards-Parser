@@ -1440,6 +1440,14 @@
       "fuse_amount": 2,
       "internal_id": "SHARD_STARBORN"
     },
+    "L46": {
+      "name": "Cocoaleech",
+      "family": "Bug Family",
+      "type": "Hunting",
+      "rarity": "legendary",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_COCOALEECH"
+    },
     "L47": {
       "name": "Titanoboa",
       "family": "Reptile",
