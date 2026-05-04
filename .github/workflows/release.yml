@@ -28,8 +28,8 @@ jobs:
         id: set_tag
         run: echo "TAG=release-$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
 
-      - name: Run scrape-wiki.py
-        run: python scrape-wiki.py
+      - name: Run build-properties.py
+        run: python build-properties.py
 
       - name: Run find-all-recipes.py
         run: python find-all-recipes.py
