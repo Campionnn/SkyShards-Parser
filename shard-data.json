@@ -1073,12 +1073,12 @@
       "internal_id": "SHARD_TOUCAN"
     },
     "E29": {
-      "name": "Hellwisp",
-      "family": "Unknown Family",
+      "name": "Inferno Demonlord",
+      "family": "Demon Family",
       "type": "Combat",
       "rarity": "epic",
       "fuse_amount": 5,
-      "internal_id": "SHARD_HELLWISP"
+      "internal_id": "SHARD_BURNINGSOUL"
     },
     "E30": {
       "name": "Caiman",
@@ -1337,12 +1337,12 @@
       "internal_id": "SHARD_LORD_JAWBUS"
     },
     "L27": {
-      "name": "Burningsoul",
+      "name": "Hellwisp",
       "family": "Demon Family",
       "type": "Combat",
       "rarity": "legendary",
       "fuse_amount": 5,
-      "internal_id": "SHARD_BURNINGSOUL"
+      "internal_id": "SHARD_HELLWISP"
     },
     "L28": {
       "name": "Cinderbat",

@@ -1400,7 +1400,7 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Hellwisp"
+    "id_result": "Inferno Demonlord"
   },
   "E28": {
     "name": "Toucan",
@@ -1414,10 +1414,12 @@
     "id_result": "XYZ"
   },
   "E29": {
-    "name": "Hellwisp",
+    "name": "Inferno Demonlord",
     "rarity": "Epic",
     "category": "Combat",
-    "family": [],
+    "family": [
+      "Demon"
+    ],
     "input1": "",
     "input2": "",
     "id_result": "Ghost"
@@ -1691,7 +1693,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Burningsoul"
+    "id_result": "Hellwisp"
   },
   "L17": {
     "name": "Taurus",
@@ -1711,7 +1713,7 @@
     ],
     "input1": "Kraken Shard",
     "input2": "Kraken Shard",
-    "id_result": "Burningsoul"
+    "id_result": "Hellwisp"
   },
   "L20": {
     "name": "Moltenfish",
@@ -1743,7 +1745,7 @@
     ],
     "input1": "Kraken Shard",
     "input2": "Bird",
-    "id_result": "Burningsoul"
+    "id_result": "Hellwisp"
   },
   "L25": {
     "name": "Hideonbox",
@@ -1766,7 +1768,7 @@
     "id_result": "Titanoboa"
   },
   "L27": {
-    "name": "Burningsoul",
+    "name": "Hellwisp",
     "rarity": "Legendary",
     "category": "Combat",
     "family": [
