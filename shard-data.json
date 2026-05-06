@@ -291,7 +291,7 @@
     "U7": {
       "name": "Hideoncave",
       "family": "Shulker Family",
-      "type": "Global",
+      "type": "Mining",
       "rarity": "uncommon",
       "fuse_amount": 5,
       "internal_id": "SHARD_HIDEONCAVE"
@@ -619,7 +619,7 @@
     "R21": {
       "name": "Star Sentry",
       "family": "Unknown Family",
-      "type": "Combat",
+      "type": "Mining",
       "rarity": "rare",
       "fuse_amount": 5,
       "internal_id": "SHARD_STAR_SENTRY"
@@ -667,7 +667,7 @@
     "R29": {
       "name": "Silentdepth",
       "family": "Treasure Fish Family",
-      "type": "Global",
+      "type": "Mining",
       "rarity": "rare",
       "fuse_amount": 5,
       "internal_id": "SHARD_SILENTDEPTH"
@@ -683,7 +683,7 @@
     "R31": {
       "name": "Thyst",
       "family": "Cave Dweller Family",
-      "type": "Combat",
+      "type": "Mining",
       "rarity": "rare",
       "fuse_amount": 5,
       "internal_id": "SHARD_THYST"
@@ -803,7 +803,7 @@
     "R52": {
       "name": "Fungloom",
       "family": "Cave Dweller Family",
-      "type": "Combat",
+      "type": "Mining",
       "rarity": "rare",
       "fuse_amount": 5,
       "internal_id": "SHARD_FUNGLOOM"
@@ -1051,7 +1051,7 @@
     "E26": {
       "name": "Shellwise",
       "family": "Reptile and Turtle Family",
-      "type": "Global",
+      "type": "Combat",
       "rarity": "epic",
       "fuse_amount": 2,
       "internal_id": "SHARD_SHELLWISE"
@@ -1251,7 +1251,7 @@
     "L12": {
       "name": "Lapis Creeper",
       "family": "Unknown Family",
-      "type": "Combat",
+      "type": "Mining",
       "rarity": "legendary",
       "fuse_amount": 5,
       "internal_id": "SHARD_LAPIS_CREEPER"
@@ -1267,7 +1267,7 @@
     "L14": {
       "name": "Spike",
       "family": "Unknown Family",
-      "type": "Foraging",
+      "type": "Combat",
       "rarity": "legendary",
       "fuse_amount": 5,
       "internal_id": "SHARD_SPIKE"
