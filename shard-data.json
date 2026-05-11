@@ -176,6 +176,14 @@
       "fuse_amount": 5,
       "internal_id": "SHARD_MUDWORM"
     },
+    "C26": {
+      "name": "Lotusfish",
+      "family": "Tropical Fish Family",
+      "type": "Fishing",
+      "rarity": "common",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LOTUSFISH"
+    },
     "C27": {
       "name": "Golden Ghoul",
       "family": "Unknown Family",
@@ -383,6 +391,14 @@
       "rarity": "uncommon",
       "fuse_amount": 5,
       "internal_id": "SHARD_PRAYING_MANTIS"
+    },
+    "U23": {
+      "name": "Lotum",
+      "family": "Amphibian and Frog Family",
+      "type": "Fishing",
+      "rarity": "uncommon",
+      "fuse_amount": 2,
+      "internal_id": "SHARD_LOTUM"
     },
     "U24": {
       "name": "Zombie Soldier",
@@ -687,6 +703,14 @@
       "rarity": "rare",
       "fuse_amount": 5,
       "internal_id": "SHARD_THYST"
+    },
+    "R32": {
+      "name": "Tewtil",
+      "family": "Reptile and Turtle Family",
+      "type": "Fishing",
+      "rarity": "rare",
+      "fuse_amount": 2,
+      "internal_id": "SHARD_TEWTIL"
     },
     "R33": {
       "name": "Quartzfang",

@@ -206,7 +206,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Azure"
+    "id_result": "Lotusfish"
   },
   "C24": {
     "name": "Harpy",
@@ -227,6 +227,17 @@
     "input1": "",
     "input2": "",
     "id_result": ""
+  },
+  "C26": {
+    "name": "Lotusfish",
+    "rarity": "Common",
+    "category": "Water",
+    "family": [
+      "Tropical Fish"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": "Azure"
   },
   "C27": {
     "name": "Golden Ghoul",
@@ -476,7 +487,7 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Ent"
+    "id_result": "Lotum"
   },
   "U21": {
     "name": "Viper",
@@ -500,6 +511,18 @@
     "input1": "Pest Shard",
     "input2": "Combat",
     "id_result": "Bambuleaf"
+  },
+  "U23": {
+    "name": "Lotum",
+    "rarity": "Uncommon",
+    "category": "Water",
+    "family": [
+      "Amphibian",
+      "Frog"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": "Ent"
   },
   "U24": {
     "name": "Zombie Soldier",
@@ -877,7 +900,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Snowfin"
+    "id_result": "Tewtil"
   },
   "R30": {
     "name": "Skeletor",
@@ -898,6 +921,18 @@
     "input1": "",
     "input2": "",
     "id_result": "Kada Knight"
+  },
+  "R32": {
+    "name": "Tewtil",
+    "rarity": "Rare",
+    "category": "Water",
+    "family": [
+      "Reptile",
+      "Turtle"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": "Snowfin"
   },
   "R33": {
     "name": "Quartzfang",
