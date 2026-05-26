@@ -48,14 +48,6 @@
       "fuse_amount": 5,
       "internal_id": "SHARD_PHANFLARE"
     },
-    "C8": {
-      "name": "Night Squid",
-      "family": "Squid Family",
-      "type": "Fishing",
-      "rarity": "common",
-      "fuse_amount": 5,
-      "internal_id": "SHARD_NIGHT_SQUID"
-    },
     "C9": {
       "name": "Lapis Zombie",
       "family": "Lapis Family",
@@ -182,7 +174,7 @@
       "type": "Fishing",
       "rarity": "common",
       "fuse_amount": 5,
-      "internal_id": "SHARD_LOTUSFISH"
+      "internal_id": "SHARD_LOTUS_FISH"
     },
     "C27": {
       "name": "Golden Ghoul",
@@ -207,6 +199,14 @@
       "rarity": "common",
       "fuse_amount": 5,
       "internal_id": "SHARD_BEZAL"
+    },
+    "C32": {
+      "name": "Inkling",
+      "family": "Squid Family",
+      "type": "Fishing",
+      "rarity": "common",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_NIGHT_SQUID"
     },
     "C33": {
       "name": "Yog",
@@ -512,6 +512,22 @@
       "fuse_amount": 5,
       "internal_id": "SHARD_TERMITE"
     },
+    "U41": {
+      "name": "Flipflopper",
+      "family": "Unknown Family",
+      "type": "Fishing",
+      "rarity": "uncommon",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FLIP_FLOPPER"
+    },
+    "U59": {
+      "name": "Tewtil",
+      "family": "Reptile and Turtle Family",
+      "type": "Fishing",
+      "rarity": "uncommon",
+      "fuse_amount": 2,
+      "internal_id": "SHARD_TEWTIL"
+    },
     "R1": {
       "name": "Sylvan",
       "family": "Elemental Family",
@@ -705,12 +721,12 @@
       "internal_id": "SHARD_THYST"
     },
     "R32": {
-      "name": "Tewtil",
-      "family": "Reptile and Turtle Family",
+      "name": "Seashine",
+      "family": "Unknown Family",
       "type": "Fishing",
       "rarity": "rare",
-      "fuse_amount": 2,
-      "internal_id": "SHARD_TEWTIL"
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SEA_SHINE"
     },
     "R33": {
       "name": "Quartzfang",

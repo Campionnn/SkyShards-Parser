@@ -52,7 +52,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Night Squid"
+    "id_result": "Verdant"
   },
   "C7": {
     "name": "Phanflare",
@@ -64,17 +64,6 @@
     "input1": "",
     "input2": "",
     "id_result": "Hideonleaf"
-  },
-  "C8": {
-    "name": "Night Squid",
-    "rarity": "Common",
-    "category": "Water",
-    "family": [
-      "Squid"
-    ],
-    "input1": "",
-    "input2": "",
-    "id_result": "Verdant"
   },
   "C9": {
     "name": "Lapis Zombie",
