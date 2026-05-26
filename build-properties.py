@@ -1,4 +1,5 @@
 from functools import cmp_to_key
+from collections import Counter
 from typing import Any
 import hashlib
 import json
@@ -7,6 +8,7 @@ import sys
 
 output_path = "dist/fusion-properties.json"
 source_path = "fusion-properties.json"
+shard_data_path = "shard-data.json"
 hashes_path = "shard-hashes.json"
 
 github_actions = os.environ.get('GITHUB_ACTIONS')
@@ -35,10 +37,40 @@ def cmp_id(a, b):
 # Load source data
 with open(source_path, encoding="utf-8") as f:
     output: dict[str, dict[str, Any]] = json.load(f)
+with open(shard_data_path, encoding="utf-8") as f:
+    shard_data: dict[str, Any] = json.load(f)["shards"]
 with open(hashes_path, encoding="utf-8") as f:
     hashes = json.load(f)
 updated_hashes = {}
 changed_shards = []
+
+missing_property_ids = sorted(set(shard_data) - set(output), key=cmp_to_key(cmp_id))
+extra_property_ids = sorted(set(output) - set(shard_data), key=cmp_to_key(cmp_id))
+name_mismatches = [
+    shard_id
+    for shard_id in sorted(set(output) & set(shard_data), key=cmp_to_key(cmp_id))
+    if output[shard_id]["name"] != shard_data[shard_id]["name"]
+]
+name_counts = Counter(properties["name"] for properties in output.values())
+duplicate_names = sorted(name for name, count in name_counts.items() if count > 1)
+
+validation_errors = []
+if missing_property_ids:
+    validation_errors.append(f"missing fusion properties for: {', '.join(missing_property_ids)}")
+if extra_property_ids:
+    validation_errors.append(f"fusion properties without shard data: {', '.join(extra_property_ids)}")
+if name_mismatches:
+    validation_errors.append(
+        "fusion property names do not match shard data: "
+        + ", ".join(
+            f"{shard_id} ({output[shard_id]['name']} != {shard_data[shard_id]['name']})"
+            for shard_id in name_mismatches
+        )
+    )
+if duplicate_names:
+    validation_errors.append(f"duplicate fusion property names: {', '.join(duplicate_names)}")
+if validation_errors:
+    raise ValueError("\n".join(validation_errors))
 
 # Calculate id_origin based on id_result relationships
 for shard_id, properties in output.items():
