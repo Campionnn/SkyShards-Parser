@@ -17,7 +17,7 @@ for attributes in data.values():
     if family and len(family) > 0:
         families.update(set(family))
 shard_groups = {
-    "Mining Shards": ["C10", "C36", "U6", "R33", "E15", "E36"]
+    "Mining Shards": ["C10", "C36", "U6", "U7", "R21", "R29", "R31", "R33", "R52", "E15", "E36", "L12"]
     # "Fiery Shards": ["C30", "U33", "R56", "E14", "E15", "E18", "L28"] # Might be useful later
 }
 
