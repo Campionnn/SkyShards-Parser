@@ -52,7 +52,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Night Squid"
+    "id_result": "Verdant"
   },
   "C7": {
     "name": "Phanflare",
@@ -64,17 +64,6 @@
     "input1": "",
     "input2": "",
     "id_result": "Hideonleaf"
-  },
-  "C8": {
-    "name": "Night Squid",
-    "rarity": "Common",
-    "category": "Water",
-    "family": [
-      "Squid"
-    ],
-    "input1": "",
-    "input2": "",
-    "id_result": "Verdant"
   },
   "C9": {
     "name": "Lapis Zombie",
@@ -257,7 +246,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "id_result": "Inkling"
   },
   "C30": {
     "name": "Bezal",
@@ -267,6 +256,17 @@
     "input1": "",
     "input2": "",
     "id_result": "Yog"
+  },
+  "C32": {
+    "name": "Inkling",
+    "rarity": "Common",
+    "category": "Water",
+    "family": [
+      "Squid"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": ""
   },
   "C33": {
     "name": "Yog",
@@ -640,7 +640,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "id_result": "Flipflopper"
   },
   "U39": {
     "name": "Rana",
@@ -663,6 +663,27 @@
     ],
     "input1": "Bug",
     "input2": "Mining Shards",
+    "id_result": ""
+  },
+  "U41": {
+    "name": "Flipflopper",
+    "rarity": "Uncommon",
+    "category": "Water",
+    "family": [],
+    "input1": "",
+    "input2": "",
+    "id_result": "Tewtil"
+  },
+  "U59": {
+    "name": "Tewtil",
+    "rarity": "Uncommon",
+    "category": "Water",
+    "family": [
+      "Reptile",
+      "Turtle"
+    ],
+    "input1": "",
+    "input2": "",
     "id_result": ""
   },
   "R1": {
@@ -900,7 +921,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Tewtil"
+    "id_result": "Seashine"
   },
   "R30": {
     "name": "Skeletor",
@@ -923,13 +944,10 @@
     "id_result": "Kada Knight"
   },
   "R32": {
-    "name": "Tewtil",
+    "name": "Seashine",
     "rarity": "Rare",
     "category": "Water",
-    "family": [
-      "Reptile",
-      "Turtle"
-    ],
+    "family": [],
     "input1": "",
     "input2": "",
     "id_result": "Snowfin"
