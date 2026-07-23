@@ -23,7 +23,7 @@ shard_groups = {
 
 
 def get_next_id(current_id, count=1):
-    prefix, number = current_id[0], current_id[1:]
+    prefix, number = current_id[0], current_id[1:].split("-")[0]
     return f"{prefix}{int(number) + count}"
 
 
@@ -169,7 +169,10 @@ def find_special_fusion_results(input1, input2):
         if ((check_membership(input1, inputs[0]) and check_membership(input2, inputs[1])) or
             (check_membership(input1, inputs[1]) and check_membership(input2, inputs[0]))):
             matching_fusions.append(id__)
-    matching_fusions.sort(key=lambda x: (len(rarity_letters) - rarity_letters.index(x[0]), int(x[1:])))
+    def _fusion_sort_key(x):
+        base, _, suffix = x[1:].partition("-")
+        return len(rarity_letters) - rarity_letters.index(x[0]), int(base), int(suffix) if suffix else 0
+    matching_fusions.sort(key=_fusion_sort_key)
     return matching_fusions[:results_length]
 
 

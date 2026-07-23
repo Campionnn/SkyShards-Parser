@@ -12,11 +12,11 @@ github_actions = os.environ.get('GITHUB_ACTIONS')
 
 
 def parse_component(component):
-    match = re.match(r'([A-Z])(\d+)$', component)
+    match = re.match(r'([A-Z])(\d+)(?:-(\d+))?$', component)
     if match:
-        prefix, number = match.groups()
-        return prefix_order.get(prefix, 999), int(number)
-    return 999, 999
+        prefix, number, suffix = match.groups()
+        return prefix_order.get(prefix, 999), int(number), int(suffix) if suffix else 0
+    return 999, 999, 999
 
 
 with open('dist/fusion-recipes.json', 'r') as f:

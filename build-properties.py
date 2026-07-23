@@ -30,9 +30,13 @@ rarity_names = {
 }
 rarity_letters = [rarity[0] for rarity in rarity_names.values()]
 
+def parse_id(id_):
+    base, _, suffix = id_[1:].partition("-")
+    return rarity_letters.index(id_[0]), int(base), int(suffix) if suffix else 0
+
 def cmp_id(a, b):
-    rarity_cmp = rarity_letters.index(a[0]) - rarity_letters.index(b[0])
-    return rarity_cmp or int(a[1:]) - int(b[1:])
+    ka, kb = parse_id(a), parse_id(b)
+    return (ka > kb) - (ka < kb)
 
 # Load source data
 with open(source_path, encoding="utf-8") as f:
