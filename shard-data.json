@@ -100,7 +100,7 @@
     },
     "C15": {
       "name": "Voracious Spider",
-      "family": "Unknown Family",
+      "family": "Spider Family",
       "type": "Combat",
       "rarity": "common",
       "fuse_amount": 5
@@ -156,10 +156,10 @@
     },
     "C23": {
       "name": "Coralot",
-      "family": "Axolotl Family",
+      "family": "Axolotl and Amphibian Family",
       "type": "Fishing",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 2
     },
     "C24": {
       "name": "Harpy",
@@ -450,7 +450,7 @@
     },
     "U10": {
       "name": "Field Mouse",
-      "family": "Trash Lover and Evasive Family",
+      "family": "Trash Lover and Elusive Family",
       "type": "Farming",
       "rarity": "uncommon",
       "fuse_amount": 5
@@ -604,7 +604,7 @@
     },
     "U33": {
       "name": "Flaming Spider",
-      "family": "Unknown Family",
+      "family": "Spider Family",
       "type": "Combat",
       "rarity": "uncommon",
       "fuse_amount": 5
@@ -688,7 +688,7 @@
     },
     "U47": {
       "name": "Osedax",
-      "family": "Evasive Family",
+      "family": "Elusive Family",
       "type": "Fishing",
       "rarity": "uncommon",
       "fuse_amount": 5
@@ -729,13 +729,6 @@
       "fuse_amount": 5
     },
     "U53": {
-      "name": "Sprawl",
-      "family": "Unknown Family",
-      "type": "Combat",
-      "rarity": "uncommon",
-      "fuse_amount": 5
-    },
-    "U54": {
       "name": "Shuddersquid",
       "family": "Squid Family",
       "type": "Fishing",
@@ -764,13 +757,6 @@
       "fuse_amount": 5
     },
     "U58": {
-      "name": "Queen Ant",
-      "family": "Bug and Evasive Family",
-      "type": "Combat",
-      "rarity": "uncommon",
-      "fuse_amount": 5
-    },
-    "U58-1": {
       "name": "Driftling",
       "family": "Cave Dweller Family",
       "type": "Combat",
@@ -792,14 +778,14 @@
       "fuse_amount": 5
     },
     "U61": {
-      "name": "Woodchucker",
+      "name": "Hawk",
       "family": "Unknown Family",
       "type": "Foraging",
       "rarity": "uncommon",
       "fuse_amount": 5
     },
     "U61-1": {
-      "name": "Hawk",
+      "name": "Woodchucker",
       "family": "Bird Family",
       "type": "Global",
       "rarity": "uncommon",
@@ -820,14 +806,14 @@
       "fuse_amount": 5
     },
     "U64": {
-      "name": "Dung Beetle",
+      "name": "Bloodbat",
       "family": "Bug and Trash Lover Family",
       "type": "Global",
       "rarity": "uncommon",
       "fuse_amount": 5
     },
     "U64-1": {
-      "name": "Bloodbat",
+      "name": "Dung Beetle",
       "family": "Unknown Family",
       "type": "Farming",
       "rarity": "uncommon",
@@ -837,13 +823,6 @@
       "name": "Dustybit",
       "family": "Frog Family",
       "type": "Hunting",
-      "rarity": "uncommon",
-      "fuse_amount": 5
-    },
-    "U66": {
-      "name": "Rabbit Cat",
-      "family": "Crime Family",
-      "type": "Global",
       "rarity": "uncommon",
       "fuse_amount": 5
     },
@@ -870,8 +849,15 @@
     },
     "U70": {
       "name": "Red Panda",
-      "family": "Panda and Evasive Family",
+      "family": "Panda and Elusive Family",
       "type": "Farming",
+      "rarity": "uncommon",
+      "fuse_amount": 5
+    },
+    "U71": {
+      "name": "Sprawl",
+      "family": "Unknown Family",
+      "type": "Combat",
       "rarity": "uncommon",
       "fuse_amount": 5
     },
@@ -898,8 +884,15 @@
     },
     "U78": {
       "name": "Honeymite",
-      "family": "Bug Family",
+      "family": "Unknown Family",
       "type": "Mining",
+      "rarity": "uncommon",
+      "fuse_amount": 5
+    },
+    "U79": {
+      "name": "Queen Ant",
+      "family": "Bug and Elusive Family",
+      "type": "Combat",
       "rarity": "uncommon",
       "fuse_amount": 5
     },
@@ -942,6 +935,13 @@
       "name": "Mosquito",
       "family": "Bug and Trash Lover Family",
       "type": "Farming",
+      "rarity": "uncommon",
+      "fuse_amount": 5
+    },
+    "U106": {
+      "name": "Rabbit Cat",
+      "family": "Crime Family",
+      "type": "Global",
       "rarity": "uncommon",
       "fuse_amount": 5
     },
@@ -1045,7 +1045,7 @@
     },
     "R18": {
       "name": "Drowned",
-      "family": "Unknown Family",
+      "family": "Drowned Family",
       "type": "Combat",
       "rarity": "rare",
       "fuse_amount": 5
@@ -1219,18 +1219,18 @@
       "fuse_amount": 2
     },
     "R46": {
-      "name": "Bullfrog",
-      "family": "Frog and Amphibian Family",
-      "type": "Foraging",
-      "rarity": "rare",
-      "fuse_amount": 2
-    },
-    "R48": {
       "name": "Wild Hog",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "rare",
       "fuse_amount": 5
+    },
+    "R47": {
+      "name": "Bullfrog",
+      "family": "Frog and Amphibian Family",
+      "type": "Foraging",
+      "rarity": "rare",
+      "fuse_amount": 2
     },
     "R49": {
       "name": "Dreadwing",
@@ -1325,7 +1325,7 @@
     },
     "R62": {
       "name": "Wiki Tiki",
-      "family": "Creation and Evasive Family",
+      "family": "Creation and Elusive Family",
       "type": "Combat",
       "rarity": "rare",
       "fuse_amount": 5
@@ -1367,7 +1367,7 @@
     },
     "R68": {
       "name": "Thunder",
-      "family": "Evasive Family",
+      "family": "Elusive Family",
       "type": "Global",
       "rarity": "rare",
       "fuse_amount": 5
@@ -1383,13 +1383,6 @@
       "name": "Anteater",
       "family": "Unknown Family",
       "type": "Global",
-      "rarity": "rare",
-      "fuse_amount": 5
-    },
-    "R71": {
-      "name": "Billygoat",
-      "family": "Arctic Family",
-      "type": "Combat",
       "rarity": "rare",
       "fuse_amount": 5
     },
@@ -1436,8 +1429,8 @@
       "fuse_amount": 5
     },
     "R78": {
-      "name": "Black Widow",
-      "family": "Spider and Evasive Family",
+      "name": "Billygoat",
+      "family": "Arctic Family",
       "type": "Combat",
       "rarity": "rare",
       "fuse_amount": 5
@@ -1492,16 +1485,23 @@
       "fuse_amount": 5
     },
     "R86": {
-      "name": "Troodon",
+      "name": "Goldolot",
       "family": "Dinosaur Family",
       "type": "Fishing",
       "rarity": "rare",
       "fuse_amount": 5
     },
     "R86-1": {
-      "name": "Goldolot",
+      "name": "Troodon",
       "family": "Axolotl Family",
       "type": "Global",
+      "rarity": "rare",
+      "fuse_amount": 5
+    },
+    "R87": {
+      "name": "Black Widow",
+      "family": "Spider and Elusive Family",
+      "type": "Combat",
       "rarity": "rare",
       "fuse_amount": 5
     },
@@ -1598,7 +1598,7 @@
     },
     "E8": {
       "name": "Abyssal Miner",
-      "family": "Cave Dweller and Evasive Family",
+      "family": "Cave Dweller and Elusive Family",
       "type": "Mining",
       "rarity": "epic",
       "fuse_amount": 5
@@ -1626,7 +1626,7 @@
     },
     "E12": {
       "name": "Special Zealot",
-      "family": "Evasive Family",
+      "family": "Elusive Family",
       "type": "Combat",
       "rarity": "epic",
       "fuse_amount": 5
@@ -1710,14 +1710,14 @@
     },
     "E24": {
       "name": "Mimic",
-      "family": "Evasive and Poltergeist Family",
+      "family": "Elusive and Poltergeist Family",
       "type": "Combat",
       "rarity": "epic",
       "fuse_amount": 5
     },
     "E25": {
       "name": "Wolverine",
-      "family": "Evasive Family",
+      "family": "Elusive Family",
       "type": "Combat",
       "rarity": "epic",
       "fuse_amount": 5
@@ -1731,7 +1731,7 @@
     },
     "E27": {
       "name": "Barbarian Duke X",
-      "family": "Evasive Family",
+      "family": "Elusive Family",
       "type": "Combat",
       "rarity": "epic",
       "fuse_amount": 5
@@ -1740,13 +1740,6 @@
       "name": "Toucan",
       "family": "Bird Family",
       "type": "Taming",
-      "rarity": "epic",
-      "fuse_amount": 5
-    },
-    "E29": {
-      "name": "Inferno Demonlord",
-      "family": "Demon Family",
-      "type": "Combat",
       "rarity": "epic",
       "fuse_amount": 5
     },
@@ -1813,13 +1806,6 @@
       "rarity": "epic",
       "fuse_amount": 5
     },
-    "E40": {
-      "name": "Thorn",
-      "family": "Unknown Family",
-      "type": "Combat",
-      "rarity": "epic",
-      "fuse_amount": 5
-    },
     "E42": {
       "name": "King Minos",
       "family": "Unknown Family",
@@ -1855,17 +1841,17 @@
       "rarity": "epic",
       "fuse_amount": 5
     },
-    "E46": {
-      "name": "Rabbit Godmother",
-      "family": "Crime Family",
-      "type": "Global",
+    "E47": {
+      "name": "Giant Isopod",
+      "family": "Crustacean and Elusive Family",
+      "type": "Fishing",
       "rarity": "epic",
       "fuse_amount": 5
     },
-    "E47": {
-      "name": "Giant Isopod",
-      "family": "Crustacean and Evasive Family",
-      "type": "Fishing",
+    "E48": {
+      "name": "Inferno Demonlord",
+      "family": "Demon Family",
+      "type": "Combat",
       "rarity": "epic",
       "fuse_amount": 5
     },
@@ -1885,13 +1871,20 @@
     },
     "E52": {
       "name": "Beeheemoth",
-      "family": "Bug and Evasive Family",
+      "family": "Bug and Elusive Family",
       "type": "Foraging",
       "rarity": "epic",
       "fuse_amount": 5
     },
     "E54": {
       "name": "Scarf",
+      "family": "Unknown Family",
+      "type": "Combat",
+      "rarity": "epic",
+      "fuse_amount": 5
+    },
+    "E57": {
+      "name": "Thorn",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "epic",
@@ -1997,7 +1990,7 @@
     },
     "L12": {
       "name": "Lapis Creeper",
-      "family": "Unknown Family",
+      "family": "Lapis Family",
       "type": "Enchanting",
       "rarity": "legendary",
       "fuse_amount": 5
@@ -2081,7 +2074,7 @@
     },
     "L26": {
       "name": "Lord Jawbus",
-      "family": "Creation and Evasive Family",
+      "family": "Creation and Elusive Family",
       "type": "Fishing",
       "rarity": "legendary",
       "fuse_amount": 5
@@ -2214,7 +2207,7 @@
     },
     "L47": {
       "name": "Titanoboa",
-      "family": "Reptile, Serpent, Scaled, and Evasive Family",
+      "family": "Reptile, Serpent, Scaled, and Elusive Family",
       "type": "Fishing",
       "rarity": "legendary",
       "fuse_amount": 2

@@ -30,7 +30,7 @@
     ],
     "input1": "Combat&Common",
     "input2": "Uncommon+",
-    "id_result": "Lapis Zombie"
+    "id_result": "Howling Spirit"
   },
   "C4": {
     "name": "Phanpyre",
@@ -41,7 +41,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Howling Spirit"
+    "id_result": "Phanflare"
   },
   "C5": {
     "name": "Cod",
@@ -57,13 +57,13 @@
   "C6": {
     "name": "Howling Spirit",
     "rarity": "Common",
-    "category": "Forest",
+    "category": "Combat",
     "family": [
       "Cave Dweller"
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Phanflare"
+    "id_result": "Lapis Zombie"
   },
   "C7": {
     "name": "Phanflare",
@@ -154,7 +154,9 @@
     "name": "Voracious Spider",
     "rarity": "Common",
     "category": "Combat",
-    "family": [],
+    "family": [
+      "Spider"
+    ],
     "input1": "",
     "input2": "",
     "id_result": "Tank Zombie"
@@ -237,7 +239,8 @@
     "rarity": "Common",
     "category": "Water",
     "family": [
-      "Axolotl"
+      "Axolotl",
+      "Amphibian"
     ],
     "input1": "",
     "input2": "",
@@ -679,7 +682,7 @@
     "category": "Forest",
     "family": [
       "Trash Lover",
-      "Evasive"
+      "Elusive"
     ],
     "input1": "",
     "input2": "",
@@ -905,7 +908,9 @@
     "name": "Flaming Spider",
     "rarity": "Uncommon",
     "category": "Combat",
-    "family": [],
+    "family": [
+      "Spider"
+    ],
     "input1": "",
     "input2": "",
     "id_result": "Zealot Bruiser"
@@ -1034,7 +1039,7 @@
     "rarity": "Uncommon",
     "category": "Water",
     "family": [
-      "Evasive"
+      "Elusive"
     ],
     "input1": "",
     "input2": "",
@@ -1074,7 +1079,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Sprawl"
+    "id_result": "Shuddersquid"
   },
   "U51": {
     "name": "Gazer",
@@ -1099,15 +1104,6 @@
     "id_result": "Solsnatcher"
   },
   "U53": {
-    "name": "Sprawl",
-    "rarity": "Uncommon",
-    "category": "Water",
-    "family": [],
-    "input1": "",
-    "input2": "",
-    "id_result": "Shuddersquid"
-  },
-  "U54": {
     "name": "Shuddersquid",
     "rarity": "Uncommon",
     "category": "Water",
@@ -1143,33 +1139,21 @@
   "U57": {
     "name": "Honey Badger",
     "rarity": "Uncommon",
-    "category": "Forest",
+    "category": "Combat",
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Driftling"
+    "id_result": "Minos Hunter"
   },
   "U58": {
-    "name": "Queen Ant",
-    "rarity": "Uncommon",
-    "category": "Forest",
-    "family": [
-      "Bug",
-      "Evasive"
-    ],
-    "input1": "Ant Shard",
-    "input2": "Evasive",
-    "id_result": "Woodchucker"
-  },
-  "U58-1": {
     "name": "Driftling",
     "rarity": "Uncommon",
     "category": "Forest",
     "family": [
       "Cave Dweller"
     ],
-    "input1": "",
-    "input2": "",
+    "input1": "Ant Shard",
+    "input2": "Elusive",
     "id_result": "Woodchucker"
   },
   "U59": {
@@ -1265,17 +1249,6 @@
     "input2": "Combat",
     "id_result": "Ember"
   },
-  "U66": {
-    "name": "Rabbit Cat",
-    "rarity": "Uncommon",
-    "category": "Forest",
-    "family": [
-      "Crime"
-    ],
-    "input1": "",
-    "input2": "",
-    "id_result": "Woodlouse"
-  },
   "U67": {
     "name": "Woodlouse",
     "rarity": "Uncommon",
@@ -1298,7 +1271,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "id_result": "Sprawl"
   },
   "U69": {
     "name": "Cheeky Tiki",
@@ -1317,11 +1290,20 @@
     "category": "Forest",
     "family": [
       "Panda",
-      "Evasive"
+      "Elusive"
     ],
     "input1": "",
     "input2": "",
     "id_result": "Rat"
+  },
+  "U71": {
+    "name": "Sprawl",
+    "rarity": "Uncommon",
+    "category": "Water",
+    "family": [],
+    "input1": "",
+    "input2": "",
+    "id_result": ""
   },
   "U72": {
     "name": "Sneaky Tiki",
@@ -1354,18 +1336,28 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "id_result": "Rat"
   },
   "U78": {
     "name": "Honeymite",
     "rarity": "Uncommon",
     "category": "Combat",
-    "family": [
-      "Bug"
-    ],
+    "family": [],
     "input1": "",
     "input2": "",
     "id_result": ""
+  },
+  "U79": {
+    "name": "Queen Ant",
+    "rarity": "Uncommon",
+    "category": "Forest",
+    "family": [
+      "Bug",
+      "Elusive"
+    ],
+    "input1": "Ant Shard",
+    "input2": "Elusive",
+    "id_result": "Rat"
   },
   "U85": {
     "name": "June Bug",
@@ -1430,6 +1422,17 @@
     "family": [
       "Bug",
       "Trash Lover"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": ""
+  },
+  "U106": {
+    "name": "Rabbit Cat",
+    "rarity": "Uncommon",
+    "category": "Forest",
+    "family": [
+      "Crime"
     ],
     "input1": "",
     "input2": "",
@@ -1589,13 +1592,15 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Dreadwing"
+    "id_result": "Thyst"
   },
   "R18": {
     "name": "Drowned",
     "rarity": "Rare",
     "category": "Combat",
-    "family": [],
+    "family": [
+      "Drowned"
+    ],
     "input1": "",
     "input2": "",
     "id_result": "Star Sentry"
@@ -1609,7 +1614,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "id_result": "Thyst"
   },
   "R21": {
     "name": "Star Sentry",
@@ -1629,7 +1634,7 @@
     ],
     "input1": "Shulker",
     "input2": "Demon",
-    "id_result": "Dreadwing"
+    "id_result": "Thyst"
   },
   "R23": {
     "name": "Abyssal Lanternfish",
@@ -1662,7 +1667,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Dreadwing"
+    "id_result": "Thyst"
   },
   "R26": {
     "name": "Lava Leech",
@@ -1700,18 +1705,18 @@
     "family": [],
     "input1": "Lapis Skeleton Shard",
     "input2": "Rare+",
-    "id_result": "Thyst"
+    "id_result": "Kada Knight"
   },
   "R31": {
     "name": "Thyst",
     "rarity": "Rare",
-    "category": "Combat",
+    "category": "Forest",
     "family": [
       "Cave Dweller"
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Kada Knight"
+    "id_result": "Dreadwing"
   },
   "R32": {
     "name": "Seashine",
@@ -1775,7 +1780,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "id_result": "Dreadwing"
   },
   "R38": {
     "name": "Carrot King",
@@ -1820,7 +1825,7 @@
     "family": [
       "Bug"
     ],
-    "input1": "Shard",
+    "input1": "Earthworm Shard",
     "input2": "Invisibug Shard",
     "id_result": "Dreadwing"
   },
@@ -1848,6 +1853,15 @@
     "id_result": "Draconic"
   },
   "R46": {
+    "name": "Wild Hog",
+    "rarity": "Rare",
+    "category": "Forest",
+    "family": [],
+    "input1": "Groundhog Shard",
+    "input2": "Honeyhog Shard",
+    "id_result": "Dreadwing"
+  },
+  "R47": {
     "name": "Bullfrog",
     "rarity": "Rare",
     "category": "Water",
@@ -1858,15 +1872,6 @@
     "input1": "Frog",
     "input2": "Forest&Rare+",
     "id_result": "Joydive"
-  },
-  "R48": {
-    "name": "Wild Hog",
-    "rarity": "Rare",
-    "category": "Forest",
-    "family": [],
-    "input1": "Groundhog Shard",
-    "input2": "Honeyhog Shard",
-    "id_result": "Dreadwing"
   },
   "R49": {
     "name": "Dreadwing",
@@ -1972,7 +1977,7 @@
     ],
     "input1": "Bird",
     "input2": "Rare+",
-    "id_result": ""
+    "id_result": "Hivethief"
   },
   "R59": {
     "name": "Inferno Koi",
@@ -2012,7 +2017,7 @@
     "category": "Water",
     "family": [
       "Creation",
-      "Evasive"
+      "Elusive"
     ],
     "input1": "Creation&Epic+",
     "input2": "Shrieky Tiki Shard|Sneaky Tiki Shard|Cheeky Tiki Shard",
@@ -2066,14 +2071,14 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "id_result": "Hideyho"
   },
   "R68": {
     "name": "Thunder",
     "rarity": "Rare",
     "category": "Water",
     "family": [
-      "Evasive"
+      "Elusive"
     ],
     "input1": "",
     "input2": "",
@@ -2089,7 +2094,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Billygoat"
+    "id_result": "Scrappy"
   },
   "R70": {
     "name": "Anteater",
@@ -2099,17 +2104,6 @@
     "input1": "Queen Ant Shard",
     "input2": "King Cobra Shard",
     "id_result": "Hideyho"
-  },
-  "R71": {
-    "name": "Billygoat",
-    "rarity": "Rare",
-    "category": "Combat",
-    "family": [
-      "Arctic"
-    ],
-    "input1": "",
-    "input2": "",
-    "id_result": "Scrappy"
   },
   "R72": {
     "name": "Scrappy",
@@ -2154,7 +2148,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Stoneworm"
+    "id_result": "Billygoat"
   },
   "R76": {
     "name": "Hideonfloor",
@@ -2179,12 +2173,11 @@
     "id_result": "Nozzlenose"
   },
   "R78": {
-    "name": "Black Widow",
+    "name": "Billygoat",
     "rarity": "Rare",
     "category": "Combat",
     "family": [
-      "Spider",
-      "Evasive"
+      "Arctic"
     ],
     "input1": "",
     "input2": "",
@@ -2284,6 +2277,18 @@
     "input1": "",
     "input2": "",
     "id_result": "Giant Water Bug"
+  },
+  "R87": {
+    "name": "Black Widow",
+    "rarity": "Rare",
+    "category": "Combat",
+    "family": [
+      "Spider",
+      "Elusive"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": ""
   },
   "R88": {
     "name": "Pangolin",
@@ -2416,14 +2421,14 @@
   "E7": {
     "name": "Fenlord",
     "rarity": "Epic",
-    "category": "Water",
+    "category": "Forest",
     "family": [
       "Frog",
       "Amphibian"
     ],
     "input1": "Bullfrog Shard",
     "input2": "Forest&Rare+",
-    "id_result": "Abyssal Miner"
+    "id_result": "XYZ"
   },
   "E8": {
     "name": "Abyssal Miner",
@@ -2431,7 +2436,7 @@
     "category": "Water",
     "family": [
       "Cave Dweller",
-      "Evasive"
+      "Elusive"
     ],
     "input1": "",
     "input2": "",
@@ -2478,10 +2483,10 @@
     "rarity": "Epic",
     "category": "Combat",
     "family": [
-      "Evasive"
+      "Elusive"
     ],
     "input1": "Zealot Shard",
-    "input2": "Combat&Evasive",
+    "input2": "Combat&Elusive",
     "id_result": "Bal"
   },
   "E13": {
@@ -2504,7 +2509,7 @@
       "Amphibian"
     ],
     "input1": "Moray Eel Shard",
-    "input2": "Firefox Shard|Firefly Shard|Eel Shard",
+    "input2": "Eel Shard|Firefox Shard|Firefly Shard",
     "id_result": "Water Hydra"
   },
   "E15": {
@@ -2527,7 +2532,7 @@
     ],
     "input1": "Shulker&Rare+",
     "input2": "Epic+",
-    "id_result": ""
+    "id_result": "XYZ"
   },
   "E17": {
     "name": "Water Hydra",
@@ -2604,7 +2609,7 @@
     "rarity": "Epic",
     "category": "Combat",
     "family": [
-      "Evasive",
+      "Elusive",
       "Poltergeist"
     ],
     "input1": "",
@@ -2616,7 +2621,7 @@
     "rarity": "Epic",
     "category": "Forest",
     "family": [
-      "Evasive"
+      "Elusive"
     ],
     "input1": "",
     "input2": "",
@@ -2639,11 +2644,11 @@
     "rarity": "Epic",
     "category": "Combat",
     "family": [
-      "Evasive"
+      "Elusive"
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Inferno Demonlord"
+    "id_result": "Ghost"
   },
   "E28": {
     "name": "Toucan",
@@ -2655,17 +2660,6 @@
     "input1": "Bird",
     "input2": "Epic+",
     "id_result": "XYZ"
-  },
-  "E29": {
-    "name": "Inferno Demonlord",
-    "rarity": "Epic",
-    "category": "Combat",
-    "family": [
-      "Demon"
-    ],
-    "input1": "",
-    "input2": "",
-    "id_result": "Ghost"
   },
   "E30": {
     "name": "Caiman",
@@ -2721,7 +2715,7 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Thorn"
+    "id_result": "Dive Ghast"
   },
   "E35": {
     "name": "Leatherback",
@@ -2755,7 +2749,7 @@
     ],
     "input1": "Firefly Shard",
     "input2": "Dragon",
-    "id_result": "Thorn"
+    "id_result": "Dive Ghast"
   },
   "E39": {
     "name": "Sphinx",
@@ -2765,15 +2759,6 @@
     "input1": "",
     "input2": "",
     "id_result": "King Minos"
-  },
-  "E40": {
-    "name": "Thorn",
-    "rarity": "Epic",
-    "category": "Forest",
-    "family": [],
-    "input1": "",
-    "input2": "",
-    "id_result": "Dive Ghast"
   },
   "E42": {
     "name": "King Minos",
@@ -2811,7 +2796,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Scarf"
+    "id_result": "Inferno Demonlord"
   },
   "E45-1": {
     "name": "Gemzie",
@@ -2822,18 +2807,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Scarf"
-  },
-  "E46": {
-    "name": "Rabbit Godmother",
-    "rarity": "Epic",
-    "category": "Forest",
-    "family": [
-      "Crime"
-    ],
-    "input1": "",
-    "input2": "",
-    "id_result": "Mountain Goat"
+    "id_result": "Inferno Demonlord"
   },
   "E47": {
     "name": "Giant Isopod",
@@ -2841,11 +2815,22 @@
     "category": "Water",
     "family": [
       "Crustacean",
-      "Evasive"
+      "Elusive"
     ],
     "input1": "",
     "input2": "",
     "id_result": ""
+  },
+  "E48": {
+    "name": "Inferno Demonlord",
+    "rarity": "Epic",
+    "category": "Combat",
+    "family": [
+      "Demon"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": "Scarf"
   },
   "E49": {
     "name": "Queen Bee",
@@ -2875,7 +2860,7 @@
     "category": "Forest",
     "family": [
       "Bug",
-      "Evasive"
+      "Elusive"
     ],
     "input1": "Queen Bee Shard",
     "input2": "Lunar Moth Shard",
@@ -2883,6 +2868,15 @@
   },
   "E54": {
     "name": "Scarf",
+    "rarity": "Epic",
+    "category": "Combat",
+    "family": [],
+    "input1": "",
+    "input2": "",
+    "id_result": "Thorn"
+  },
+  "E57": {
+    "name": "Thorn",
     "rarity": "Epic",
     "category": "Combat",
     "family": [],
@@ -2964,7 +2958,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Sparrow"
+    "id_result": "XYZ"
   },
   "L5": {
     "name": "Nessie",
@@ -3029,7 +3023,7 @@
     "family": [
       "Crime"
     ],
-    "input1": "Rabbit Godmother Shard",
+    "input1": "Shard",
     "input2": "Combat&Legendary+",
     "id_result": "Macaw"
   },
@@ -3049,7 +3043,9 @@
     "name": "Lapis Creeper",
     "rarity": "Legendary",
     "category": "Combat",
-    "family": [],
+    "family": [
+      "Lapis"
+    ],
     "input1": "Lapis Skeleton Shard",
     "input2": "Ghost Shard|Legendary+",
     "id_result": "Kraken"
@@ -3137,7 +3133,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Cinderbat"
+    "id_result": ""
   },
   "L23": {
     "name": "Shinyfish",
@@ -3169,7 +3165,7 @@
     ],
     "input1": "Shulker&Epic+",
     "input2": "Legendary+",
-    "id_result": "Cinderbat"
+    "id_result": ""
   },
   "L26": {
     "name": "Lord Jawbus",
@@ -3177,7 +3173,7 @@
     "category": "Water",
     "family": [
       "Creation",
-      "Evasive"
+      "Elusive"
     ],
     "input1": "",
     "input2": "",
@@ -3235,7 +3231,7 @@
     ],
     "input1": "Bird",
     "input2": "Legendary+",
-    "id_result": "Grizzly Bear"
+    "id_result": ""
   },
   "L32": {
     "name": "Sun Fish",
@@ -3266,7 +3262,7 @@
     ],
     "input1": "Condor Shard",
     "input2": "Legendary+",
-    "id_result": "Grizzly Bear"
+    "id_result": ""
   },
   "L35": {
     "name": "Queen Snake",
@@ -3314,7 +3310,7 @@
     ],
     "input1": "Apex Dragon Shard",
     "input2": "Kraken Shard",
-    "id_result": ""
+    "id_result": "Paragon"
   },
   "L40": {
     "name": "Grizzly Bear",
@@ -3387,7 +3383,7 @@
       "Reptile",
       "Serpent",
       "Scaled",
-      "Evasive"
+      "Elusive"
     ],
     "input1": "",
     "input2": "",
