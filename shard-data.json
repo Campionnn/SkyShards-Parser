@@ -779,14 +779,14 @@
     },
     "U61": {
       "name": "Hawk",
-      "family": "Unknown Family",
+      "family": "Bird Family",
       "type": "Foraging",
       "rarity": "uncommon",
       "fuse_amount": 5
     },
     "U61-1": {
       "name": "Woodchucker",
-      "family": "Bird Family",
+      "family": "Unknown Family",
       "type": "Global",
       "rarity": "uncommon",
       "fuse_amount": 5
@@ -807,14 +807,14 @@
     },
     "U64": {
       "name": "Bloodbat",
-      "family": "Bug and Trash Lover Family",
+      "family": "Unknown Family",
       "type": "Global",
       "rarity": "uncommon",
       "fuse_amount": 5
     },
     "U64-1": {
       "name": "Dung Beetle",
-      "family": "Unknown Family",
+      "family": "Bug and Trash Lover Family",
       "type": "Farming",
       "rarity": "uncommon",
       "fuse_amount": 5
@@ -1486,14 +1486,14 @@
     },
     "R86": {
       "name": "Goldolot",
-      "family": "Dinosaur Family",
+      "family": "Axolotl Family",
       "type": "Fishing",
       "rarity": "rare",
       "fuse_amount": 5
     },
     "R86-1": {
       "name": "Troodon",
-      "family": "Axolotl Family",
+      "family": "Dinosaur Family",
       "type": "Global",
       "rarity": "rare",
       "fuse_amount": 5
