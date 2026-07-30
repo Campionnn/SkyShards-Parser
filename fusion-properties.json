@@ -1178,21 +1178,21 @@
     "id_result": "Parched"
   },
   "U61": {
-    "name": "Woodchucker",
-    "rarity": "Uncommon",
-    "category": "Forest",
-    "family": [],
-    "input1": "",
-    "input2": "",
-    "id_result": "Bloodbat"
-  },
-  "U61-1": {
     "name": "Hawk",
     "rarity": "Uncommon",
     "category": "Forest",
     "family": [
       "Bird"
     ],
+    "input1": "",
+    "input2": "",
+    "id_result": "Bloodbat"
+  },
+  "U61-1": {
+    "name": "Woodchucker",
+    "rarity": "Uncommon",
+    "category": "Forest",
+    "family": [],
     "input1": "",
     "input2": "",
     "id_result": "Bloodbat"
@@ -1218,6 +1218,15 @@
     "id_result": "Cheeky Tiki"
   },
   "U64": {
+    "name": "Bloodbat",
+    "rarity": "Uncommon",
+    "category": "Forest",
+    "family": [],
+    "input1": "",
+    "input2": "",
+    "id_result": "Woodlouse"
+  },
+  "U64-1": {
     "name": "Dung Beetle",
     "rarity": "Uncommon",
     "category": "Forest",
@@ -1225,15 +1234,6 @@
       "Bug",
       "Trash Lover"
     ],
-    "input1": "",
-    "input2": "",
-    "id_result": "Woodlouse"
-  },
-  "U64-1": {
-    "name": "Bloodbat",
-    "rarity": "Uncommon",
-    "category": "Forest",
-    "family": [],
     "input1": "",
     "input2": "",
     "id_result": "Woodlouse"
@@ -2257,22 +2257,22 @@
     "id_result": "Pangolin"
   },
   "R86": {
-    "name": "Troodon",
+    "name": "Goldolot",
     "rarity": "Rare",
     "category": "Water",
     "family": [
-      "Dinosaur"
+      "Axolotl"
     ],
     "input1": "",
     "input2": "",
     "id_result": "Giant Water Bug"
   },
   "R86-1": {
-    "name": "Goldolot",
+    "name": "Troodon",
     "rarity": "Rare",
     "category": "Water",
     "family": [
-      "Axolotl"
+      "Dinosaur"
     ],
     "input1": "",
     "input2": "",
