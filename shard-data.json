@@ -5,2240 +5,2560 @@
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "common",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_GROVE"
     },
     "C2": {
       "name": "Mist",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "common",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_MIST"
     },
     "C3": {
       "name": "Flash",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "common",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_FLASH"
     },
     "C4": {
       "name": "Phanpyre",
       "family": "Phantom Family",
       "type": "Foraging",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PHANPYRE"
     },
     "C5": {
       "name": "Cod",
       "family": "Tropical Fish Family",
       "type": "Fishing",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_COD"
     },
     "C6": {
       "name": "Howling Spirit",
       "family": "Cave Dweller Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HOWLING_SPIRIT"
     },
     "C7": {
       "name": "Phanflare",
       "family": "Phantom Family",
       "type": "Foraging",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PHANFLARE"
     },
     "C8": {
       "name": "Dumpster Diver",
       "family": "Trash Lover Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DUMPSTER_DIVER"
     },
     "C9": {
       "name": "Lapis Zombie",
       "family": "Lapis Family",
       "type": "Enchanting",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LAPIS_ZOMBIE"
     },
     "C10": {
       "name": "Hideonleaf",
       "family": "Shulker Family",
       "type": "Mining",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HIDEONLEAF"
     },
     "C11": {
       "name": "Verdant",
       "family": "Tropical Fish Family",
       "type": "Fishing",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_VERDANT"
     },
     "C12": {
       "name": "Chill",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_CHILL"
     },
     "C13": {
       "name": "Fly",
       "family": "Bug and Trash Lover Family",
       "type": "Farming",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FLY"
     },
     "C14": {
       "name": "Bogged",
       "family": "Unknown Family",
       "type": "Fishing",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SEA_ARCHER"
     },
     "C15": {
       "name": "Voracious Spider",
       "family": "Spider Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_VORACIOUS_SPIDER"
     },
     "C16": {
       "name": "Hideongift",
       "family": "Shulker Family",
       "type": "Global",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HIDEONGIFT"
     },
     "C17": {
       "name": "Birries",
       "family": "Unknown Family",
       "type": "Foraging",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BIRRIES"
     },
     "C18": {
       "name": "Tank Zombie",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_TANK_ZOMBIE"
     },
     "C19": {
       "name": "Crow",
       "family": "Bird and Trash Lover Family",
       "type": "Foraging",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_CROW"
     },
     "C20": {
       "name": "Tadgang",
       "family": "Frog and Amphibian Family",
       "type": "Hunting",
       "rarity": "common",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_TADGANG"
     },
     "C21": {
       "name": "Zealot",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_ZEALOT"
     },
     "C22": {
       "name": "Rabbit Mafioso",
       "family": "Crime Family",
       "type": "Global",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_RABBIT_MAFIOSO"
     },
     "C23": {
       "name": "Coralot",
       "family": "Axolotl and Amphibian Family",
       "type": "Fishing",
       "rarity": "common",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_CORALOT"
     },
     "C24": {
       "name": "Harpy",
       "family": "Bird Family",
       "type": "Hunting",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HARPY"
     },
     "C25": {
       "name": "Mudworm",
       "family": "Unknown Family",
       "type": "Farming",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MUDWORM"
     },
     "C26": {
       "name": "Lotusfish",
       "family": "Tropical Fish Family",
       "type": "Fishing",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LOTUS_FISH"
     },
     "C27": {
       "name": "Golden Ghoul",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GOLDEN_GHOUL"
     },
     "C28": {
       "name": "Locust",
       "family": "Bug and Trash Lover Family",
       "type": "Farming",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LOCUST"
     },
     "C29": {
       "name": "Azure",
       "family": "Tropical Fish Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_AZURE"
     },
     "C30": {
       "name": "Bezal",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BEZAL"
     },
     "C31": {
       "name": "Stag Beetle",
       "family": "Bug Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_STAG_BEETLE"
     },
     "C32": {
       "name": "Inkling",
       "family": "Squid Family",
       "type": "Fishing",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_NIGHT_SQUID"
     },
     "C33": {
       "name": "Yog",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_YOG"
     },
     "C34": {
       "name": "Boreal Owl",
       "family": "Bird Family",
       "type": "Taming",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BOREAL_OWL"
     },
     "C35": {
       "name": "Newt",
       "family": "Reptile and Lizard Family",
       "type": "Hunting",
       "rarity": "common",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_NEWT"
     },
     "C36": {
       "name": "Miner Zombie",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MINER_ZOMBIE"
     },
     "C37": {
       "name": "Flitter",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FLITTER"
     },
     "C38": {
       "name": "Tepid",
       "family": "Tropical Fish Family",
       "type": "Fishing",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_TEPID"
     },
     "C39": {
       "name": "Cretan Bull",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_CRETAN_BULL"
     },
     "C40": {
       "name": "Ant",
       "family": "Bug Family",
       "type": "Hunting",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_ANT"
     },
     "C41": {
       "name": "Cavernfish",
       "family": "Tropical Fish and Cave Dweller Family",
       "type": "Fishing",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_CAVERNFISH"
     },
     "C42": {
       "name": "Strongarm",
       "family": "Arctic Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_STRONGARM"
     },
     "C43": {
       "name": "Hideonsun",
       "family": "Shulker Family",
       "type": "Mining",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HIDEONSUN"
     },
     "C44": {
       "name": "Haggard",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HAGGARD"
     },
     "C45": {
       "name": "Honeyhog",
       "family": "Unknown Family",
       "type": "Foraging",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HONEYHOG"
     },
     "C46": {
       "name": "Shyworm",
       "family": "Cave Dweller Family",
       "type": "Global",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SHYWORM"
     },
     "C47": {
       "name": "Brineling",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BRINELING"
     },
     "C49": {
       "name": "Foxtrot",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FOXTROT"
     },
     "C52": {
       "name": "Firefox",
       "family": "Unknown Family",
       "type": "Foraging",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FIREFOX"
     },
     "C55": {
       "name": "Groundhog",
       "family": "Unknown Family",
       "type": "Foraging",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GROUNDHOG"
     },
     "C56": {
       "name": "Timil",
       "family": "Tropical Fish Family",
       "type": "Fishing",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_TIMIL"
     },
     "C58": {
       "name": "Blue Jay",
       "family": "Bird Family",
       "type": "Combat",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BLUE_JAY"
     },
     "C61": {
       "name": "Bunbun",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BUNBUN"
     },
     "C64": {
       "name": "Honeybuzz",
       "family": "Bug Family",
       "type": "Foraging",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HONEYBUZZ"
     },
     "C67": {
       "name": "Pollendart",
       "family": "Bug Family",
       "type": "Foraging",
       "rarity": "common",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_POLLENDART"
     },
     "U1": {
       "name": "Bramble",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "uncommon",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_BRAMBLE"
     },
     "U2": {
       "name": "Tide",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "uncommon",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_TIDE"
     },
     "U3": {
       "name": "Quake",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "uncommon",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_QUAKE"
     },
     "U4": {
       "name": "Sparrow",
       "family": "Bird Family",
       "type": "Foraging",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SPARROW"
     },
     "U5": {
       "name": "Goldfin",
       "family": "Unknown Family",
       "type": "Fishing",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GOLDFIN"
     },
     "U6": {
       "name": "Troglobyte",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_TROGLOBYTE"
     },
     "U7": {
       "name": "Hideoncave",
       "family": "Shulker Family",
       "type": "Mining",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HIDEONCAVE"
     },
     "U8": {
       "name": "Salamander",
       "family": "Reptile and Lizard Family",
       "type": "Hunting",
       "rarity": "uncommon",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_SALAMANDER"
     },
     "U9": {
       "name": "Cuboa",
       "family": "Reptile and Serpent Family",
       "type": "Hunting",
       "rarity": "uncommon",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_CUBOA"
     },
     "U10": {
       "name": "Field Mouse",
       "family": "Trash Lover and Elusive Family",
       "type": "Farming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PEST"
     },
     "U11": {
       "name": "Mossybit",
       "family": "Frog and Amphibian Family",
       "type": "Hunting",
       "rarity": "uncommon",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_MOSSYBIT"
     },
     "U12": {
       "name": "Rain Slime",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_RAIN_SLIME"
     },
     "U15": {
       "name": "Seer",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SEER"
     },
     "U16": {
       "name": "Heron",
       "family": "Bird Family",
       "type": "Foraging",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HERON"
     },
     "U17": {
-      "name": "Wetwing",
-      "family": "Drowned Family",
-      "type": "Combat",
-      "rarity": "uncommon",
-      "fuse_amount": 5
-    },
-    "U17-1": {
       "name": "Sea Witch",
       "family": "Unknown Family",
       "type": "Alchemy",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SEA_WITCH"
+    },
+    "U17-1": {
+      "name": "Wetwing",
+      "family": "Drowned Family",
+      "type": "Combat",
+      "rarity": "uncommon",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_WETWING"
     },
     "U18": {
       "name": "Obsidian Defender",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_OBSIDIAN_DEFENDER"
     },
     "U19": {
       "name": "Cricket",
       "family": "Bug and Trash Lover Family",
       "type": "Farming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_CRICKET"
     },
     "U20": {
       "name": "Salmon",
       "family": "Unknown Family",
       "type": "Fishing",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SALMON"
     },
     "U21": {
       "name": "Viper",
       "family": "Reptile and Serpent Family",
       "type": "Hunting",
       "rarity": "uncommon",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_VIPER"
     },
     "U22": {
       "name": "Praying Mantis",
       "family": "Bug Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PRAYING_MANTIS"
     },
     "U23": {
       "name": "Lotum",
       "family": "Frog and Amphibian Family",
       "type": "Fishing",
       "rarity": "uncommon",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_LOTUM"
     },
     "U24": {
       "name": "Zombie Soldier",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_ZOMBIE_SOLDIER"
     },
     "U25": {
       "name": "Bambuleaf",
       "family": "Panda Family",
       "type": "Foraging",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BAMBULEAF"
     },
     "U26": {
       "name": "Treasure Hoarder",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_TREASURE_HOARDER"
     },
     "U27": {
       "name": "Sycophant",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SYCOPHANT"
     },
     "U28": {
       "name": "Seagull",
       "family": "Bird and Trash Lover Family",
       "type": "Foraging",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SEAGULL"
     },
     "U29": {
       "name": "Ent",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_ENT"
     },
     "U30": {
       "name": "Soul of the Alpha",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SOUL_OF_THE_ALPHA"
     },
     "U31": {
       "name": "Mochibear",
       "family": "Panda Family",
       "type": "Foraging",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MOCHIBEAR"
     },
     "U32": {
       "name": "Magma Slug",
       "family": "Unknown Family",
       "type": "Fishing",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MAGMA_SLUG"
     },
     "U33": {
       "name": "Flaming Spider",
       "family": "Spider Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FLAMING_SPIDER"
     },
     "U34": {
       "name": "Kiwi",
       "family": "Bird Family",
       "type": "Taming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_KIWI"
     },
     "U36": {
       "name": "Zealot Bruiser",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BRUISER"
     },
     "U38": {
       "name": "Stridersurfer",
       "family": "Drowned Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_STRIDER_SURFER"
     },
     "U39": {
       "name": "Rana",
       "family": "Frog and Amphibian Family",
       "type": "Taming",
       "rarity": "uncommon",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_RANA"
     },
     "U40": {
       "name": "Earthworm",
       "family": "Trash Lover Family",
       "type": "Farming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_TERMITE"
     },
     "U41": {
       "name": "Flipflopper",
       "family": "Unknown Family",
       "type": "Fishing",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FLIP_FLOPPER"
     },
     "U42": {
       "name": "Polaris",
       "family": "Arctic Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_POLARIS"
     },
     "U43": {
       "name": "Treefrog",
       "family": "Frog and Amphibian Family",
       "type": "Foraging",
       "rarity": "uncommon",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_TREEFROG"
     },
     "U44": {
       "name": "Bayou Sludge",
       "family": "Trash Lover Family",
       "type": "Farming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BAYOU_SLUDGE"
     },
     "U45": {
       "name": "Areita",
       "family": "Spider Family",
       "type": "Taming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_AREITA"
     },
     "U46": {
       "name": "Bluebird",
       "family": "Bird Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BLUEBIRD"
     },
     "U47": {
       "name": "Osedax",
       "family": "Elusive Family",
       "type": "Fishing",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_OSEDAX"
     },
     "U48": {
       "name": "Duplico",
       "family": "Poltergeist Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DUPLICO"
     },
     "U49": {
       "name": "Litterbug",
       "family": "Bug and Trash Lover Family",
       "type": "Fishing",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LITTERBUG"
     },
     "U50": {
       "name": "Water Snake",
       "family": "Reptile, Scaled, and Serpent Family",
       "type": "Fishing",
       "rarity": "uncommon",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_WATER_SNAKE"
     },
     "U51": {
       "name": "Gazer",
       "family": "Demon Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GAZER"
     },
     "U52": {
       "name": "Honeybug",
       "family": "Bug Family",
       "type": "Farming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HONEYBUG"
     },
     "U53": {
       "name": "Shuddersquid",
       "family": "Squid Family",
       "type": "Fishing",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SHUDDERSQUID"
     },
     "U55": {
       "name": "Solsnatcher",
       "family": "Phantom Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SOLSNATCHER"
     },
     "U56": {
       "name": "Sepialot",
       "family": "Axolotl Family",
       "type": "Fishing",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SEPIALOT"
     },
     "U57": {
       "name": "Honey Badger",
       "family": "Unknown Family",
       "type": "Hunting",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HONEY_BADGER"
     },
     "U58": {
       "name": "Driftling",
       "family": "Cave Dweller Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DRIFTLING"
     },
     "U59": {
       "name": "Tewtil",
       "family": "Reptile and Turtle Family",
       "type": "Fishing",
       "rarity": "uncommon",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_TEWTIL"
     },
     "U60": {
       "name": "Minos Hunter",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MINOS_HUNTER"
     },
     "U61": {
       "name": "Hawk",
       "family": "Bird Family",
       "type": "Foraging",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HAWK"
     },
     "U61-1": {
       "name": "Woodchucker",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_WOODCHUCKER"
     },
     "U62": {
       "name": "Solar",
       "family": "Tropical Fish Family",
       "type": "Foraging",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SOLAR"
     },
     "U63": {
       "name": "Parched",
       "family": "Unknown Family",
       "type": "Farming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PARCHED"
     },
     "U64": {
       "name": "Bloodbat",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BLOODBAT"
     },
     "U64-1": {
       "name": "Dung Beetle",
       "family": "Bug and Trash Lover Family",
       "type": "Farming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DUNG_BEETLE"
     },
     "U65": {
       "name": "Dustybit",
       "family": "Frog Family",
       "type": "Hunting",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DUSTYBIT"
     },
     "U67": {
       "name": "Woodlouse",
       "family": "Crustacean, Bug, and Trash Lover Family",
       "type": "Farming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_WOODLOUSE"
     },
     "U68": {
       "name": "Ember",
       "family": "Tropical Fish Family",
       "type": "Foraging",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_EMBER"
     },
     "U69": {
       "name": "Cheeky Tiki",
       "family": "Creation Family",
       "type": "Fishing",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_CHEEKY_TIKI"
     },
     "U70": {
       "name": "Red Panda",
       "family": "Panda and Elusive Family",
       "type": "Farming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_RED_PANDA"
     },
     "U71": {
       "name": "Sprawl",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SPRAWL"
     },
     "U72": {
       "name": "Sneaky Tiki",
       "family": "Creation Family",
       "type": "Fishing",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SNEAKY_TIKI"
     },
     "U75": {
       "name": "Shrieky Tiki",
       "family": "Creation Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SHRIEKY_TIKI"
     },
     "U76": {
       "name": "Woodpecker",
       "family": "Bird Family",
       "type": "Foraging",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_WOODPECKER"
     },
     "U78": {
       "name": "Honeymite",
       "family": "Unknown Family",
       "type": "Mining",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HONEYMITE"
     },
     "U79": {
       "name": "Queen Ant",
       "family": "Bug and Elusive Family",
       "type": "Combat",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_QUEEN_ANT"
     },
     "U85": {
       "name": "June Bug",
       "family": "Bug Family",
       "type": "Global",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_JUNE_BUG"
     },
     "U91": {
       "name": "Rat",
       "family": "Trash Lover Family",
       "type": "Farming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_RAT"
     },
     "U94": {
       "name": "Keeled Slug",
       "family": "Trash Lover Family",
       "type": "Farming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_KEELED_SLUG"
     },
     "U97": {
       "name": "Mite",
       "family": "Trash Lover Family",
       "type": "Global",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MITE"
     },
     "U100": {
       "name": "Moth",
       "family": "Bug and Trash Lover Family",
       "type": "Farming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MOTH"
     },
     "U103": {
       "name": "Mosquito",
       "family": "Bug and Trash Lover Family",
       "type": "Farming",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MOSQUITO"
     },
     "U106": {
       "name": "Rabbit Cat",
       "family": "Crime Family",
       "type": "Global",
       "rarity": "uncommon",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_RABBIT_CAT"
     },
     "R1": {
       "name": "Sylvan",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_SYLVAN"
     },
     "R2": {
       "name": "Cascade",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_CASCADE"
     },
     "R3": {
       "name": "Bolt",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_BOLT"
     },
     "R4": {
       "name": "Bambloom",
       "family": "Panda Family",
       "type": "Foraging",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BAMBLOOM"
     },
     "R5": {
       "name": "Toad",
       "family": "Frog and Amphibian Family",
       "type": "Hunting",
       "rarity": "rare",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_TOAD"
     },
     "R6": {
       "name": "Glacite Walker",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GLACITE_WALKER"
     },
     "R7": {
       "name": "Beaconmite",
       "family": "Bug Family",
       "type": "Foraging",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BEACONMITE"
     },
     "R8": {
       "name": "Lizard King",
       "family": "Reptile and Lizard Family",
       "type": "Hunting",
       "rarity": "rare",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_LIZARD_KING"
     },
     "R9": {
       "name": "Python",
       "family": "Reptile and Serpent Family",
       "type": "Hunting",
       "rarity": "rare",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_PYTHON"
     },
     "R10": {
       "name": "Invisibug",
       "family": "Bug Family",
       "type": "Farming",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_INVISIBUG"
     },
     "R11": {
       "name": "Piranha",
       "family": "Treasure Fish Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PIRANHA"
     },
     "R13": {
       "name": "Hideongeon",
       "family": "Shulker Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HIDEONGEON"
     },
     "R15": {
       "name": "Lapis Skeleton",
       "family": "Lapis Family",
       "type": "Enchanting",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LAPIS_SKELETON"
     },
     "R16": {
       "name": "Beetle",
       "family": "Bug and Trash Lover Family",
       "type": "Farming",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_CROPEETLE"
     },
     "R18": {
       "name": "Drowned",
       "family": "Drowned Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DROWNED"
     },
     "R19": {
       "name": "Vulture",
       "family": "Bird Family",
       "type": "Foraging",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_VULTURE"
     },
     "R21": {
       "name": "Star Sentry",
       "family": "Unknown Family",
       "type": "Mining",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_STAR_SENTRY"
     },
     "R22": {
       "name": "Hideondra",
       "family": "Shulker Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HIDEONDRA"
     },
     "R23": {
       "name": "Abyssal Lanternfish",
       "family": "Treasure Fish Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_ABYSSAL_LANTERN"
     },
     "R24": {
       "name": "Arachne",
       "family": "Spider Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_ARACHNE"
     },
     "R25": {
       "name": "Bitbug",
       "family": "Bug Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BITBUG"
     },
     "R26": {
       "name": "Lava Leech",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LAVA_LEECH"
     },
     "R27": {
       "name": "Revenant",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_REVENANT"
     },
     "R29": {
       "name": "Silentdepth",
       "family": "Treasure Fish Family",
       "type": "Mining",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SILENTDEPTH"
     },
     "R30": {
       "name": "Skeletor",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SKELETOR"
     },
     "R31": {
       "name": "Thyst",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_THYST"
     },
     "R32": {
       "name": "Seashine",
       "family": "Squid Family",
       "type": "Fishing",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SEA_SHINE"
     },
     "R33": {
       "name": "Quartzfang",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_QUARTZFANG"
     },
     "R34": {
       "name": "Hideonring",
       "family": "Shulker Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HIDEONRING"
     },
     "R35": {
       "name": "Snowfin",
       "family": "Treasure Fish Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SNOWFIN"
     },
     "R36": {
       "name": "Kada Knight",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_KADA_KNIGHT"
     },
     "R37": {
       "name": "Hummingbird",
       "family": "Bird Family",
       "type": "Foraging",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HUMMINGBIRD"
     },
     "R38": {
       "name": "Carrot King",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_CARROT_KING"
     },
     "R39": {
       "name": "Wither Spectre",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_WITHER_SPECTER"
     },
     "R40": {
       "name": "Badger",
       "family": "Unknown Family",
       "type": "Hunting",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BADGER"
     },
     "R42": {
       "name": "Matcho",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MATCHO"
     },
     "R43": {
       "name": "Ladybug",
       "family": "Bug Family",
       "type": "Farming",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LADYBUG"
     },
     "R44": {
       "name": "Lumisquid",
       "family": "Squid Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LUMISQUID"
     },
     "R45": {
       "name": "Crocodile",
       "family": "Reptile and Croco Family",
       "type": "Hunting",
       "rarity": "rare",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_CROCODILE"
     },
     "R46": {
       "name": "Wild Hog",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_WILD_HOG"
     },
     "R47": {
       "name": "Bullfrog",
       "family": "Frog and Amphibian Family",
       "type": "Foraging",
       "rarity": "rare",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_BULLFROG"
     },
     "R49": {
       "name": "Dreadwing",
       "family": "Phantom Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DREADWING"
     },
     "R50": {
       "name": "Joydive",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_JOYDIVE"
     },
     "R51": {
       "name": "Stalagmight",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_STALAGMIGHT"
     },
     "R52": {
       "name": "Fungloom",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FUNGLOOM"
     },
     "R53": {
       "name": "Eel",
       "family": "Eel and Amphibian Family",
       "type": "Hunting",
       "rarity": "rare",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_EEL"
     },
     "R54": {
       "name": "King Cobra",
       "family": "Reptile and Serpent Family",
       "type": "Hunting",
       "rarity": "rare",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_KING_COBRA"
     },
     "R55": {
       "name": "Hewver",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HEWVER"
     },
     "R56": {
       "name": "Lava Flame",
       "family": "Unknown Family",
       "type": "Fishing",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LAVA_FLAME"
     },
     "R57": {
       "name": "Draconic",
       "family": "Dragon Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DRACONIC"
     },
     "R58": {
       "name": "Falcon",
       "family": "Bird Family",
       "type": "Taming",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FALCON"
     },
     "R59": {
       "name": "Inferno Koi",
       "family": "Treasure Fish Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_INFERNO_KOI"
     },
     "R60": {
       "name": "Wither",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_WITHER"
     },
     "R61": {
       "name": "Gecko",
       "family": "Reptile and Scaled Family",
       "type": "Hunting",
       "rarity": "rare",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_GECKO"
     },
     "R62": {
       "name": "Wiki Tiki",
       "family": "Creation and Elusive Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_WIKI_TIKI"
     },
     "R63": {
       "name": "Minotaur",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MINOTAUR"
     },
     "R64": {
       "name": "Hivethief",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HIVETHIEF"
     },
     "R65": {
       "name": "Maggot",
       "family": "Bug and Trash Lover Family",
       "type": "Fishing",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MAGGOT"
     },
     "R66": {
       "name": "Snoozle",
       "family": "Unknown Family",
       "type": "Mining",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SNOOZLE"
     },
     "R67": {
       "name": "Parakeet",
       "family": "Bird Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PARAKEET"
     },
     "R68": {
       "name": "Thunder",
       "family": "Elusive Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_THUNDER"
     },
     "R69": {
       "name": "Rockmite",
       "family": "Bug and Cave Dweller Family",
       "type": "Hunting",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_ROCKMITE"
     },
     "R70": {
       "name": "Anteater",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_ANTEATER"
     },
     "R72": {
       "name": "Scrappy",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SCRAPPY"
     },
     "R73": {
       "name": "Hideyho",
       "family": "Poltergeist Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HIDEYHO"
     },
     "R74": {
       "name": "Mantis Shrimp",
       "family": "Crustacean Family",
       "type": "Fishing",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MANTIS_SHRIMP"
     },
     "R75": {
       "name": "Chuckwalla",
       "family": "Reptile and Lizard Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_CHUCKWALLA"
     },
     "R76": {
       "name": "Hideonfloor",
       "family": "Shulker Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HIDEONFLOOR"
     },
     "R77": {
       "name": "Gimmiegold",
       "family": "Treasure Fish Family",
       "type": "Taming",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GIMMIEGOLD"
     },
     "R78": {
       "name": "Billygoat",
       "family": "Arctic Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BILLYGOAT"
     },
     "R79": {
       "name": "Hideonwall",
       "family": "Shulker Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HIDEONWALL"
     },
     "R80": {
       "name": "Nozzlenose",
       "family": "Unknown Family",
       "type": "Hunting",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_NOZZLENOSE"
     },
     "R81": {
       "name": "Stoneworm",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_STONEWORM"
     },
     "R82": {
       "name": "Fluffling",
       "family": "Panda Family",
       "type": "Foraging",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FLUFFLING"
     },
     "R83": {
       "name": "Stingray",
       "family": "Treasure Fish Family",
       "type": "Foraging",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_STINGRAY"
     },
     "R84": {
       "name": "Zombuddy",
       "family": "Unknown Family",
       "type": "Farming",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_ZOMBUDDY"
     },
     "R85": {
       "name": "Puck",
       "family": "Poltergeist Family",
       "type": "Foraging",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PUCK"
     },
     "R86": {
       "name": "Goldolot",
       "family": "Axolotl Family",
       "type": "Fishing",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GOLDOLOT"
     },
     "R86-1": {
       "name": "Troodon",
       "family": "Dinosaur Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_TROODON"
     },
     "R87": {
       "name": "Black Widow",
       "family": "Spider and Elusive Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BLACK_WIDOW"
     },
     "R88": {
       "name": "Pangolin",
       "family": "Unknown Family",
       "type": "Foraging",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PANGOLIN"
     },
     "R89": {
       "name": "Giant Water Bug",
       "family": "Bug Family",
       "type": "Combat",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GIANT_WATER_BUG"
     },
     "R91": {
       "name": "Murkbat",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MURKBAT"
     },
     "R94": {
       "name": "Rabbit Neighbor",
       "family": "Crime Family",
       "type": "Global",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_RABBIT_NEIGHBOR"
     },
     "R95": {
       "name": "Torrid",
       "family": "Poltergeist Family",
       "type": "Foraging",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_TORRID"
     },
     "R97": {
       "name": "Drybark",
       "family": "Unknown Family",
       "type": "Foraging",
       "rarity": "rare",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DRYBARK"
     },
     "E1": {
       "name": "Terra",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_TERRA"
     },
     "E2": {
       "name": "Cryo",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_CRYO"
     },
     "E3": {
       "name": "Aero",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_AERO"
     },
     "E4": {
       "name": "Pandarai",
       "family": "Panda Family",
       "type": "Foraging",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PANDARAI"
     },
     "E5": {
       "name": "Leviathan",
       "family": "Reptile and Lizard Family",
       "type": "Hunting",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_LEVIATHAN"
     },
     "E6": {
       "name": "Alligator",
       "family": "Reptile and Croco Family",
       "type": "Hunting",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_ALLIGATOR"
     },
     "E7": {
       "name": "Fenlord",
       "family": "Frog and Amphibian Family",
       "type": "Hunting",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_FENLORD"
     },
     "E8": {
       "name": "Abyssal Miner",
       "family": "Cave Dweller and Elusive Family",
       "type": "Mining",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_ABYSSAL_MINER"
     },
     "E9": {
       "name": "Basilisk",
       "family": "Reptile and Serpent Family",
       "type": "Hunting",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_BASILISK"
     },
     "E10": {
       "name": "Iguana",
       "family": "Reptile and Scaled Family",
       "type": "Hunting",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_IGUANA"
     },
     "E11": {
       "name": "Moray Eel",
       "family": "Eel and Amphibian Family",
       "type": "Hunting",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_MORAY_EEL"
     },
     "E12": {
       "name": "Special Zealot",
       "family": "Elusive Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SPECIAL_ZEALOT"
     },
     "E13": {
       "name": "Lunar Moth",
       "family": "Bug Family",
       "type": "Farming",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LUNAR_MOTH"
     },
     "E14": {
       "name": "Fire Eel",
       "family": "Eel and Amphibian Family",
       "type": "Fishing",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_FIRE_EEL"
     },
     "E15": {
       "name": "Bal",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BAL"
     },
     "E16": {
       "name": "Hideonsack",
       "family": "Shulker Family",
       "type": "Global",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HIDEONSACK"
     },
     "E17": {
       "name": "Water Hydra",
       "family": "Unknown Family",
       "type": "Fishing",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_WATER_HYDRA"
     },
     "E18": {
       "name": "Flare",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FLARE"
     },
     "E19": {
       "name": "Murderwing",
       "family": "Phantom Family",
       "type": "Global",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MURDERWING"
     },
     "E20": {
       "name": "Loch Emperor",
       "family": "Unknown Family",
       "type": "Fishing",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SEA_EMPEROR"
     },
     "E21": {
       "name": "Prince",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PRINCE"
     },
     "E22": {
       "name": "Komodo Dragon",
       "family": "Reptile and Scaled Family",
       "type": "Hunting",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_KOMODO_DRAGON"
     },
     "E23": {
       "name": "Blue Crab",
       "family": "Crustacean Family",
       "type": "Fishing",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BLUE_CRAB"
     },
     "E24": {
       "name": "Mimic",
       "family": "Elusive and Poltergeist Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MIMIC"
     },
     "E25": {
       "name": "Wolverine",
       "family": "Elusive Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_WOLVERINE"
     },
     "E26": {
       "name": "Shellwise",
       "family": "Reptile and Turtle Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_SHELLWISE"
     },
     "E27": {
       "name": "Barbarian Duke X",
       "family": "Elusive Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BARBARIAN_DUKE_X"
     },
     "E28": {
       "name": "Toucan",
       "family": "Bird Family",
       "type": "Taming",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_TOUCAN"
     },
     "E30": {
       "name": "Caiman",
       "family": "Reptile and Croco Family",
       "type": "Hunting",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_CAIMAN"
     },
     "E31": {
       "name": "Firefly",
       "family": "Bug Family",
       "type": "Farming",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FIREFLY"
     },
     "E32": {
       "name": "Sea Serpent",
       "family": "Eel, Serpent, and Amphibian Family",
       "type": "Hunting",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_SEA_SERPENT"
     },
     "E33": {
       "name": "Ghost",
       "family": "Cave Dweller Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GHOST"
     },
     "E34": {
       "name": "XYZ",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_XYZ"
     },
     "E35": {
       "name": "Leatherback",
       "family": "Reptile and Turtle Family",
       "type": "Hunting",
       "rarity": "epic",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_LEATHERBACK"
     },
     "E36": {
       "name": "Cavernshade",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_CAVERNSHADE"
     },
     "E37": {
       "name": "Dragonfly",
       "family": "Bug Family",
       "type": "Farming",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DRAGONFLY"
     },
     "E39": {
       "name": "Sphinx",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SPHINX"
     },
     "E42": {
       "name": "King Minos",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_KING_MINOS"
     },
     "E43": {
       "name": "Dive Ghast",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DIVE_GHAST"
     },
     "E44": {
       "name": "Silkbreeze",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SILKBREEZE"
     },
     "E45": {
-      "name": "Littlefoot",
-      "family": "Arctic Family",
-      "type": "Mining",
-      "rarity": "epic",
-      "fuse_amount": 5
-    },
-    "E45-1": {
       "name": "Gemzie",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GEMZIE"
+    },
+    "E45-1": {
+      "name": "Littlefoot",
+      "family": "Arctic Family",
+      "type": "Mining",
+      "rarity": "epic",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LITTLEFOOT"
     },
     "E47": {
       "name": "Giant Isopod",
       "family": "Crustacean and Elusive Family",
       "type": "Fishing",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GIANT_ISOPOD"
     },
     "E48": {
       "name": "Inferno Demonlord",
       "family": "Demon Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BURNINGSOUL"
     },
     "E49": {
       "name": "Queen Bee",
       "family": "Bug Family",
       "type": "Foraging",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_QUEEN_BEE"
     },
     "E51": {
       "name": "Bonzo",
       "family": "Demon Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BONZO"
     },
     "E52": {
       "name": "Beeheemoth",
       "family": "Bug and Elusive Family",
       "type": "Foraging",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_BEEHEEMOTH"
     },
     "E54": {
       "name": "Scarf",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SCARF"
     },
     "E57": {
       "name": "Thorn",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_THORN"
     },
     "E58": {
       "name": "Mountain Goat",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MOUNTAIN_GOAT"
     },
     "E60": {
       "name": "Scatha",
       "family": "Cave Dweller Family",
       "type": "Mining",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SCATHA"
     },
     "E63": {
       "name": "Nilbog",
       "family": "Poltergeist and Cave Dweller Family",
       "type": "Mining",
       "rarity": "epic",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_NILBOG"
     },
     "L1": {
       "name": "Tenebris",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_TENEBRIS"
     },
     "L2": {
       "name": "Blizzard",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_BLIZZARD"
     },
     "L3": {
       "name": "Tempest",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_TEMPEST"
     },
     "L4": {
       "name": "Chameleon",
       "family": "Reptile Family",
       "type": "Hunting",
       "rarity": "legendary",
-      "fuse_amount": 1
+      "fuse_amount": 1,
+      "internal_id": "SHARD_CHAMELEON"
     },
     "L5": {
       "name": "Nessie",
       "family": "Reptile Family",
       "type": "Fishing",
       "rarity": "legendary",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_NESSIE"
     },
     "L6": {
       "name": "Tiamat",
       "family": "Reptile and Croco Family",
       "type": "Hunting",
       "rarity": "legendary",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_TIAMAT"
     },
     "L7": {
       "name": "Wyvern",
       "family": "Reptile and Scaled Family",
       "type": "Hunting",
       "rarity": "legendary",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_WYVERN"
     },
     "L8": {
       "name": "Tortoise",
       "family": "Reptile and Turtle Family",
       "type": "Hunting",
       "rarity": "legendary",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_TORTOISE"
     },
     "L9": {
       "name": "End Stone Protector",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_ENDSTONE_PROTECTOR"
     },
     "L10": {
       "name": "Rabbit Godfather",
       "family": "Crime Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_RABBIT_GODFATHER"
     },
     "L11": {
       "name": "Naga",
       "family": "Eel and Amphibian Family",
       "type": "Hunting",
       "rarity": "legendary",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_NAGA"
     },
     "L12": {
       "name": "Lapis Creeper",
       "family": "Lapis Family",
       "type": "Enchanting",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LAPIS_CREEPER"
     },
     "L13": {
       "name": "Wartybug",
       "family": "Bug Family",
       "type": "Farming",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_WARTYBUG"
     },
     "L14": {
       "name": "Spike",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SPIKE"
     },
     "L15": {
       "name": "Kraken",
       "family": "Demon Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_KRAKEN"
     },
     "L17": {
       "name": "Taurus",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_TAURUS"
     },
     "L18": {
       "name": "Daemon",
       "family": "Demon Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DAEMON"
     },
     "L20": {
       "name": "Moltenfish",
       "family": "Demon Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MOLTENFISH"
     },
     "L21": {
       "name": "Doomspiral",
       "family": "Demon and Elemental Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_DOOMSPIRAL"
     },
     "L22": {
       "name": "Macaw",
       "family": "Bird Family",
       "type": "Hunting",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MACAW"
     },
     "L23": {
       "name": "Shinyfish",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SHINYFISH"
     },
     "L24": {
       "name": "Ananke",
       "family": "Demon and Bird Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_ANANKE"
     },
     "L25": {
       "name": "Hideonbox",
       "family": "Shulker Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HIDEONBOX"
     },
     "L26": {
       "name": "Lord Jawbus",
       "family": "Creation and Elusive Family",
       "type": "Fishing",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LORD_JAWBUS"
     },
     "L27": {
       "name": "Hellwisp",
       "family": "Demon Family",
       "type": "Combat",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HELLWISP"
     },
     "L28": {
       "name": "Cinderbat",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_CINDER_BAT"
     },
     "L29": {
       "name": "Megalith",
       "family": "Reptile and Turtle Family",
       "type": "Hunting",
       "rarity": "legendary",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_MEGALITH"
     },
     "L30": {
       "name": "Power Dragon",
       "family": "Dragon Family",
       "type": "Combat",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_POWER_DRAGON"
     },
     "L31": {
       "name": "Condor",
       "family": "Bird Family",
       "type": "Taming",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_CONDOR"
     },
     "L32": {
       "name": "Sun Fish",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SUN_FISH"
     },
     "L33": {
       "name": "Apex Dragon",
       "family": "Dragon Family",
       "type": "Combat",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_APEX_DRAGON"
     },
     "L34": {
       "name": "Dodo",
       "family": "Bird Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DODO"
     },
     "L35": {
       "name": "Queen Snake",
       "family": "Reptile, Scaled, and Serpent Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_QUEEN_SNAKE"
     },
     "L36": {
       "name": "Jormung",
       "family": "Demon and Dragon Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_JORMUNG"
     },
     "L38": {
       "name": "Ghost Crab",
       "family": "Crustacean Family",
       "type": "Fishing",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GHOST_CRAB"
     },
     "L39": {
       "name": "Etherdrake",
       "family": "Demon and Dragon Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_ETHERDRAKE"
     },
     "L40": {
       "name": "Grizzly Bear",
       "family": "Unknown Family",
       "type": "Foraging",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GRIZZLY_BEAR"
     },
     "L41": {
       "name": "Galaxy Fish",
       "family": "Unknown Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GALAXY_FISH"
     },
     "L42": {
       "name": "Molthorn",
       "family": "Demon and Dragon Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_MOLTHORN"
     },
     "L44": {
       "name": "Starborn",
       "family": "Elemental Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_STARBORN"
     },
     "L45": {
       "name": "Primordial",
       "family": "Spider Family",
       "type": "Combat",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PRIMORDIAL"
     },
     "L46": {
       "name": "Cocoaleech",
       "family": "Bug Family",
       "type": "Hunting",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_COCOALEECH"
     },
     "L47": {
       "name": "Titanoboa",
       "family": "Reptile, Serpent, Scaled, and Elusive Family",
       "type": "Fishing",
       "rarity": "legendary",
-      "fuse_amount": 2
+      "fuse_amount": 2,
+      "internal_id": "SHARD_TITANOBOA"
     },
     "L49": {
       "name": "Rainbug",
       "family": "Miracle and Bug Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_RAINBUG"
     },
     "L54": {
       "name": "Paragon",
       "family": "Unknown Family",
       "type": "Combat",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PARAGON"
     },
     "L57": {
       "name": "Timestalk Clone",
       "family": "Poltergeist Family",
       "type": "Farming",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_TIMESTALK_CLONE"
     },
     "L60": {
       "name": "Wumpa",
       "family": "Arctic Family",
       "type": "Global",
       "rarity": "legendary",
-      "fuse_amount": 5
+      "fuse_amount": 5,
+      "internal_id": "SHARD_WUMPA"
     }
   }
 }
