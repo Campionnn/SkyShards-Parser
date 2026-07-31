@@ -553,20 +553,20 @@
       "internal_id": "SHARD_HERON"
     },
     "U17": {
-      "name": "Sea Witch",
-      "family": "Unknown Family",
-      "type": "Alchemy",
-      "rarity": "uncommon",
-      "fuse_amount": 5,
-      "internal_id": "SHARD_SEA_WITCH"
-    },
-    "U17-1": {
       "name": "Wetwing",
       "family": "Drowned Family",
       "type": "Combat",
       "rarity": "uncommon",
       "fuse_amount": 5,
       "internal_id": "SHARD_WETWING"
+    },
+    "U17-1": {
+      "name": "Sea Witch",
+      "family": "Unknown Family",
+      "type": "Alchemy",
+      "rarity": "uncommon",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_SEA_WITCH"
     },
     "U18": {
       "name": "Obsidian Defender",
@@ -2089,20 +2089,20 @@
       "internal_id": "SHARD_SILKBREEZE"
     },
     "E45": {
-      "name": "Gemzie",
-      "family": "Cave Dweller Family",
-      "type": "Mining",
-      "rarity": "epic",
-      "fuse_amount": 5,
-      "internal_id": "SHARD_GEMZIE"
-    },
-    "E45-1": {
       "name": "Littlefoot",
       "family": "Arctic Family",
       "type": "Mining",
       "rarity": "epic",
       "fuse_amount": 5,
       "internal_id": "SHARD_LITTLEFOOT"
+    },
+    "E45-1": {
+      "name": "Gemzie",
+      "family": "Cave Dweller Family",
+      "type": "Mining",
+      "rarity": "epic",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GEMZIE"
     },
     "E47": {
       "name": "Giant Isopod",
