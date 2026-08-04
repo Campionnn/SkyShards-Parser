@@ -327,7 +327,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Flitter"
+    "id_result": "Ant"
   },
   "C32": {
     "name": "Inkling",
@@ -338,7 +338,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Tepid"
+    "id_result": "Haggard"
   },
   "C33": {
     "name": "Yog",
@@ -358,7 +358,7 @@
     ],
     "input1": "Bird",
     "input2": "Common+",
-    "id_result": "Flitter"
+    "id_result": "Ant"
   },
   "C35": {
     "name": "Newt",
@@ -370,7 +370,7 @@
     ],
     "input1": "Axolotl",
     "input2": "Water",
-    "id_result": "Tepid"
+    "id_result": "Haggard"
   },
   "C36": {
     "name": "Miner Zombie",
@@ -403,7 +403,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Cavernfish"
+    "id_result": "Haggard"
   },
   "C39": {
     "name": "Cretan Bull",
@@ -412,7 +412,7 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Strongarm"
+    "id_result": "Honeyhog"
   },
   "C40": {
     "name": "Ant",
@@ -457,7 +457,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Shyworm"
+    "id_result": "Firefox"
   },
   "C44": {
     "name": "Haggard",
@@ -486,7 +486,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Foxtrot"
+    "id_result": "Firefox"
   },
   "C47": {
     "name": "Brineling",
@@ -893,7 +893,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Treefrog"
+    "id_result": "Woodlouse"
   },
   "U32": {
     "name": "Magma Slug",
@@ -924,7 +924,7 @@
     ],
     "input1": "Bird",
     "input2": "Uncommon+",
-    "id_result": "Treefrog"
+    "id_result": "Woodlouse"
   },
   "U36": {
     "name": "Zealot Bruiser",
@@ -933,7 +933,7 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Polaris"
+    "id_result": "Minos Hunter"
   },
   "U38": {
     "name": "Stridersurfer",
@@ -956,7 +956,7 @@
     ],
     "input1": "Frog",
     "input2": "Combat",
-    "id_result": "Polaris"
+    "id_result": "Minos Hunter"
   },
   "U40": {
     "name": "Earthworm",
@@ -967,7 +967,7 @@
     ],
     "input1": "Bug",
     "input2": "Mining Shards",
-    "id_result": "Treefrog"
+    "id_result": "Woodlouse"
   },
   "U41": {
     "name": "Flipflopper",
@@ -987,7 +987,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Areita"
+    "id_result": "Minos Hunter"
   },
   "U43": {
     "name": "Treefrog",
@@ -999,7 +999,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Bluebird"
+    "id_result": "Woodlouse"
   },
   "U44": {
     "name": "Bayou Sludge",
@@ -1021,7 +1021,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Duplico"
+    "id_result": "Minos Hunter"
   },
   "U46": {
     "name": "Bluebird",
@@ -1032,7 +1032,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Litterbug"
+    "id_result": "Woodlouse"
   },
   "U47": {
     "name": "Osedax",
@@ -1054,7 +1054,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Gazer"
+    "id_result": "Minos Hunter"
   },
   "U49": {
     "name": "Litterbug",
@@ -1066,7 +1066,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Honeybug"
+    "id_result": "Woodlouse"
   },
   "U50": {
     "name": "Water Snake",
@@ -1079,7 +1079,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Shuddersquid"
+    "id_result": "Sepialot"
   },
   "U51": {
     "name": "Gazer",
@@ -1101,7 +1101,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Solsnatcher"
+    "id_result": "Woodlouse"
   },
   "U53": {
     "name": "Shuddersquid",
@@ -1123,7 +1123,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Driftling"
+    "id_result": "Woodlouse"
   },
   "U56": {
     "name": "Sepialot",
@@ -1154,7 +1154,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Woodchucker"
+    "id_result": "Woodlouse"
   },
   "U59": {
     "name": "Tewtil",
@@ -1184,7 +1184,7 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Bloodbat"
+    "id_result": "Woodlouse"
   },
   "U62": {
     "name": "Solar",
@@ -2030,7 +2030,7 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Snoozle"
+    "id_result": "Stoneworm"
   },
   "R64": {
     "name": "Hivethief",
@@ -2039,7 +2039,7 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Parakeet"
+    "id_result": "Puck"
   },
   "R65": {
     "name": "Maggot",
@@ -2060,7 +2060,7 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Rockmite"
+    "id_result": "Stoneworm"
   },
   "R67": {
     "name": "Parakeet",
@@ -2071,7 +2071,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Hideyho"
+    "id_result": "Puck"
   },
   "R68": {
     "name": "Thunder",
@@ -2082,7 +2082,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Mantis Shrimp"
+    "id_result": "Stingray"
   },
   "R69": {
     "name": "Rockmite",
@@ -2094,7 +2094,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Scrappy"
+    "id_result": "Stoneworm"
   },
   "R70": {
     "name": "Anteater",
@@ -2103,7 +2103,7 @@
     "family": [],
     "input1": "Queen Ant Shard",
     "input2": "King Cobra Shard",
-    "id_result": "Hideyho"
+    "id_result": "Puck"
   },
   "R72": {
     "name": "Scrappy",
@@ -2114,7 +2114,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Chuckwalla"
+    "id_result": "Stoneworm"
   },
   "R73": {
     "name": "Hideyho",
@@ -2125,7 +2125,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Hideonfloor"
+    "id_result": "Puck"
   },
   "R74": {
     "name": "Mantis Shrimp",
@@ -2136,7 +2136,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Gimmiegold"
+    "id_result": "Stingray"
   },
   "R75": {
     "name": "Chuckwalla",
@@ -2148,7 +2148,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Billygoat"
+    "id_result": "Stoneworm"
   },
   "R76": {
     "name": "Hideonfloor",
@@ -2159,7 +2159,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Hideonwall"
+    "id_result": "Puck"
   },
   "R77": {
     "name": "Gimmiegold",
@@ -2170,7 +2170,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Nozzlenose"
+    "id_result": "Stingray"
   },
   "R78": {
     "name": "Billygoat",
@@ -2192,7 +2192,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Fluffling"
+    "id_result": "Puck"
   },
   "R80": {
     "name": "Nozzlenose",
@@ -2234,7 +2234,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Troodon"
+    "id_result": "Giant Water Bug"
   },
   "R84": {
     "name": "Zombuddy",
@@ -2767,7 +2767,7 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Gemzie"
+    "id_result": "Inferno Demonlord"
   },
   "E43": {
     "name": "Dive Ghast",
@@ -2936,7 +2936,7 @@
     ],
     "input1": "Forest&Legendary",
     "input2": "Elemental&Epic+",
-    "id_result": "Macaw"
+    "id_result": "Cinderbat"
   },
   "L2": {
     "name": "Blizzard",
@@ -3004,7 +3004,7 @@
     ],
     "input1": "Komodo Dragon Shard",
     "input2": "Forest&Epic+",
-    "id_result": "Macaw"
+    "id_result": "Cinderbat"
   },
   "L8": {
     "name": "Tortoise",
@@ -3036,7 +3036,7 @@
     ],
     "input1": "Rabbit Godmother Shard",
     "input2": "Combat&Legendary+",
-    "id_result": "Macaw"
+    "id_result": "Cinderbat"
   },
   "L11": {
     "name": "Naga",
@@ -3070,7 +3070,7 @@
     ],
     "input1": "Dragonfly Shard",
     "input2": "Lunar Moth Shard",
-    "id_result": "Macaw"
+    "id_result": "Cinderbat"
   },
   "L14": {
     "name": "Spike",
@@ -3090,7 +3090,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Doomspiral"
+    "id_result": "Hellwisp"
   },
   "L17": {
     "name": "Taurus",
@@ -3110,7 +3110,7 @@
     ],
     "input1": "Kraken Shard",
     "input2": "Kraken Shard",
-    "id_result": "Doomspiral"
+    "id_result": "Hellwisp"
   },
   "L20": {
     "name": "Moltenfish",
@@ -3231,7 +3231,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Paragon"
+    "id_result": ""
   },
   "L31": {
     "name": "Condor",
@@ -3262,7 +3262,7 @@
     ],
     "input1": "Power Dragon Shard",
     "input2": "",
-    "id_result": "Paragon"
+    "id_result": ""
   },
   "L34": {
     "name": "Dodo",
@@ -3298,7 +3298,7 @@
     ],
     "input1": "Power Dragon Shard",
     "input2": "Kraken Shard",
-    "id_result": "Paragon"
+    "id_result": ""
   },
   "L38": {
     "name": "Ghost Crab",
@@ -3321,7 +3321,7 @@
     ],
     "input1": "Apex Dragon Shard",
     "input2": "Kraken Shard",
-    "id_result": "Paragon"
+    "id_result": ""
   },
   "L40": {
     "name": "Grizzly Bear",
@@ -3330,7 +3330,7 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Rainbug"
+    "id_result": ""
   },
   "L41": {
     "name": "Galaxy Fish",
@@ -3351,7 +3351,7 @@
     ],
     "input1": "Etherdrake Shard",
     "input2": "Jormung Shard",
-    "id_result": "Paragon"
+    "id_result": ""
   },
   "L44": {
     "name": "Starborn",
@@ -3373,7 +3373,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Paragon"
+    "id_result": ""
   },
   "L46": {
     "name": "Cocoaleech",
@@ -3384,7 +3384,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Rainbug"
+    "id_result": ""
   },
   "L47": {
     "name": "Titanoboa",
@@ -3419,7 +3419,7 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Timestalk Clone"
+    "id_result": ""
   },
   "L57": {
     "name": "Timestalk Clone",
@@ -3430,7 +3430,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Wumpa"
+    "id_result": ""
   },
   "L60": {
     "name": "Wumpa",

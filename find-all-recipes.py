@@ -20,6 +20,8 @@ shard_groups = {
     "Mining Shards": ["C10", "C36", "U6", "U7", "R21", "R29", "R31", "R33", "R52", "E15", "E36", "L12"]
     # "Fiery Shards": ["C30", "U33", "R56", "E14", "E15", "E18", "L28"] # Might be useful later
 }
+# Shards that can never come out of a Chameleon fusion
+chameleon_exclusions = [name_map[name] for name in ("Chameleon", "Molthorn", "Galaxy Fish", "Bitbug")]
 
 
 def get_next_id(current_id, count=1):
@@ -35,18 +37,20 @@ def get_next_rarity(current_rarity):
 
 
 def chameleon_helper(input_, results):
-    if input_ in all_ids and input_ != "L4":
+    if input_ in chameleon_exclusions:
+        return None
+    if input_ in all_ids:
         return input_
     next_rarity = get_next_rarity(input_[0])
     if not next_rarity:
         return None
     last_id = all_ids[-1]
     new_id = ''
-    while new_id not in all_ids or new_id in results:
+    while new_id not in all_ids or new_id in results or new_id in chameleon_exclusions:
         new_id = get_next_id(f"{next_rarity}{new_id[1:] if new_id else 0}")
         if next_rarity == last_id[0] and new_id[1:] >= last_id[1:]:
             return None
-        if new_id in all_ids and new_id not in results and new_id != "L4":
+        if new_id in all_ids and new_id not in results and new_id not in chameleon_exclusions:
             return new_id
     return None
 
