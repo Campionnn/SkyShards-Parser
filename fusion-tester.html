@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fusion Tester</title>
+<style>
+  :root {
+    --bg: #14161a;
+    --panel: #1c1f26;
+    --panel-2: #232732;
+    --line: #303643;
+    --text: #e6e9ef;
+    --muted: #8b93a3;
+    --accent: #5ea9ff;
+    --Common: #b7bec9;
+    --Uncommon: #4ade80;
+    --Rare: #60a5fa;
+    --Epic: #c084fc;
+    --Legendary: #fbbf24;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 20px;
+    background: var(--bg); color: var(--text);
+    font: 14px/1.45 "Segoe UI", system-ui, sans-serif;
+  }
+  h1 { font-size: 18px; margin: 0 0 4px; font-weight: 600; }
+  .sub { color: var(--muted); font-size: 12px; margin-bottom: 18px; }
+  .sub code { color: var(--accent); }
+
+  .pickers { display: grid; grid-template-columns: 1fr 60px 1fr; gap: 12px; align-items: start; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
+  .panel h2 { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+
+  input[type=search] {
+    width: 100%; padding: 8px 10px; border-radius: 6px;
+    border: 1px solid var(--line); background: var(--bg); color: var(--text); font: inherit;
+  }
+  input[type=search]:focus { outline: none; border-color: var(--accent); }
+
+  .list { margin-top: 8px; max-height: 300px; overflow-y: auto; border-radius: 6px; }
+  .row {
+    display: flex; align-items: baseline; gap: 8px;
+    padding: 5px 8px; border-radius: 5px; cursor: pointer;
+  }
+  .row:hover { background: var(--panel-2); }
+  .row.sel { background: #2b3a55; }
+  .row .id { color: var(--muted); font-family: Consolas, monospace; font-size: 12px; min-width: 46px; }
+  .row .cat { margin-left: auto; color: var(--muted); font-size: 11px; }
+
+  .swap { display: flex; justify-content: center; padding-top: 60px; }
+  .swap button {
+    width: 40px; height: 40px; border-radius: 50%; cursor: pointer;
+    background: var(--panel-2); border: 1px solid var(--line); color: var(--text); font-size: 16px;
+  }
+  .swap button:hover { border-color: var(--accent); color: var(--accent); }
+
+  .chosen { margin-bottom: 10px; padding: 10px; border-radius: 8px; background: var(--panel-2); border: 1px solid var(--line); }
+  .chosen.empty { color: var(--muted); font-style: italic; }
+  .chosen .nm { font-size: 16px; font-weight: 600; }
+  .chosen .meta { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .chosen .rules { color: var(--muted); font-size: 11px; margin-top: 6px; font-family: Consolas, monospace; }
+
+  .results { margin-top: 16px; }
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: 14px; position: relative; min-height: 92px;
+  }
+  .card .slot { color: var(--muted); font-size: 11px; }
+  .card .nm { font-size: 17px; font-weight: 600; margin-top: 4px; }
+  .card .meta { color: var(--muted); font-size: 12px; font-family: Consolas, monospace; margin-top: 2px; }
+  .card .tag {
+    position: absolute; top: 12px; right: 12px; font-size: 10px; letter-spacing: .05em;
+    text-transform: uppercase; color: var(--muted); border: 1px solid var(--line);
+    border-radius: 999px; padding: 2px 7px;
+  }
+  .card .qty { display: inline-block; margin-top: 8px; font-size: 12px; color: var(--accent); }
+  .card.empty { display: flex; align-items: center; justify-content: center; color: #4c5361; font-style: italic; border-style: dashed; }
+
+  .cut { margin-top: 16px; }
+  .cut h3 {
+    font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--muted); margin: 0 0 8px; font-weight: 600;
+  }
+  .cut h3 span { color: #f0a05a; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip {
+    display: flex; align-items: baseline; gap: 7px;
+    background: var(--panel); border: 1px dashed var(--line); border-radius: 8px;
+    padding: 6px 10px; opacity: .62;
+  }
+  .chip .slot { color: #4c5361; font-size: 11px; font-family: Consolas, monospace; }
+  .chip .nm { text-decoration: line-through; }
+  .chip .meta { color: var(--muted); font-size: 11px; font-family: Consolas, monospace; }
+
+  .debug { margin-top: 14px; font-size: 12px; color: var(--muted); font-family: Consolas, monospace; }
+  .debug b { color: var(--text); font-weight: 600; }
+  .err { color: #f87171; margin-top: 12px; font-family: Consolas, monospace; white-space: pre-wrap; }
+</style>
+</head>
+<body>
+
+<h1>Fusion Tester</h1>
+<div class="sub">Calls <code>test_fusion()</code> from find-all-recipes.py live — the script is re-read on every fusion, so edits show up on the next click.</div>
+
+<div class="pickers">
+  <div class="panel">
+    <h2>Input 1</h2>
+    <div class="chosen empty" id="chosen1">nothing selected</div>
+    <input type="search" id="search1" placeholder="filter by id or name…" autocomplete="off">
+    <div class="list" id="list1"></div>
+  </div>
+
+  <div class="swap"><button id="swap" title="Swap inputs">⇄</button></div>
+
+  <div class="panel">
+    <h2>Input 2</h2>
+    <div class="chosen empty" id="chosen2">nothing selected</div>
+    <input type="search" id="search2" placeholder="filter by id or name…" autocomplete="off">
+    <div class="list" id="list2"></div>
+  </div>
+</div>
+
+<div class="results">
+  <div class="cards" id="cards"></div>
+  <div class="cut" id="cut"></div>
+  <div class="debug" id="debug"></div>
+  <div class="err" id="err"></div>
+</div>
+
+<script>
+let shards = [];
+const byId = {};
+const selected = { 1: null, 2: null };
+
+const el = (id) => document.getElementById(id);
+const rarityColor = (r) => `var(--${r || "Common"})`;
+
+async function boot() {
+  try {
+    shards = await (await fetch("/api/shards")).json();
+    if (shards.error) throw new Error(shards.error);
+    shards.forEach(s => byId[s.id] = s);
+    renderList(1); renderList(2);
+  } catch (e) {
+    el("err").textContent = "Failed to load shards: " + e.message;
+  }
+}
+
+function matches(shard, query) {
+  if (!query) return true;
+  const q = query.toLowerCase();
+  return shard.id.toLowerCase().includes(q)
+      || shard.name.toLowerCase().includes(q)
+      || shard.rarity.toLowerCase().startsWith(q)
+      || shard.category.toLowerCase() === q;
+}
+
+function renderList(slot) {
+  const query = el("search" + slot).value.trim();
+  const list = el("list" + slot);
+  list.innerHTML = "";
+  const hits = shards.filter(s => matches(s, query));
+  for (const s of hits) {
+    const row = document.createElement("div");
+    row.className = "row" + (selected[slot] === s.id ? " sel" : "");
+    row.innerHTML = `<span class="id">${s.id}</span>`
+      + `<span style="color:${rarityColor(s.rarity)}">${s.name}</span>`
+      + `<span class="cat">${s.category}</span>`;
+    row.onclick = () => select(slot, s.id);
+    list.appendChild(row);
+  }
+  if (!hits.length) list.innerHTML = `<div class="row" style="color:var(--muted)">no matches</div>`;
+}
+
+function select(slot, id) {
+  selected[slot] = id;
+  renderList(slot);
+  renderChosen(slot);
+  fuse();
+}
+
+function renderChosen(slot) {
+  const box = el("chosen" + slot);
+  const s = byId[selected[slot]];
+  if (!s) { box.className = "chosen empty"; box.textContent = "nothing selected"; return; }
+  box.className = "chosen";
+  const fam = s.family && s.family.length ? " · " + s.family.join(", ") : "";
+  const rules = [
+    s.input1 || s.input2 ? `recipe: ${s.input1 || "Any"} + ${s.input2 || "Any"}` : null,
+    s.id_result ? `id_result: ${s.id_result}` : null,
+  ].filter(Boolean).join("  |  ");
+  box.innerHTML = `<div class="nm" style="color:${rarityColor(s.rarity)}">${s.name}</div>`
+    + `<div class="meta">${s.id} · ${s.rarity} · ${s.category}${fam}</div>`
+    + (rules ? `<div class="rules">${rules}</div>` : "");
+}
+
+async function fuse() {
+  el("err").textContent = "";
+  const a = selected[1], b = selected[2];
+  if (!a || !b) { renderCards(null); renderCut(null); el("debug").textContent = ""; return; }
+  try {
+    const res = await (await fetch(`/api/fuse?input1=${a}&input2=${b}`)).json();
+    if (res.error) throw new Error(res.error);
+    renderCards(res.results);
+    renderCut(res.cut);
+    el("debug").innerHTML =
+      `<b>special fusions</b> (count 2): ${fmtIds(res.special)}`
+      + ` &nbsp;&nbsp; <b>id fusions</b> (count 1): ${fmtIds(res.id_fusion)}`
+      + (res.chameleon ? ` &nbsp;&nbsp; <b>chameleon path</b> (builds 3 results, never truncates)` : "");
+  } catch (e) {
+    el("err").textContent = "Error from find-all-recipes.py: " + e.message;
+    renderCards(null); renderCut(null);
+  }
+}
+
+function renderCut(cut) {
+  const box = el("cut");
+  if (!cut || !cut.length) { box.innerHTML = ""; return; }
+  const chips = cut.map((r, i) =>
+    `<div class="chip">`
+    + `<span class="slot">#${i + 4}</span>`
+    + `<span class="nm" style="color:${rarityColor(r.rarity)}">${r.name}</span>`
+    + `<span class="meta">${r.id} · x${r.count} · ${r.source}</span>`
+    + `</div>`
+  ).join("");
+  box.innerHTML = `<h3>cut off by results_length <span>(${cut.length} dropped)</span></h3>`
+    + `<div class="chips">${chips}</div>`;
+}
+
+function fmtIds(ids) {
+  if (!ids || !ids.length) return "—";
+  return ids.map(id => `${id} (${(byId[id] || {}).name || "?"})`).join(", ");
+}
+
+function renderCards(results) {
+  const cards = el("cards");
+  cards.innerHTML = "";
+  for (let i = 0; i < 3; i++) {
+    const card = document.createElement("div");
+    const r = results && results[i];
+    if (!r) {
+      card.className = "card empty";
+      card.textContent = results ? "no result" : "pick two shards";
+    } else {
+      card.className = "card";
+      card.innerHTML = `<div class="slot">result ${i + 1}</div>`
+        + `<div class="nm" style="color:${rarityColor(r.rarity)}">${r.name}</div>`
+        + `<div class="meta">${r.id} · ${r.rarity} · ${r.category}</div>`
+        + `<div class="qty">quantity: ${r.count}</div>`
+        + `<div class="tag">${r.source}</div>`;
+    }
+    cards.appendChild(card);
+  }
+}
+
+el("search1").oninput = () => renderList(1);
+el("search2").oninput = () => renderList(2);
+el("swap").onclick = () => {
+  [selected[1], selected[2]] = [selected[2], selected[1]];
+  renderList(1); renderList(2); renderChosen(1); renderChosen(2); fuse();
+};
+
+renderCards(null);
+boot();
+</script>
+</body>
+</html>
