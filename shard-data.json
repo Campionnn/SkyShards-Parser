@@ -536,6 +536,14 @@
       "fuse_amount": 5,
       "internal_id": "SHARD_RAIN_SLIME"
     },
+    "U14": {
+      "name": "Wetwing",
+      "family": "Drowned Family",
+      "type": "Combat",
+      "rarity": "uncommon",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_WETWING"
+    },
     "U15": {
       "name": "Seer",
       "family": "Unknown Family",
@@ -553,14 +561,6 @@
       "internal_id": "SHARD_HERON"
     },
     "U17": {
-      "name": "Wetwing",
-      "family": "Drowned Family",
-      "type": "Combat",
-      "rarity": "uncommon",
-      "fuse_amount": 5,
-      "internal_id": "SHARD_WETWING"
-    },
-    "U17-1": {
       "name": "Sea Witch",
       "family": "Unknown Family",
       "type": "Alchemy",
@@ -889,14 +889,6 @@
       "internal_id": "SHARD_MINOS_HUNTER"
     },
     "U61": {
-      "name": "Hawk",
-      "family": "Bird Family",
-      "type": "Foraging",
-      "rarity": "uncommon",
-      "fuse_amount": 5,
-      "internal_id": "SHARD_HAWK"
-    },
-    "U61-1": {
       "name": "Woodchucker",
       "family": "Unknown Family",
       "type": "Global",
@@ -927,14 +919,6 @@
       "rarity": "uncommon",
       "fuse_amount": 5,
       "internal_id": "SHARD_BLOODBAT"
-    },
-    "U64-1": {
-      "name": "Dung Beetle",
-      "family": "Bug and Trash Lover Family",
-      "type": "Farming",
-      "rarity": "uncommon",
-      "fuse_amount": 5,
-      "internal_id": "SHARD_DUNG_BEETLE"
     },
     "U65": {
       "name": "Dustybit",
@@ -1024,6 +1008,14 @@
       "fuse_amount": 5,
       "internal_id": "SHARD_QUEEN_ANT"
     },
+    "U82": {
+      "name": "Hawk",
+      "family": "Bird Family",
+      "type": "Foraging",
+      "rarity": "uncommon",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_HAWK"
+    },
     "U85": {
       "name": "June Bug",
       "family": "Bug Family",
@@ -1031,6 +1023,14 @@
       "rarity": "uncommon",
       "fuse_amount": 5,
       "internal_id": "SHARD_JUNE_BUG"
+    },
+    "U88": {
+      "name": "Dung Beetle",
+      "family": "Bug and Trash Lover Family",
+      "type": "Farming",
+      "rarity": "uncommon",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_DUNG_BEETLE"
     },
     "U91": {
       "name": "Rat",
@@ -1697,14 +1697,6 @@
       "internal_id": "SHARD_PUCK"
     },
     "R86": {
-      "name": "Goldolot",
-      "family": "Axolotl Family",
-      "type": "Fishing",
-      "rarity": "rare",
-      "fuse_amount": 5,
-      "internal_id": "SHARD_GOLDOLOT"
-    },
-    "R86-1": {
       "name": "Troodon",
       "family": "Dinosaur Family",
       "type": "Global",
@@ -1743,6 +1735,14 @@
       "rarity": "rare",
       "fuse_amount": 5,
       "internal_id": "SHARD_MURKBAT"
+    },
+    "R92": {
+      "name": "Goldolot",
+      "family": "Axolotl Family",
+      "type": "Fishing",
+      "rarity": "rare",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_GOLDOLOT"
     },
     "R94": {
       "name": "Rabbit Neighbor",
@@ -2089,14 +2089,6 @@
       "internal_id": "SHARD_SILKBREEZE"
     },
     "E45": {
-      "name": "Littlefoot",
-      "family": "Arctic Family",
-      "type": "Mining",
-      "rarity": "epic",
-      "fuse_amount": 5,
-      "internal_id": "SHARD_LITTLEFOOT"
-    },
-    "E45-1": {
       "name": "Gemzie",
       "family": "Cave Dweller Family",
       "type": "Mining",
@@ -2191,6 +2183,14 @@
       "rarity": "epic",
       "fuse_amount": 5,
       "internal_id": "SHARD_NILBOG"
+    },
+    "E66": {
+      "name": "Littlefoot",
+      "family": "Arctic Family",
+      "type": "Mining",
+      "rarity": "epic",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_LITTLEFOOT"
     },
     "L1": {
       "name": "Tenebris",

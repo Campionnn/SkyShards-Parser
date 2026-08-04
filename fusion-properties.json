@@ -709,6 +709,17 @@
     "input2": "",
     "id_result": "Seer"
   },
+  "U14": {
+    "name": "Wetwing",
+    "rarity": "Uncommon",
+    "category": "Water",
+    "family": [
+      "Drowned"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": "Sea Witch"
+  },
   "U15": {
     "name": "Seer",
     "rarity": "Uncommon",
@@ -730,17 +741,6 @@
     "id_result": "Cricket"
   },
   "U17": {
-    "name": "Wetwing",
-    "rarity": "Uncommon",
-    "category": "Water",
-    "family": [
-      "Drowned"
-    ],
-    "input1": "",
-    "input2": "",
-    "id_result": "Salmon"
-  },
-  "U17-1": {
     "name": "Sea Witch",
     "rarity": "Uncommon",
     "category": "Water",
@@ -1178,17 +1178,6 @@
     "id_result": "Parched"
   },
   "U61": {
-    "name": "Hawk",
-    "rarity": "Uncommon",
-    "category": "Forest",
-    "family": [
-      "Bird"
-    ],
-    "input1": "",
-    "input2": "",
-    "id_result": "Bloodbat"
-  },
-  "U61-1": {
     "name": "Woodchucker",
     "rarity": "Uncommon",
     "category": "Forest",
@@ -1222,18 +1211,6 @@
     "rarity": "Uncommon",
     "category": "Forest",
     "family": [],
-    "input1": "",
-    "input2": "",
-    "id_result": "Woodlouse"
-  },
-  "U64-1": {
-    "name": "Dung Beetle",
-    "rarity": "Uncommon",
-    "category": "Forest",
-    "family": [
-      "Bug",
-      "Trash Lover"
-    ],
     "input1": "",
     "input2": "",
     "id_result": "Woodlouse"
@@ -1359,12 +1336,35 @@
     "input2": "Elusive",
     "id_result": "Rat"
   },
+  "U82": {
+    "name": "Hawk",
+    "rarity": "Uncommon",
+    "category": "Forest",
+    "family": [
+      "Bird"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": "Rat"
+  },
   "U85": {
     "name": "June Bug",
     "rarity": "Uncommon",
     "category": "Forest",
     "family": [
       "Bug"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": "Rat"
+  },
+  "U88": {
+    "name": "Dung Beetle",
+    "rarity": "Uncommon",
+    "category": "Forest",
+    "family": [
+      "Bug",
+      "Trash Lover"
     ],
     "input1": "",
     "input2": "",
@@ -2257,17 +2257,6 @@
     "id_result": "Pangolin"
   },
   "R86": {
-    "name": "Goldolot",
-    "rarity": "Rare",
-    "category": "Water",
-    "family": [
-      "Axolotl"
-    ],
-    "input1": "",
-    "input2": "",
-    "id_result": "Giant Water Bug"
-  },
-  "R86-1": {
     "name": "Troodon",
     "rarity": "Rare",
     "category": "Water",
@@ -2308,7 +2297,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Torrid"
+    "id_result": "Goldolot"
   },
   "R91": {
     "name": "Murkbat",
@@ -2318,6 +2307,17 @@
     "input1": "",
     "input2": "",
     "id_result": "Drybark"
+  },
+  "R92": {
+    "name": "Goldolot",
+    "rarity": "Rare",
+    "category": "Water",
+    "family": [
+      "Axolotl"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": "Torrid"
   },
   "R94": {
     "name": "Rabbit Neighbor",
@@ -2509,7 +2509,7 @@
       "Amphibian"
     ],
     "input1": "Moray Eel Shard",
-    "input2": "Eel Shard|Firefox Shard|Firefly Shard",
+    "input2": "Firefox Shard|Firefly Shard|Eel Shard",
     "id_result": "Water Hydra"
   },
   "E15": {
@@ -2767,7 +2767,7 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Littlefoot"
+    "id_result": "Gemzie"
   },
   "E43": {
     "name": "Dive Ghast",
@@ -2788,17 +2788,6 @@
     "id_result": "Giant Isopod"
   },
   "E45": {
-    "name": "Littlefoot",
-    "rarity": "Epic",
-    "category": "Combat",
-    "family": [
-      "Arctic"
-    ],
-    "input1": "",
-    "input2": "",
-    "id_result": "Inferno Demonlord"
-  },
-  "E45-1": {
     "name": "Gemzie",
     "rarity": "Epic",
     "category": "Combat",
@@ -2913,7 +2902,7 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "id_result": "Littlefoot"
   },
   "E63": {
     "name": "Nilbog",
@@ -2925,6 +2914,17 @@
     ],
     "input1": "Gimmiegold Shard",
     "input2": "Legendary+",
+    "id_result": "Littlefoot"
+  },
+  "E66": {
+    "name": "Littlefoot",
+    "rarity": "Epic",
+    "category": "Combat",
+    "family": [
+      "Arctic"
+    ],
+    "input1": "",
+    "input2": "",
     "id_result": ""
   },
   "L1": {
