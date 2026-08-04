@@ -161,6 +161,11 @@ for id_, attributes in data.items():
     sp_fusion_map[id_] = [sp_input1, sp_input2]
 
 
+def fusion_sort_key(id_):
+    base, _, suffix = id_[1:].partition("-")
+    return len(rarity_letters) - rarity_letters.index(id_[0]), int(base), int(suffix) if suffix else 0
+
+
 def find_special_fusion_results(input1, input2):
     matching_fusions = []
     for id__, inputs in sp_fusion_map.items():
@@ -169,10 +174,7 @@ def find_special_fusion_results(input1, input2):
         if ((check_membership(input1, inputs[0]) and check_membership(input2, inputs[1])) or
             (check_membership(input1, inputs[1]) and check_membership(input2, inputs[0]))):
             matching_fusions.append(id__)
-    def _fusion_sort_key(x):
-        base, _, suffix = x[1:].partition("-")
-        return len(rarity_letters) - rarity_letters.index(x[0]), int(base), int(suffix) if suffix else 0
-    matching_fusions.sort(key=_fusion_sort_key)
+    matching_fusions.sort(key=fusion_sort_key)
     return matching_fusions[:results_length]
 
 
@@ -183,11 +185,11 @@ def test_fusion(input1_, input2_):
     elif input2_ == "L4":
         results = find_chameleon_results(input1_)
         return [{"id": res, "count": 1} for res in results]
-    id_results = find_id_fusion_results(input1_, input2_)
     sp_results = find_special_fusion_results(input1_, input2_)
-    results = []
-    for res in id_results:
-        results.append({"id": res, "count": 1})
+    id_results = find_id_fusion_results(input1_, input2_)
+    id_slots = max(0, results_length - len(sp_results))
+    kept_ids = id_results[max(0, len(id_results) - id_slots):] if id_slots else []
+    results = [{"id": res, "count": 1} for res in kept_ids]
     for res in sp_results:
         results.append({"id": res, "count": 2})
     return results[:results_length]
