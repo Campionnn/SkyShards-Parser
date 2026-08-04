@@ -2104,6 +2104,14 @@
       "fuse_amount": 5,
       "internal_id": "SHARD_GEMZIE"
     },
+    "E46": {
+      "name": "Rabbit Godmother",
+      "family": "Crime Family",
+      "type": "Global",
+      "rarity": "epic",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_RABBIT_GODMOTHER"
+    },
     "E47": {
       "name": "Giant Isopod",
       "family": "Crustacean and Elusive Family",

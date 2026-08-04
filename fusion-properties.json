@@ -2809,6 +2809,17 @@
     "input2": "",
     "id_result": "Inferno Demonlord"
   },
+  "E46": {
+    "name": "Rabbit Godmother",
+    "rarity": "Epic",
+    "category": "Forest",
+    "family": [
+      "Crime"
+    ],
+    "input1": "",
+    "input2": "",
+    "id_result": "Mountain Goat"
+  },
   "E47": {
     "name": "Giant Isopod",
     "rarity": "Epic",
@@ -3023,7 +3034,7 @@
     "family": [
       "Crime"
     ],
-    "input1": "Shard",
+    "input1": "Rabbit Godmother Shard",
     "input2": "Combat&Legendary+",
     "id_result": "Macaw"
   },
