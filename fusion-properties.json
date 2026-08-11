@@ -1130,7 +1130,8 @@
     "rarity": "Uncommon",
     "category": "Water",
     "family": [
-      "Axolotl"
+      "Axolotl",
+      "Amphibian"
     ],
     "input1": "",
     "input2": "",
@@ -2313,7 +2314,8 @@
     "rarity": "Rare",
     "category": "Water",
     "family": [
-      "Axolotl"
+      "Axolotl",
+      "Amphibian"
     ],
     "input1": "",
     "input2": "",
