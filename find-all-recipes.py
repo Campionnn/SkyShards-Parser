@@ -6,7 +6,6 @@ with open("dist/fusion-properties.json", "r", encoding="utf-8") as f:
 
 
 results_length = 3
-special_overflow_keeps_lowest = True
 all_ids = list(data.keys())
 name_map = {v["name"]: k for k, v in data.items()}
 rarities = ["Common", "Uncommon", "Rare", "Epic", "Legendary"]
@@ -22,7 +21,7 @@ shard_groups = {
     # "Fiery Shards": ["C30", "U33", "R56", "E14", "E15", "E18", "L28"] # Might be useful later
 }
 # Shards that can never come out of a Chameleon fusion
-chameleon_exclusions = [name_map[name] for name in ("Chameleon", "Molthorn", "Galaxy Fish", "Bitbug")]
+chameleon_exclusions = [name_map[name] for name in ("Chameleon", "Molthorn", "Galaxy Fish", "Bitbug", "Rainbug", "Starborn", "Primordial")]
 
 
 def get_next_id(current_id, count=1):
@@ -180,8 +179,6 @@ def find_special_fusion_results(input1, input2):
             (check_membership(input1, inputs[1]) and check_membership(input2, inputs[0]))):
             matching_fusions.append(id__)
     matching_fusions.sort(key=fusion_sort_key)
-    if special_overflow_keeps_lowest:
-        return matching_fusions[-results_length:]
     return matching_fusions[:results_length]
 
 
