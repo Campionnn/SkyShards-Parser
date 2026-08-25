@@ -77,21 +77,25 @@ def split_rows(wikitext):
     return shard_rows
 
 
+ITEM_LINK = re.compile(r"\{\{(?:ID|Item)\|\s*([^}|]+?)\s*\}\}")
+
+
 def plain(cell):
-    cell = re.sub(r"\{\{ID\|\s*([^}|]+?)\s*\}\}", r"\1", cell)
+    cell = ITEM_LINK.sub(r"\1", cell)
     cell = re.sub(r"\{\{[Cc]olor\|[^|]+\|([^}]*)\}\}", r"\1", cell)
     cell = re.sub(r"\{\{[Rr]arity\|([^}]*)\}\}", r"\1", cell)
+    cell = re.sub(r"\{\{\w+\|([^}]*)\}\}", r"\1", cell)
     cell = cell.replace("'''+'''", "+")
     return cell.strip()
 
 
 def shard_name(cell):
-    match = re.search(r"\{\{ID\|\s*([^}|]+?)\s*\}\}", cell)
+    match = ITEM_LINK.search(cell)
     return match.group(1)[: -len(" Shard")].strip() if match else None
 
 
 def shard_names(cell):
-    return [name[: -len(" Shard")].strip() for name in re.findall(r"\{\{ID\|\s*([^}|]+?)\s*\}\}", cell)]
+    return [name[: -len(" Shard")].strip() for name in ITEM_LINK.findall(cell)]
 
 
 def parse_recipe(cell):

@@ -32,7 +32,7 @@ rarity_names = {
 rarity_letters = [rarity[0] for rarity in rarity_names.values()]
 
 CHAMELEON_NAME = "Chameleon"
-REDUCED_INPUT_FAMILIES = frozenset({"Elemental", "Amphibian", "Frog", "Eel", "Croco", "Reptile", "Lizard", "Scaled", "Serpent", "Turtle"})
+REDUCED_INPUT_FAMILIES = frozenset({"Elemental", "Amphibian", "Eel", "Croco", "Reptile", "Lizard", "Scaled", "Serpent", "Turtle"})
 CHAMELEON_INPUT_AMOUNT = 1
 REDUCED_INPUT_AMOUNT = 2
 DEFAULT_INPUT_AMOUNT = 5
