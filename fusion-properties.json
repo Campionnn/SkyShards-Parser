@@ -6,9 +6,20 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Forest&Common",
+    "input1": "Common&Forest",
     "input2": "Uncommon+",
-    "id_result": "Phanpyre"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GROVE",
+    "_wiki_id_result": "Phanpyre",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Mist",
+      "Flash",
+      "Phanpyre"
+    ],
+    "_wiki_chameleon_origin": []
   },
   "C2": {
     "name": "Mist",
@@ -17,9 +28,22 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Water&Common",
+    "input1": "Common&Water",
     "input2": "Uncommon+",
-    "id_result": "Cod"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MIST",
+    "_wiki_id_result": "Cod",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Flash",
+      "Phanpyre",
+      "Cod"
+    ],
+    "_wiki_chameleon_origin": [
+      "Grove"
+    ]
   },
   "C3": {
     "name": "Flash",
@@ -28,9 +52,23 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Combat&Common",
+    "input1": "Common&Combat",
     "input2": "Uncommon+",
-    "id_result": "Howling Spirit"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "FLASH",
+    "_wiki_id_result": "Howling Spirit",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Phanpyre",
+      "Cod",
+      "Howling Spirit"
+    ],
+    "_wiki_chameleon_origin": [
+      "Mist",
+      "Grove"
+    ]
   },
   "C4": {
     "name": "Phanpyre",
@@ -41,7 +79,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Phanflare"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "PHANPYRE",
+    "_wiki_id_result": "Phanflare",
+    "_wiki_id_origin": [
+      "Grove"
+    ],
+    "_wiki_chameleon_result": [
+      "Cod",
+      "Howling Spirit",
+      "Phanflare"
+    ],
+    "_wiki_chameleon_origin": [
+      "Flash",
+      "Mist",
+      "Grove"
+    ]
   },
   "C5": {
     "name": "Cod",
@@ -52,7 +107,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Dumpster Diver"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "COD",
+    "_wiki_id_result": "Dumpster Diver",
+    "_wiki_id_origin": [
+      "Mist"
+    ],
+    "_wiki_chameleon_result": [
+      "Howling Spirit",
+      "Phanflare",
+      "Dumpster Diver"
+    ],
+    "_wiki_chameleon_origin": [
+      "Phanpyre",
+      "Flash",
+      "Mist"
+    ]
   },
   "C6": {
     "name": "Howling Spirit",
@@ -63,7 +135,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Lapis Zombie"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HOWLING_SPIRIT",
+    "_wiki_id_result": "Lapis Zombie",
+    "_wiki_id_origin": [
+      "Flash"
+    ],
+    "_wiki_chameleon_result": [
+      "Phanflare",
+      "Dumpster Diver",
+      "Lapis Zombie"
+    ],
+    "_wiki_chameleon_origin": [
+      "Cod",
+      "Phanpyre",
+      "Flash"
+    ]
   },
   "C7": {
     "name": "Phanflare",
@@ -74,7 +163,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Hideonleaf"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "PHANFLARE",
+    "_wiki_id_result": "Hideonleaf",
+    "_wiki_id_origin": [
+      "Phanpyre"
+    ],
+    "_wiki_chameleon_result": [
+      "Dumpster Diver",
+      "Lapis Zombie",
+      "Hideonleaf"
+    ],
+    "_wiki_chameleon_origin": [
+      "Howling Spirit",
+      "Cod",
+      "Phanpyre"
+    ]
   },
   "C8": {
     "name": "Dumpster Diver",
@@ -85,7 +191,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Verdant"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "DUMPSTER_DIVER",
+    "_wiki_id_result": "Verdant",
+    "_wiki_id_origin": [
+      "Cod"
+    ],
+    "_wiki_chameleon_result": [
+      "Lapis Zombie",
+      "Hideonleaf",
+      "Verdant"
+    ],
+    "_wiki_chameleon_origin": [
+      "Phanflare",
+      "Howling Spirit",
+      "Cod"
+    ]
   },
   "C9": {
     "name": "Lapis Zombie",
@@ -96,7 +219,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Chill"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LAPIS_ZOMBIE",
+    "_wiki_id_result": "Chill",
+    "_wiki_id_origin": [
+      "Howling Spirit"
+    ],
+    "_wiki_chameleon_result": [
+      "Hideonleaf",
+      "Verdant",
+      "Chill"
+    ],
+    "_wiki_chameleon_origin": [
+      "Dumpster Diver",
+      "Phanflare",
+      "Howling Spirit"
+    ]
   },
   "C10": {
     "name": "Hideonleaf",
@@ -107,7 +247,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Fly"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HIDEONLEAF",
+    "_wiki_id_result": "Fly",
+    "_wiki_id_origin": [
+      "Phanflare"
+    ],
+    "_wiki_chameleon_result": [
+      "Verdant",
+      "Chill",
+      "Fly"
+    ],
+    "_wiki_chameleon_origin": [
+      "Lapis Zombie",
+      "Dumpster Diver",
+      "Phanflare"
+    ]
   },
   "C11": {
     "name": "Verdant",
@@ -118,7 +275,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Bogged"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "VERDANT",
+    "_wiki_id_result": "Bogged",
+    "_wiki_id_origin": [
+      "Dumpster Diver"
+    ],
+    "_wiki_chameleon_result": [
+      "Chill",
+      "Fly",
+      "Bogged"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hideonleaf",
+      "Lapis Zombie",
+      "Dumpster Diver"
+    ]
   },
   "C12": {
     "name": "Chill",
@@ -127,7 +301,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Voracious Spider"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CHILL",
+    "_wiki_id_result": "Voracious Spider",
+    "_wiki_id_origin": [
+      "Lapis Zombie"
+    ],
+    "_wiki_chameleon_result": [
+      "Fly",
+      "Bogged",
+      "Voracious Spider"
+    ],
+    "_wiki_chameleon_origin": [
+      "Verdant",
+      "Hideonleaf",
+      "Lapis Zombie"
+    ]
   },
   "C13": {
     "name": "Fly",
@@ -139,7 +330,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Mudworm"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "FLY",
+    "_wiki_id_result": "Mudworm",
+    "_wiki_id_origin": [
+      "Hideonleaf"
+    ],
+    "_wiki_chameleon_result": [
+      "Bogged",
+      "Voracious Spider",
+      "Hideongift"
+    ],
+    "_wiki_chameleon_origin": [
+      "Chill",
+      "Verdant",
+      "Hideonleaf"
+    ]
   },
   "C14": {
     "name": "Bogged",
@@ -148,7 +356,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Birries"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SEA_ARCHER",
+    "_wiki_id_result": "Birries",
+    "_wiki_id_origin": [
+      "Verdant"
+    ],
+    "_wiki_chameleon_result": [
+      "Voracious Spider",
+      "Hideongift",
+      "Birries"
+    ],
+    "_wiki_chameleon_origin": [
+      "Fly",
+      "Chill",
+      "Verdant"
+    ]
   },
   "C15": {
     "name": "Voracious Spider",
@@ -159,7 +384,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Tank Zombie"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "VORACIOUS_SPIDER",
+    "_wiki_id_result": "Tank Zombie",
+    "_wiki_id_origin": [
+      "Chill"
+    ],
+    "_wiki_chameleon_result": [
+      "Hideongift",
+      "Birries",
+      "Tank Zombie"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bogged",
+      "Fly",
+      "Chill"
+    ]
   },
   "C16": {
     "name": "Hideongift",
@@ -170,7 +412,22 @@
     ],
     "input1": "Shulker",
     "input2": "Common+",
-    "id_result": "Mudworm"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HIDEONGIFT",
+    "_wiki_id_result": "Mudworm",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Birries",
+      "Tank Zombie",
+      "Crow"
+    ],
+    "_wiki_chameleon_origin": [
+      "Voracious Spider",
+      "Bogged",
+      "Fly"
+    ]
   },
   "C17": {
     "name": "Birries",
@@ -179,7 +436,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Tadgang"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BIRRIES",
+    "_wiki_id_result": "Tadgang",
+    "_wiki_id_origin": [
+      "Bogged"
+    ],
+    "_wiki_chameleon_result": [
+      "Tank Zombie",
+      "Crow",
+      "Tadgang"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hideongift",
+      "Voracious Spider",
+      "Bogged"
+    ]
   },
   "C18": {
     "name": "Tank Zombie",
@@ -188,7 +462,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Zealot"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TANK_ZOMBIE",
+    "_wiki_id_result": "Zealot",
+    "_wiki_id_origin": [
+      "Voracious Spider"
+    ],
+    "_wiki_chameleon_result": [
+      "Crow",
+      "Tadgang",
+      "Zealot"
+    ],
+    "_wiki_chameleon_origin": [
+      "Birries",
+      "Hideongift",
+      "Voracious Spider"
+    ]
   },
   "C19": {
     "name": "Crow",
@@ -200,7 +491,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Mudworm"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CROW",
+    "_wiki_id_result": "Mudworm",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Tadgang",
+      "Zealot",
+      "Rabbit Mafioso"
+    ],
+    "_wiki_chameleon_origin": [
+      "Tank Zombie",
+      "Birries",
+      "Hideongift"
+    ]
   },
   "C20": {
     "name": "Tadgang",
@@ -212,7 +518,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Coralot"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TADGANG",
+    "_wiki_id_result": "Coralot",
+    "_wiki_id_origin": [
+      "Birries"
+    ],
+    "_wiki_chameleon_result": [
+      "Zealot",
+      "Rabbit Mafioso",
+      "Coralot"
+    ],
+    "_wiki_chameleon_origin": [
+      "Crow",
+      "Tank Zombie",
+      "Birries"
+    ]
   },
   "C21": {
     "name": "Zealot",
@@ -221,7 +544,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Golden Ghoul"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ZEALOT",
+    "_wiki_id_result": "Golden Ghoul",
+    "_wiki_id_origin": [
+      "Tank Zombie"
+    ],
+    "_wiki_chameleon_result": [
+      "Rabbit Mafioso",
+      "Coralot",
+      "Harpy"
+    ],
+    "_wiki_chameleon_origin": [
+      "Tadgang",
+      "Crow",
+      "Tank Zombie"
+    ]
   },
   "C22": {
     "name": "Rabbit Mafioso",
@@ -232,7 +572,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Mudworm"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "RABBIT_MAFIOSO",
+    "_wiki_id_result": "Mudworm",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Coralot",
+      "Harpy",
+      "Mudworm"
+    ],
+    "_wiki_chameleon_origin": [
+      "Zealot",
+      "Tadgang",
+      "Crow"
+    ]
   },
   "C23": {
     "name": "Coralot",
@@ -244,7 +599,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Lotusfish"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CORALOT",
+    "_wiki_id_result": "Lotusfish",
+    "_wiki_id_origin": [
+      "Tadgang"
+    ],
+    "_wiki_chameleon_result": [
+      "Harpy",
+      "Mudworm",
+      "Lotusfish"
+    ],
+    "_wiki_chameleon_origin": [
+      "Rabbit Mafioso",
+      "Zealot",
+      "Tadgang"
+    ]
   },
   "C24": {
     "name": "Harpy",
@@ -255,7 +627,22 @@
     ],
     "input1": "Bird",
     "input2": "Combat",
-    "id_result": "Golden Ghoul"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HARPY",
+    "_wiki_id_result": "Golden Ghoul",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Mudworm",
+      "Lotusfish",
+      "Golden Ghoul"
+    ],
+    "_wiki_chameleon_origin": [
+      "Coralot",
+      "Rabbit Mafioso",
+      "Zealot"
+    ]
   },
   "C25": {
     "name": "Mudworm",
@@ -264,7 +651,27 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Locust"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MUDWORM",
+    "_wiki_id_result": "Locust",
+    "_wiki_id_origin": [
+      "Hideongift",
+      "Crow",
+      "Rabbit Mafioso",
+      "Fly"
+    ],
+    "_wiki_chameleon_result": [
+      "Lotusfish",
+      "Golden Ghoul",
+      "Locust"
+    ],
+    "_wiki_chameleon_origin": [
+      "Harpy",
+      "Coralot",
+      "Rabbit Mafioso"
+    ]
   },
   "C26": {
     "name": "Lotusfish",
@@ -275,7 +682,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Azure"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LOTUS_FISH",
+    "_wiki_id_result": "Azure",
+    "_wiki_id_origin": [
+      "Coralot"
+    ],
+    "_wiki_chameleon_result": [
+      "Golden Ghoul",
+      "Locust",
+      "Azure"
+    ],
+    "_wiki_chameleon_origin": [
+      "Mudworm",
+      "Harpy",
+      "Coralot"
+    ]
   },
   "C27": {
     "name": "Golden Ghoul",
@@ -284,7 +708,25 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Bezal"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GOLDEN_GHOUL",
+    "_wiki_id_result": "Bezal",
+    "_wiki_id_origin": [
+      "Zealot",
+      "Harpy"
+    ],
+    "_wiki_chameleon_result": [
+      "Locust",
+      "Azure",
+      "Bezal"
+    ],
+    "_wiki_chameleon_origin": [
+      "Lotusfish",
+      "Mudworm",
+      "Harpy"
+    ]
   },
   "C28": {
     "name": "Locust",
@@ -296,7 +738,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Stag Beetle"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LOCUST",
+    "_wiki_id_result": "Stag Beetle",
+    "_wiki_id_origin": [
+      "Mudworm"
+    ],
+    "_wiki_chameleon_result": [
+      "Azure",
+      "Bezal",
+      "Stag Beetle"
+    ],
+    "_wiki_chameleon_origin": [
+      "Golden Ghoul",
+      "Lotusfish",
+      "Mudworm"
+    ]
   },
   "C29": {
     "name": "Azure",
@@ -307,7 +766,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Inkling"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "AZURE",
+    "_wiki_id_result": "Inkling",
+    "_wiki_id_origin": [
+      "Lotusfish"
+    ],
+    "_wiki_chameleon_result": [
+      "Bezal",
+      "Stag Beetle",
+      "Inkling"
+    ],
+    "_wiki_chameleon_origin": [
+      "Locust",
+      "Golden Ghoul",
+      "Lotusfish"
+    ]
   },
   "C30": {
     "name": "Bezal",
@@ -316,7 +792,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Yog"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BEZAL",
+    "_wiki_id_result": "Yog",
+    "_wiki_id_origin": [
+      "Golden Ghoul"
+    ],
+    "_wiki_chameleon_result": [
+      "Stag Beetle",
+      "Inkling",
+      "Yog"
+    ],
+    "_wiki_chameleon_origin": [
+      "Azure",
+      "Locust",
+      "Golden Ghoul"
+    ]
   },
   "C31": {
     "name": "Stag Beetle",
@@ -327,7 +820,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Ant"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "STAG_BEETLE",
+    "_wiki_id_result": "Ant",
+    "_wiki_id_origin": [
+      "Locust"
+    ],
+    "_wiki_chameleon_result": [
+      "Inkling",
+      "Yog",
+      "Boreal Owl"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bezal",
+      "Azure",
+      "Locust"
+    ]
   },
   "C32": {
     "name": "Inkling",
@@ -338,7 +848,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Haggard"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "NIGHT_SQUID",
+    "_wiki_id_result": "Haggard",
+    "_wiki_id_origin": [
+      "Azure"
+    ],
+    "_wiki_chameleon_result": [
+      "Yog",
+      "Boreal Owl",
+      "Newt"
+    ],
+    "_wiki_chameleon_origin": [
+      "Stag Beetle",
+      "Bezal",
+      "Azure"
+    ]
   },
   "C33": {
     "name": "Yog",
@@ -347,7 +874,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Miner Zombie"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "YOG",
+    "_wiki_id_result": "Miner Zombie",
+    "_wiki_id_origin": [
+      "Bezal"
+    ],
+    "_wiki_chameleon_result": [
+      "Boreal Owl",
+      "Newt",
+      "Miner Zombie"
+    ],
+    "_wiki_chameleon_origin": [
+      "Inkling",
+      "Stag Beetle",
+      "Bezal"
+    ]
   },
   "C34": {
     "name": "Boreal Owl",
@@ -358,7 +902,22 @@
     ],
     "input1": "Bird",
     "input2": "Common+",
-    "id_result": "Ant"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BOREAL_OWL",
+    "_wiki_id_result": "Ant",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Newt",
+      "Miner Zombie",
+      "Flitter"
+    ],
+    "_wiki_chameleon_origin": [
+      "Yog",
+      "Inkling",
+      "Stag Beetle"
+    ]
   },
   "C35": {
     "name": "Newt",
@@ -370,7 +929,22 @@
     ],
     "input1": "Axolotl",
     "input2": "Water",
-    "id_result": "Haggard"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "NEWT",
+    "_wiki_id_result": "Haggard",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Miner Zombie",
+      "Flitter",
+      "Tepid"
+    ],
+    "_wiki_chameleon_origin": [
+      "Boreal Owl",
+      "Yog",
+      "Inkling"
+    ]
   },
   "C36": {
     "name": "Miner Zombie",
@@ -381,7 +955,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Cretan Bull"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MINER_ZOMBIE",
+    "_wiki_id_result": "Cretan Bull",
+    "_wiki_id_origin": [
+      "Yog"
+    ],
+    "_wiki_chameleon_result": [
+      "Flitter",
+      "Tepid",
+      "Cretan Bull"
+    ],
+    "_wiki_chameleon_origin": [
+      "Newt",
+      "Boreal Owl",
+      "Yog"
+    ]
   },
   "C37": {
     "name": "Flitter",
@@ -392,7 +983,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Ant"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "FLITTER",
+    "_wiki_id_result": "Ant",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Tepid",
+      "Cretan Bull",
+      "Ant"
+    ],
+    "_wiki_chameleon_origin": [
+      "Miner Zombie",
+      "Newt",
+      "Boreal Owl"
+    ]
   },
   "C38": {
     "name": "Tepid",
@@ -403,7 +1009,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Haggard"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TEPID",
+    "_wiki_id_result": "Haggard",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Cretan Bull",
+      "Ant",
+      "Cavernfish"
+    ],
+    "_wiki_chameleon_origin": [
+      "Flitter",
+      "Miner Zombie",
+      "Newt"
+    ]
   },
   "C39": {
     "name": "Cretan Bull",
@@ -412,7 +1033,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Honeyhog"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CRETAN_BULL",
+    "_wiki_id_result": "Honeyhog",
+    "_wiki_id_origin": [
+      "Miner Zombie"
+    ],
+    "_wiki_chameleon_result": [
+      "Ant",
+      "Cavernfish",
+      "Strongarm"
+    ],
+    "_wiki_chameleon_origin": [
+      "Tepid",
+      "Flitter",
+      "Miner Zombie"
+    ]
   },
   "C40": {
     "name": "Ant",
@@ -423,7 +1061,26 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Hideonsun"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ANT",
+    "_wiki_id_result": "Hideonsun",
+    "_wiki_id_origin": [
+      "Flitter",
+      "Boreal Owl",
+      "Stag Beetle"
+    ],
+    "_wiki_chameleon_result": [
+      "Cavernfish",
+      "Strongarm",
+      "Hideonsun"
+    ],
+    "_wiki_chameleon_origin": [
+      "Cretan Bull",
+      "Tepid",
+      "Flitter"
+    ]
   },
   "C41": {
     "name": "Cavernfish",
@@ -435,7 +1092,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Haggard"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CAVERNFISH",
+    "_wiki_id_result": "Haggard",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Strongarm",
+      "Hideonsun",
+      "Haggard"
+    ],
+    "_wiki_chameleon_origin": [
+      "Ant",
+      "Cretan Bull",
+      "Tepid"
+    ]
   },
   "C42": {
     "name": "Strongarm",
@@ -446,7 +1118,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Honeyhog"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "STRONGARM",
+    "_wiki_id_result": "Honeyhog",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Hideonsun",
+      "Haggard",
+      "Honeyhog"
+    ],
+    "_wiki_chameleon_origin": [
+      "Cavernfish",
+      "Ant",
+      "Cretan Bull"
+    ]
   },
   "C43": {
     "name": "Hideonsun",
@@ -457,7 +1144,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Firefox"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HIDEONSUN",
+    "_wiki_id_result": "Firefox",
+    "_wiki_id_origin": [
+      "Ant"
+    ],
+    "_wiki_chameleon_result": [
+      "Haggard",
+      "Honeyhog",
+      "Shyworm"
+    ],
+    "_wiki_chameleon_origin": [
+      "Strongarm",
+      "Cavernfish",
+      "Ant"
+    ]
   },
   "C44": {
     "name": "Haggard",
@@ -466,7 +1170,27 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Brineling"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HAGGARD",
+    "_wiki_id_result": "Brineling",
+    "_wiki_id_origin": [
+      "Inkling",
+      "Newt",
+      "Cavernfish",
+      "Tepid"
+    ],
+    "_wiki_chameleon_result": [
+      "Honeyhog",
+      "Shyworm",
+      "Brineling"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hideonsun",
+      "Strongarm",
+      "Cavernfish"
+    ]
   },
   "C45": {
     "name": "Honeyhog",
@@ -475,7 +1199,25 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HONEYHOG",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Strongarm",
+      "Cretan Bull"
+    ],
+    "_wiki_chameleon_result": [
+      "Shyworm",
+      "Brineling",
+      "Bramble"
+    ],
+    "_wiki_chameleon_origin": [
+      "Haggard",
+      "Hideonsun",
+      "Strongarm"
+    ]
   },
   "C46": {
     "name": "Shyworm",
@@ -486,7 +1228,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Firefox"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SHYWORM",
+    "_wiki_id_result": "Firefox",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Brineling",
+      "Bramble",
+      "Foxtrot"
+    ],
+    "_wiki_chameleon_origin": [
+      "Honeyhog",
+      "Haggard",
+      "Hideonsun"
+    ]
   },
   "C47": {
     "name": "Brineling",
@@ -495,7 +1252,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Timil"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BRINELING",
+    "_wiki_id_result": "Timil",
+    "_wiki_id_origin": [
+      "Haggard"
+    ],
+    "_wiki_chameleon_result": [
+      "Bramble",
+      "Foxtrot",
+      "Tide"
+    ],
+    "_wiki_chameleon_origin": [
+      "Shyworm",
+      "Honeyhog",
+      "Haggard"
+    ]
   },
   "C49": {
     "name": "Foxtrot",
@@ -504,7 +1278,21 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Firefox"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "FOXTROT",
+    "_wiki_id_result": "Firefox",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Bramble",
+      "Tide",
+      "Firefox"
+    ],
+    "_wiki_chameleon_origin": [
+      "Brineling",
+      "Shyworm"
+    ]
   },
   "C52": {
     "name": "Firefox",
@@ -513,7 +1301,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Groundhog"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "FIREFOX",
+    "_wiki_id_result": "Groundhog",
+    "_wiki_id_origin": [
+      "Hideonsun",
+      "Shyworm",
+      "Foxtrot"
+    ],
+    "_wiki_chameleon_result": [
+      "Bramble",
+      "Tide",
+      "Groundhog"
+    ],
+    "_wiki_chameleon_origin": [
+      "Foxtrot"
+    ]
   },
   "C55": {
     "name": "Groundhog",
@@ -522,7 +1327,22 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Blue Jay"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GROUNDHOG",
+    "_wiki_id_result": "Blue Jay",
+    "_wiki_id_origin": [
+      "Firefox"
+    ],
+    "_wiki_chameleon_result": [
+      "Timil",
+      "Bramble",
+      "Blue Jay"
+    ],
+    "_wiki_chameleon_origin": [
+      "Firefox"
+    ]
   },
   "C56": {
     "name": "Timil",
@@ -533,7 +1353,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TIMIL",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Brineling"
+    ],
+    "_wiki_chameleon_result": [
+      "Bramble",
+      "Blue Jay",
+      "Tide"
+    ],
+    "_wiki_chameleon_origin": [
+      "Groundhog"
+    ]
   },
   "C58": {
     "name": "Blue Jay",
@@ -544,7 +1379,23 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Bunbun"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BLUE_JAY",
+    "_wiki_id_result": "Bunbun",
+    "_wiki_id_origin": [
+      "Groundhog"
+    ],
+    "_wiki_chameleon_result": [
+      "Bramble",
+      "Tide",
+      "Bunbun"
+    ],
+    "_wiki_chameleon_origin": [
+      "Timil",
+      "Groundhog"
+    ]
   },
   "C61": {
     "name": "Bunbun",
@@ -553,7 +1404,22 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Honeybuzz"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BUNBUN",
+    "_wiki_id_result": "Honeybuzz",
+    "_wiki_id_origin": [
+      "Blue Jay"
+    ],
+    "_wiki_chameleon_result": [
+      "Bramble",
+      "Tide",
+      "Honeybuzz"
+    ],
+    "_wiki_chameleon_origin": [
+      "Blue Jay"
+    ]
   },
   "C64": {
     "name": "Honeybuzz",
@@ -564,7 +1430,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Pollendart"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HONEYBUZZ",
+    "_wiki_id_result": "Pollendart",
+    "_wiki_id_origin": [
+      "Bunbun"
+    ],
+    "_wiki_chameleon_result": [
+      "Bramble",
+      "Tide",
+      "Pollendart"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bunbun"
+    ]
   },
   "C67": {
     "name": "Pollendart",
@@ -575,7 +1456,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "POLLENDART",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Honeybuzz"
+    ],
+    "_wiki_chameleon_result": [
+      "Bramble",
+      "Tide",
+      "Quake"
+    ],
+    "_wiki_chameleon_origin": [
+      "Honeybuzz"
+    ]
   },
   "U1": {
     "name": "Bramble",
@@ -584,9 +1480,32 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Forest&Uncommon",
+    "input1": "Uncommon&Forest",
     "input2": "Rare+",
-    "id_result": "Field Mouse"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BRAMBLE",
+    "_wiki_id_result": "Field Mouse",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Tide",
+      "Quake",
+      "Sparrow"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bunbun",
+      "Firefox",
+      "Brineling",
+      "Foxtrot",
+      "Timil",
+      "Blue Jay",
+      "Honeybuzz",
+      "Pollendart",
+      "Groundhog",
+      "Shyworm",
+      "Honeyhog"
+    ]
   },
   "U2": {
     "name": "Tide",
@@ -595,9 +1514,30 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Water&Uncommon",
+    "input1": "Uncommon&Water",
     "input2": "Rare+",
-    "id_result": "Mossybit"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TIDE",
+    "_wiki_id_result": "Mossybit",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Quake",
+      "Sparrow",
+      "Goldfin"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bramble",
+      "Bunbun",
+      "Firefox",
+      "Foxtrot",
+      "Blue Jay",
+      "Honeybuzz",
+      "Pollendart",
+      "Brineling",
+      "Timil"
+    ]
   },
   "U3": {
     "name": "Quake",
@@ -606,9 +1546,24 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Combat&Uncommon",
+    "input1": "Uncommon&Combat",
     "input2": "Rare+",
-    "id_result": "Rain Slime"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "QUAKE",
+    "_wiki_id_result": "Rain Slime",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sparrow",
+      "Goldfin",
+      "Troglobyte"
+    ],
+    "_wiki_chameleon_origin": [
+      "Tide",
+      "Bramble",
+      "Pollendart"
+    ]
   },
   "U4": {
     "name": "Sparrow",
@@ -619,7 +1574,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Field Mouse"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SPARROW",
+    "_wiki_id_result": "Field Mouse",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Goldfin",
+      "Troglobyte",
+      "Hideoncave"
+    ],
+    "_wiki_chameleon_origin": [
+      "Quake",
+      "Tide",
+      "Bramble"
+    ]
   },
   "U5": {
     "name": "Goldfin",
@@ -628,7 +1598,22 @@
     "family": [],
     "input1": "Golden Ghoul Shard",
     "input2": "Water",
-    "id_result": "Mossybit"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GOLDFIN",
+    "_wiki_id_result": "Mossybit",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Troglobyte",
+      "Hideoncave",
+      "Salamander"
+    ],
+    "_wiki_chameleon_origin": [
+      "Sparrow",
+      "Quake",
+      "Tide"
+    ]
   },
   "U6": {
     "name": "Troglobyte",
@@ -639,7 +1624,22 @@
     ],
     "input1": "Cave Dweller",
     "input2": "Combat",
-    "id_result": "Rain Slime"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TROGLOBYTE",
+    "_wiki_id_result": "Rain Slime",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Hideoncave",
+      "Salamander",
+      "Cuboa"
+    ],
+    "_wiki_chameleon_origin": [
+      "Goldfin",
+      "Sparrow",
+      "Quake"
+    ]
   },
   "U7": {
     "name": "Hideoncave",
@@ -650,7 +1650,22 @@
     ],
     "input1": "Shulker",
     "input2": "Cave Dweller",
-    "id_result": "Field Mouse"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HIDEONCAVE",
+    "_wiki_id_result": "Field Mouse",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Salamander",
+      "Cuboa",
+      "Field Mouse"
+    ],
+    "_wiki_chameleon_origin": [
+      "Troglobyte",
+      "Goldfin",
+      "Sparrow"
+    ]
   },
   "U8": {
     "name": "Salamander",
@@ -662,7 +1677,22 @@
     ],
     "input1": "Newt Shard",
     "input2": "Water",
-    "id_result": "Mossybit"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SALAMANDER",
+    "_wiki_id_result": "Mossybit",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Cuboa",
+      "Field Mouse",
+      "Mossybit"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hideoncave",
+      "Troglobyte",
+      "Goldfin"
+    ]
   },
   "U9": {
     "name": "Cuboa",
@@ -674,7 +1704,22 @@
     ],
     "input1": "Shulker",
     "input2": "Reptile",
-    "id_result": "Rain Slime"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CUBOA",
+    "_wiki_id_result": "Rain Slime",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Field Mouse",
+      "Mossybit",
+      "Rain Slime"
+    ],
+    "_wiki_chameleon_origin": [
+      "Salamander",
+      "Hideoncave",
+      "Troglobyte"
+    ]
   },
   "U10": {
     "name": "Field Mouse",
@@ -686,7 +1731,26 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Cricket"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "PEST",
+    "_wiki_id_result": "Cricket",
+    "_wiki_id_origin": [
+      "Hideoncave",
+      "Bramble",
+      "Sparrow"
+    ],
+    "_wiki_chameleon_result": [
+      "Mossybit",
+      "Rain Slime",
+      "Sylvan"
+    ],
+    "_wiki_chameleon_origin": [
+      "Cuboa",
+      "Salamander",
+      "Hideoncave"
+    ]
   },
   "U11": {
     "name": "Mossybit",
@@ -698,7 +1762,26 @@
     ],
     "input1": "Tadgang Shard",
     "input2": "Forest",
-    "id_result": "Wetwing"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": "GENERIC_PLUS",
+    "_wiki_internal_id": "MOSSYBIT",
+    "_wiki_id_result": "Wetwing",
+    "_wiki_id_origin": [
+      "Salamander",
+      "Tide",
+      "Goldfin"
+    ],
+    "_wiki_chameleon_result": [
+      "Rain Slime",
+      "Sylvan",
+      "Wetwing"
+    ],
+    "_wiki_chameleon_origin": [
+      "Field Mouse",
+      "Cuboa",
+      "Salamander"
+    ]
   },
   "U12": {
     "name": "Rain Slime",
@@ -707,7 +1790,26 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Seer"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "RAIN_SLIME",
+    "_wiki_id_result": "Seer",
+    "_wiki_id_origin": [
+      "Cuboa",
+      "Troglobyte",
+      "Quake"
+    ],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Wetwing",
+      "Seer"
+    ],
+    "_wiki_chameleon_origin": [
+      "Mossybit",
+      "Field Mouse",
+      "Cuboa"
+    ]
   },
   "U14": {
     "name": "Wetwing",
@@ -718,7 +1820,23 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Sea Witch"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "WETWING",
+    "_wiki_id_result": "Sea Witch",
+    "_wiki_id_origin": [
+      "Mossybit"
+    ],
+    "_wiki_chameleon_result": [
+      "Seer",
+      "Heron",
+      "Sea Witch"
+    ],
+    "_wiki_chameleon_origin": [
+      "Rain Slime",
+      "Mossybit"
+    ]
   },
   "U15": {
     "name": "Seer",
@@ -727,7 +1845,23 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Obsidian Defender"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SEER",
+    "_wiki_id_result": "Obsidian Defender",
+    "_wiki_id_origin": [
+      "Rain Slime"
+    ],
+    "_wiki_chameleon_result": [
+      "Heron",
+      "Sea Witch",
+      "Obsidian Defender"
+    ],
+    "_wiki_chameleon_origin": [
+      "Wetwing",
+      "Rain Slime"
+    ]
   },
   "U16": {
     "name": "Heron",
@@ -738,7 +1872,21 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Cricket"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HERON",
+    "_wiki_id_result": "Cricket",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sea Witch",
+      "Obsidian Defender",
+      "Cricket"
+    ],
+    "_wiki_chameleon_origin": [
+      "Seer",
+      "Wetwing"
+    ]
   },
   "U17": {
     "name": "Sea Witch",
@@ -747,7 +1895,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Salmon"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SEA_WITCH",
+    "_wiki_id_result": "Salmon",
+    "_wiki_id_origin": [
+      "Wetwing"
+    ],
+    "_wiki_chameleon_result": [
+      "Obsidian Defender",
+      "Cricket",
+      "Salmon"
+    ],
+    "_wiki_chameleon_origin": [
+      "Heron",
+      "Seer",
+      "Wetwing"
+    ]
   },
   "U18": {
     "name": "Obsidian Defender",
@@ -756,7 +1921,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Zombie Soldier"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "OBSIDIAN_DEFENDER",
+    "_wiki_id_result": "Zombie Soldier",
+    "_wiki_id_origin": [
+      "Seer"
+    ],
+    "_wiki_chameleon_result": [
+      "Cricket",
+      "Salmon",
+      "Viper"
+    ],
+    "_wiki_chameleon_origin": [
+      "Sea Witch",
+      "Heron",
+      "Seer"
+    ]
   },
   "U19": {
     "name": "Cricket",
@@ -768,7 +1950,25 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Praying Mantis"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CRICKET",
+    "_wiki_id_result": "Praying Mantis",
+    "_wiki_id_origin": [
+      "Heron",
+      "Field Mouse"
+    ],
+    "_wiki_chameleon_result": [
+      "Salmon",
+      "Viper",
+      "Praying Mantis"
+    ],
+    "_wiki_chameleon_origin": [
+      "Obsidian Defender",
+      "Sea Witch",
+      "Heron"
+    ]
   },
   "U20": {
     "name": "Salmon",
@@ -777,7 +1977,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Lotum"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SALMON",
+    "_wiki_id_result": "Lotum",
+    "_wiki_id_origin": [
+      "Sea Witch"
+    ],
+    "_wiki_chameleon_result": [
+      "Viper",
+      "Praying Mantis",
+      "Lotum"
+    ],
+    "_wiki_chameleon_origin": [
+      "Cricket",
+      "Obsidian Defender",
+      "Sea Witch"
+    ]
   },
   "U21": {
     "name": "Viper",
@@ -789,7 +2006,22 @@
     ],
     "input1": "Cuboa Shard",
     "input2": "Combat",
-    "id_result": "Zombie Soldier"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "VIPER",
+    "_wiki_id_result": "Zombie Soldier",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Praying Mantis",
+      "Lotum",
+      "Zombie Soldier"
+    ],
+    "_wiki_chameleon_origin": [
+      "Salmon",
+      "Cricket",
+      "Obsidian Defender"
+    ]
   },
   "U22": {
     "name": "Praying Mantis",
@@ -800,7 +2032,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Bambuleaf"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "PRAYING_MANTIS",
+    "_wiki_id_result": "Bambuleaf",
+    "_wiki_id_origin": [
+      "Cricket"
+    ],
+    "_wiki_chameleon_result": [
+      "Lotum",
+      "Zombie Soldier",
+      "Bambuleaf"
+    ],
+    "_wiki_chameleon_origin": [
+      "Viper",
+      "Salmon",
+      "Cricket"
+    ]
   },
   "U23": {
     "name": "Lotum",
@@ -812,7 +2061,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Treasure Hoarder"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LOTUM",
+    "_wiki_id_result": "Treasure Hoarder",
+    "_wiki_id_origin": [
+      "Salmon"
+    ],
+    "_wiki_chameleon_result": [
+      "Zombie Soldier",
+      "Bambuleaf",
+      "Treasure Hoarder"
+    ],
+    "_wiki_chameleon_origin": [
+      "Praying Mantis",
+      "Viper",
+      "Salmon"
+    ]
   },
   "U24": {
     "name": "Zombie Soldier",
@@ -821,7 +2087,25 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Sycophant"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ZOMBIE_SOLDIER",
+    "_wiki_id_result": "Sycophant",
+    "_wiki_id_origin": [
+      "Obsidian Defender",
+      "Viper"
+    ],
+    "_wiki_chameleon_result": [
+      "Bambuleaf",
+      "Treasure Hoarder",
+      "Sycophant"
+    ],
+    "_wiki_chameleon_origin": [
+      "Lotum",
+      "Praying Mantis",
+      "Viper"
+    ]
   },
   "U25": {
     "name": "Bambuleaf",
@@ -832,7 +2116,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Mochibear"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BAMBULEAF",
+    "_wiki_id_result": "Mochibear",
+    "_wiki_id_origin": [
+      "Praying Mantis"
+    ],
+    "_wiki_chameleon_result": [
+      "Treasure Hoarder",
+      "Sycophant",
+      "Seagull"
+    ],
+    "_wiki_chameleon_origin": [
+      "Zombie Soldier",
+      "Lotum",
+      "Praying Mantis"
+    ]
   },
   "U26": {
     "name": "Treasure Hoarder",
@@ -843,7 +2144,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Ent"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TREASURE_HOARDER",
+    "_wiki_id_result": "Ent",
+    "_wiki_id_origin": [
+      "Lotum"
+    ],
+    "_wiki_chameleon_result": [
+      "Sycophant",
+      "Seagull",
+      "Ent"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bambuleaf",
+      "Zombie Soldier",
+      "Lotum"
+    ]
   },
   "U27": {
     "name": "Sycophant",
@@ -852,7 +2170,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Soul of the Alpha"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SYCOPHANT",
+    "_wiki_id_result": "Soul of the Alpha",
+    "_wiki_id_origin": [
+      "Zombie Soldier"
+    ],
+    "_wiki_chameleon_result": [
+      "Seagull",
+      "Ent",
+      "Soul of the Alpha"
+    ],
+    "_wiki_chameleon_origin": [
+      "Treasure Hoarder",
+      "Bambuleaf",
+      "Zombie Soldier"
+    ]
   },
   "U28": {
     "name": "Seagull",
@@ -864,7 +2199,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Mochibear"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SEAGULL",
+    "_wiki_id_result": "Mochibear",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Ent",
+      "Soul of the Alpha",
+      "Mochibear"
+    ],
+    "_wiki_chameleon_origin": [
+      "Sycophant",
+      "Treasure Hoarder",
+      "Bambuleaf"
+    ]
   },
   "U29": {
     "name": "Ent",
@@ -873,7 +2223,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Magma Slug"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ENT",
+    "_wiki_id_result": "Magma Slug",
+    "_wiki_id_origin": [
+      "Treasure Hoarder"
+    ],
+    "_wiki_chameleon_result": [
+      "Soul of the Alpha",
+      "Mochibear",
+      "Magma Slug"
+    ],
+    "_wiki_chameleon_origin": [
+      "Seagull",
+      "Sycophant",
+      "Treasure Hoarder"
+    ]
   },
   "U30": {
     "name": "Soul of the Alpha",
@@ -882,7 +2249,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Flaming Spider"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SOUL_OF_THE_ALPHA",
+    "_wiki_id_result": "Flaming Spider",
+    "_wiki_id_origin": [
+      "Sycophant"
+    ],
+    "_wiki_chameleon_result": [
+      "Mochibear",
+      "Magma Slug",
+      "Flaming Spider"
+    ],
+    "_wiki_chameleon_origin": [
+      "Ent",
+      "Seagull",
+      "Sycophant"
+    ]
   },
   "U31": {
     "name": "Mochibear",
@@ -893,7 +2277,25 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Woodlouse"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MOCHIBEAR",
+    "_wiki_id_result": "Woodlouse",
+    "_wiki_id_origin": [
+      "Bambuleaf",
+      "Seagull"
+    ],
+    "_wiki_chameleon_result": [
+      "Magma Slug",
+      "Flaming Spider",
+      "Kiwi"
+    ],
+    "_wiki_chameleon_origin": [
+      "Soul of the Alpha",
+      "Ent",
+      "Seagull"
+    ]
   },
   "U32": {
     "name": "Magma Slug",
@@ -902,7 +2304,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Stridersurfer"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MAGMA_SLUG",
+    "_wiki_id_result": "Stridersurfer",
+    "_wiki_id_origin": [
+      "Ent"
+    ],
+    "_wiki_chameleon_result": [
+      "Flaming Spider",
+      "Kiwi",
+      "Sylvan"
+    ],
+    "_wiki_chameleon_origin": [
+      "Mochibear",
+      "Soul of the Alpha",
+      "Ent"
+    ]
   },
   "U33": {
     "name": "Flaming Spider",
@@ -913,7 +2332,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Zealot Bruiser"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "FLAMING_SPIDER",
+    "_wiki_id_result": "Zealot Bruiser",
+    "_wiki_id_origin": [
+      "Soul of the Alpha"
+    ],
+    "_wiki_chameleon_result": [
+      "Kiwi",
+      "Sylvan",
+      "Zealot Bruiser"
+    ],
+    "_wiki_chameleon_origin": [
+      "Magma Slug",
+      "Mochibear",
+      "Soul of the Alpha"
+    ]
   },
   "U34": {
     "name": "Kiwi",
@@ -924,7 +2360,22 @@
     ],
     "input1": "Bird",
     "input2": "Uncommon+",
-    "id_result": "Woodlouse"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "KIWI",
+    "_wiki_id_result": "Woodlouse",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Zealot Bruiser",
+      "Cascade"
+    ],
+    "_wiki_chameleon_origin": [
+      "Flaming Spider",
+      "Magma Slug",
+      "Mochibear"
+    ]
   },
   "U36": {
     "name": "Zealot Bruiser",
@@ -933,7 +2384,23 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Minos Hunter"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BRUISER",
+    "_wiki_id_result": "Minos Hunter",
+    "_wiki_id_origin": [
+      "Flaming Spider"
+    ],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Stridersurfer",
+      "Rana"
+    ],
+    "_wiki_chameleon_origin": [
+      "Kiwi",
+      "Flaming Spider"
+    ]
   },
   "U38": {
     "name": "Stridersurfer",
@@ -944,7 +2411,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Flipflopper"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "STRIDER_SURFER",
+    "_wiki_id_result": "Flipflopper",
+    "_wiki_id_origin": [
+      "Magma Slug"
+    ],
+    "_wiki_chameleon_result": [
+      "Rana",
+      "Earthworm",
+      "Flipflopper"
+    ],
+    "_wiki_chameleon_origin": [
+      "Zealot Bruiser"
+    ]
   },
   "U39": {
     "name": "Rana",
@@ -956,7 +2438,21 @@
     ],
     "input1": "Frog",
     "input2": "Combat",
-    "id_result": "Minos Hunter"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "RANA",
+    "_wiki_id_result": "Minos Hunter",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Earthworm",
+      "Flipflopper",
+      "Polaris"
+    ],
+    "_wiki_chameleon_origin": [
+      "Stridersurfer",
+      "Zealot Bruiser"
+    ]
   },
   "U40": {
     "name": "Earthworm",
@@ -966,8 +2462,22 @@
       "Trash Lover"
     ],
     "input1": "Bug",
-    "input2": "Mining Shards",
-    "id_result": "Woodlouse"
+    "input2": "Mining",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TERMITE",
+    "_wiki_id_result": "Woodlouse",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Flipflopper",
+      "Polaris",
+      "Treefrog"
+    ],
+    "_wiki_chameleon_origin": [
+      "Rana",
+      "Stridersurfer"
+    ]
   },
   "U41": {
     "name": "Flipflopper",
@@ -976,7 +2486,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Bayou Sludge"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "FLIP_FLOPPER",
+    "_wiki_id_result": "Bayou Sludge",
+    "_wiki_id_origin": [
+      "Stridersurfer"
+    ],
+    "_wiki_chameleon_result": [
+      "Polaris",
+      "Treefrog",
+      "Bayou Sludge"
+    ],
+    "_wiki_chameleon_origin": [
+      "Earthworm",
+      "Rana",
+      "Stridersurfer"
+    ]
   },
   "U42": {
     "name": "Polaris",
@@ -987,7 +2514,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Minos Hunter"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "POLARIS",
+    "_wiki_id_result": "Minos Hunter",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Treefrog",
+      "Bayou Sludge",
+      "Areita"
+    ],
+    "_wiki_chameleon_origin": [
+      "Flipflopper",
+      "Earthworm",
+      "Rana"
+    ]
   },
   "U43": {
     "name": "Treefrog",
@@ -999,7 +2541,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Woodlouse"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TREEFROG",
+    "_wiki_id_result": "Woodlouse",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Bayou Sludge",
+      "Areita",
+      "Bluebird"
+    ],
+    "_wiki_chameleon_origin": [
+      "Polaris",
+      "Flipflopper",
+      "Earthworm"
+    ]
   },
   "U44": {
     "name": "Bayou Sludge",
@@ -1010,7 +2567,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Water Snake"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BAYOU_SLUDGE",
+    "_wiki_id_result": "Water Snake",
+    "_wiki_id_origin": [
+      "Flipflopper"
+    ],
+    "_wiki_chameleon_result": [
+      "Areita",
+      "Bluebird",
+      "Osedax"
+    ],
+    "_wiki_chameleon_origin": [
+      "Treefrog",
+      "Polaris",
+      "Flipflopper"
+    ]
   },
   "U45": {
     "name": "Areita",
@@ -1021,7 +2595,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Minos Hunter"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "AREITA",
+    "_wiki_id_result": "Minos Hunter",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Bluebird",
+      "Osedax",
+      "Duplico"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bayou Sludge",
+      "Treefrog",
+      "Polaris"
+    ]
   },
   "U46": {
     "name": "Bluebird",
@@ -1032,7 +2621,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Woodlouse"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BLUEBIRD",
+    "_wiki_id_result": "Woodlouse",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Osedax",
+      "Duplico",
+      "Litterbug"
+    ],
+    "_wiki_chameleon_origin": [
+      "Areita",
+      "Bayou Sludge",
+      "Treefrog"
+    ]
   },
   "U47": {
     "name": "Osedax",
@@ -1043,7 +2647,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Water Snake"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "OSEDAX",
+    "_wiki_id_result": "Water Snake",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Duplico",
+      "Litterbug",
+      "Water Snake"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bluebird",
+      "Areita",
+      "Bayou Sludge"
+    ]
   },
   "U48": {
     "name": "Duplico",
@@ -1054,7 +2673,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Minos Hunter"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "DUPLICO",
+    "_wiki_id_result": "Minos Hunter",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Litterbug",
+      "Water Snake",
+      "Gazer"
+    ],
+    "_wiki_chameleon_origin": [
+      "Osedax",
+      "Bluebird",
+      "Areita"
+    ]
   },
   "U49": {
     "name": "Litterbug",
@@ -1066,7 +2700,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Woodlouse"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LITTERBUG",
+    "_wiki_id_result": "Woodlouse",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Water Snake",
+      "Gazer",
+      "Honeybug"
+    ],
+    "_wiki_chameleon_origin": [
+      "Duplico",
+      "Osedax",
+      "Bluebird"
+    ]
   },
   "U50": {
     "name": "Water Snake",
@@ -1079,7 +2728,25 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Sepialot"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "WATER_SNAKE",
+    "_wiki_id_result": "Sepialot",
+    "_wiki_id_origin": [
+      "Osedax",
+      "Bayou Sludge"
+    ],
+    "_wiki_chameleon_result": [
+      "Gazer",
+      "Honeybug",
+      "Shuddersquid"
+    ],
+    "_wiki_chameleon_origin": [
+      "Litterbug",
+      "Duplico",
+      "Osedax"
+    ]
   },
   "U51": {
     "name": "Gazer",
@@ -1090,7 +2757,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Minos Hunter"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GAZER",
+    "_wiki_id_result": "Minos Hunter",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Honeybug",
+      "Shuddersquid",
+      "Sylvan"
+    ],
+    "_wiki_chameleon_origin": [
+      "Water Snake",
+      "Litterbug",
+      "Duplico"
+    ]
   },
   "U52": {
     "name": "Honeybug",
@@ -1101,7 +2783,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Woodlouse"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HONEYBUG",
+    "_wiki_id_result": "Woodlouse",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Shuddersquid",
+      "Sylvan",
+      "Solsnatcher"
+    ],
+    "_wiki_chameleon_origin": [
+      "Gazer",
+      "Water Snake",
+      "Litterbug"
+    ]
   },
   "U53": {
     "name": "Shuddersquid",
@@ -1112,7 +2809,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Sepialot"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SHUDDERSQUID",
+    "_wiki_id_result": "Sepialot",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Solsnatcher",
+      "Sepialot"
+    ],
+    "_wiki_chameleon_origin": [
+      "Honeybug",
+      "Gazer",
+      "Water Snake"
+    ]
   },
   "U55": {
     "name": "Solsnatcher",
@@ -1123,19 +2835,49 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Woodlouse"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SOLSNATCHER",
+    "_wiki_id_result": "Woodlouse",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sepialot",
+      "Honey Badger",
+      "Driftling"
+    ],
+    "_wiki_chameleon_origin": [
+      "Shuddersquid",
+      "Honeybug"
+    ]
   },
   "U56": {
     "name": "Sepialot",
     "rarity": "Uncommon",
     "category": "Water",
     "family": [
-      "Axolotl",
-      "Amphibian"
+      "Axolotl"
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Tewtil"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SEPIALOT",
+    "_wiki_id_result": "Tewtil",
+    "_wiki_id_origin": [
+      "Water Snake",
+      "Shuddersquid"
+    ],
+    "_wiki_chameleon_result": [
+      "Honey Badger",
+      "Driftling",
+      "Tewtil"
+    ],
+    "_wiki_chameleon_origin": [
+      "Solsnatcher",
+      "Shuddersquid"
+    ]
   },
   "U57": {
     "name": "Honey Badger",
@@ -1144,7 +2886,21 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Minos Hunter"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HONEY_BADGER",
+    "_wiki_id_result": "Minos Hunter",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Driftling",
+      "Tewtil",
+      "Minos Hunter"
+    ],
+    "_wiki_chameleon_origin": [
+      "Sepialot",
+      "Solsnatcher"
+    ]
   },
   "U58": {
     "name": "Driftling",
@@ -1155,7 +2911,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Woodlouse"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "DRIFTLING",
+    "_wiki_id_result": "Woodlouse",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Tewtil",
+      "Minos Hunter",
+      "Woodchucker"
+    ],
+    "_wiki_chameleon_origin": [
+      "Honey Badger",
+      "Sepialot",
+      "Solsnatcher"
+    ]
   },
   "U59": {
     "name": "Tewtil",
@@ -1167,7 +2938,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Solar"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TEWTIL",
+    "_wiki_id_result": "Solar",
+    "_wiki_id_origin": [
+      "Sepialot"
+    ],
+    "_wiki_chameleon_result": [
+      "Minos Hunter",
+      "Woodchucker",
+      "Solar"
+    ],
+    "_wiki_chameleon_origin": [
+      "Driftling",
+      "Honey Badger",
+      "Sepialot"
+    ]
   },
   "U60": {
     "name": "Minos Hunter",
@@ -1176,7 +2964,30 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Parched"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MINOS_HUNTER",
+    "_wiki_id_result": "Parched",
+    "_wiki_id_origin": [
+      "Honey Badger",
+      "Zealot Bruiser",
+      "Rana",
+      "Duplico",
+      "Gazer",
+      "Areita",
+      "Polaris"
+    ],
+    "_wiki_chameleon_result": [
+      "Woodchucker",
+      "Solar",
+      "Parched"
+    ],
+    "_wiki_chameleon_origin": [
+      "Tewtil",
+      "Driftling",
+      "Honey Badger"
+    ]
   },
   "U61": {
     "name": "Woodchucker",
@@ -1185,7 +2996,22 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Woodlouse"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "WOODCHUCKER",
+    "_wiki_id_result": "Woodlouse",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Solar",
+      "Parched",
+      "Bloodbat"
+    ],
+    "_wiki_chameleon_origin": [
+      "Minos Hunter",
+      "Tewtil",
+      "Driftling"
+    ]
   },
   "U62": {
     "name": "Solar",
@@ -1196,7 +3022,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Dustybit"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SOLAR",
+    "_wiki_id_result": "Dustybit",
+    "_wiki_id_origin": [
+      "Tewtil"
+    ],
+    "_wiki_chameleon_result": [
+      "Parched",
+      "Bloodbat",
+      "Dustybit"
+    ],
+    "_wiki_chameleon_origin": [
+      "Woodchucker",
+      "Minos Hunter",
+      "Tewtil"
+    ]
   },
   "U63": {
     "name": "Parched",
@@ -1205,7 +3048,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Cheeky Tiki"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "PARCHED",
+    "_wiki_id_result": "Cheeky Tiki",
+    "_wiki_id_origin": [
+      "Minos Hunter"
+    ],
+    "_wiki_chameleon_result": [
+      "Bloodbat",
+      "Dustybit",
+      "Sylvan"
+    ],
+    "_wiki_chameleon_origin": [
+      "Solar",
+      "Woodchucker",
+      "Minos Hunter"
+    ]
   },
   "U64": {
     "name": "Bloodbat",
@@ -1214,7 +3074,22 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Woodlouse"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BLOODBAT",
+    "_wiki_id_result": "Woodlouse",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Dustybit",
+      "Sylvan",
+      "Woodlouse"
+    ],
+    "_wiki_chameleon_origin": [
+      "Parched",
+      "Solar",
+      "Woodchucker"
+    ]
   },
   "U65": {
     "name": "Dustybit",
@@ -1225,7 +3100,24 @@
     ],
     "input1": "Tadgang Shard",
     "input2": "Combat",
-    "id_result": "Ember"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": "GENERIC_PLUS",
+    "_wiki_internal_id": "DUSTYBIT",
+    "_wiki_id_result": "Ember",
+    "_wiki_id_origin": [
+      "Solar"
+    ],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Woodlouse",
+      "Ember"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bloodbat",
+      "Parched",
+      "Solar"
+    ]
   },
   "U67": {
     "name": "Woodlouse",
@@ -1238,7 +3130,33 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Rat"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "WOODLOUSE",
+    "_wiki_id_result": "Rat",
+    "_wiki_id_origin": [
+      "Mochibear",
+      "Driftling",
+      "Litterbug",
+      "Solsnatcher",
+      "Bloodbat",
+      "Woodchucker",
+      "Bluebird",
+      "Treefrog",
+      "Honeybug",
+      "Kiwi",
+      "Earthworm"
+    ],
+    "_wiki_chameleon_result": [
+      "Ember",
+      "Cheeky Tiki",
+      "Red Panda"
+    ],
+    "_wiki_chameleon_origin": [
+      "Dustybit",
+      "Bloodbat"
+    ]
   },
   "U68": {
     "name": "Ember",
@@ -1249,7 +3167,23 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Sprawl"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "EMBER",
+    "_wiki_id_result": "Sprawl",
+    "_wiki_id_origin": [
+      "Dustybit"
+    ],
+    "_wiki_chameleon_result": [
+      "Cheeky Tiki",
+      "Red Panda",
+      "Sprawl"
+    ],
+    "_wiki_chameleon_origin": [
+      "Woodlouse",
+      "Dustybit"
+    ]
   },
   "U69": {
     "name": "Cheeky Tiki",
@@ -1260,7 +3194,23 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Sneaky Tiki"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CHEEKY_TIKI",
+    "_wiki_id_result": "Sneaky Tiki",
+    "_wiki_id_origin": [
+      "Parched"
+    ],
+    "_wiki_chameleon_result": [
+      "Red Panda",
+      "Sprawl",
+      "Sneaky Tiki"
+    ],
+    "_wiki_chameleon_origin": [
+      "Ember",
+      "Woodlouse"
+    ]
   },
   "U70": {
     "name": "Red Panda",
@@ -1272,7 +3222,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Rat"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "RED_PANDA",
+    "_wiki_id_result": "Rat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sprawl",
+      "Sneaky Tiki",
+      "Sylvan"
+    ],
+    "_wiki_chameleon_origin": [
+      "Cheeky Tiki",
+      "Ember",
+      "Woodlouse"
+    ]
   },
   "U71": {
     "name": "Sprawl",
@@ -1281,7 +3246,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SPRAWL",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Ember"
+    ],
+    "_wiki_chameleon_result": [
+      "Sneaky Tiki",
+      "Sylvan",
+      "Cascade"
+    ],
+    "_wiki_chameleon_origin": [
+      "Red Panda",
+      "Cheeky Tiki",
+      "Ember"
+    ]
   },
   "U72": {
     "name": "Sneaky Tiki",
@@ -1292,7 +3274,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Shrieky Tiki"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SNEAKY_TIKI",
+    "_wiki_id_result": "Shrieky Tiki",
+    "_wiki_id_origin": [
+      "Cheeky Tiki"
+    ],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Cascade",
+      "Shrieky Tiki"
+    ],
+    "_wiki_chameleon_origin": [
+      "Sprawl",
+      "Red Panda",
+      "Cheeky Tiki"
+    ]
   },
   "U75": {
     "name": "Shrieky Tiki",
@@ -1303,7 +3302,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Honeymite"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SHRIEKY_TIKI",
+    "_wiki_id_result": "Honeymite",
+    "_wiki_id_origin": [
+      "Sneaky Tiki"
+    ],
+    "_wiki_chameleon_result": [
+      "Woodpecker",
+      "Sylvan",
+      "Honeymite"
+    ],
+    "_wiki_chameleon_origin": [
+      "Sneaky Tiki"
+    ]
   },
   "U76": {
     "name": "Woodpecker",
@@ -1314,7 +3328,20 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Rat"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "WOODPECKER",
+    "_wiki_id_result": "Rat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Honeymite",
+      "Queen Ant"
+    ],
+    "_wiki_chameleon_origin": [
+      "Shrieky Tiki"
+    ]
   },
   "U78": {
     "name": "Honeymite",
@@ -1323,7 +3350,23 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HONEYMITE",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Shrieky Tiki"
+    ],
+    "_wiki_chameleon_result": [
+      "Queen Ant",
+      "Sylvan",
+      "Cascade"
+    ],
+    "_wiki_chameleon_origin": [
+      "Woodpecker",
+      "Shrieky Tiki"
+    ]
   },
   "U79": {
     "name": "Queen Ant",
@@ -1335,7 +3378,21 @@
     ],
     "input1": "Ant Shard",
     "input2": "Elusive",
-    "id_result": "Rat"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "QUEEN_ANT",
+    "_wiki_id_result": "Rat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Cascade",
+      "Hawk"
+    ],
+    "_wiki_chameleon_origin": [
+      "Honeymite",
+      "Woodpecker"
+    ]
   },
   "U82": {
     "name": "Hawk",
@@ -1346,7 +3403,20 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Rat"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HAWK",
+    "_wiki_id_result": "Rat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Cascade",
+      "June Bug"
+    ],
+    "_wiki_chameleon_origin": [
+      "Queen Ant"
+    ]
   },
   "U85": {
     "name": "June Bug",
@@ -1357,7 +3427,20 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Rat"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "JUNE_BUG",
+    "_wiki_id_result": "Rat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Cascade",
+      "Dung Beetle"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hawk"
+    ]
   },
   "U88": {
     "name": "Dung Beetle",
@@ -1369,7 +3452,20 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Rat"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "DUNG_BEETLE",
+    "_wiki_id_result": "Rat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Cascade",
+      "Rat"
+    ],
+    "_wiki_chameleon_origin": [
+      "June Bug"
+    ]
   },
   "U91": {
     "name": "Rat",
@@ -1380,7 +3476,28 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Keeled Slug"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "RAT",
+    "_wiki_id_result": "Keeled Slug",
+    "_wiki_id_origin": [
+      "Red Panda",
+      "Woodpecker",
+      "Hawk",
+      "Queen Ant",
+      "Dung Beetle",
+      "Woodlouse",
+      "June Bug"
+    ],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Cascade",
+      "Keeled Slug"
+    ],
+    "_wiki_chameleon_origin": [
+      "Dung Beetle"
+    ]
   },
   "U94": {
     "name": "Keeled Slug",
@@ -1391,7 +3508,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Mite"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "KEELED_SLUG",
+    "_wiki_id_result": "Mite",
+    "_wiki_id_origin": [
+      "Rat"
+    ],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Cascade",
+      "Mite"
+    ],
+    "_wiki_chameleon_origin": [
+      "Rat"
+    ]
   },
   "U97": {
     "name": "Mite",
@@ -1402,7 +3534,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Moth"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MITE",
+    "_wiki_id_result": "Moth",
+    "_wiki_id_origin": [
+      "Keeled Slug"
+    ],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Cascade",
+      "Moth"
+    ],
+    "_wiki_chameleon_origin": [
+      "Keeled Slug"
+    ]
   },
   "U100": {
     "name": "Moth",
@@ -1414,7 +3561,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Mosquito"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MOTH",
+    "_wiki_id_result": "Mosquito",
+    "_wiki_id_origin": [
+      "Mite"
+    ],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Cascade",
+      "Mosquito"
+    ],
+    "_wiki_chameleon_origin": [
+      "Mite"
+    ]
   },
   "U103": {
     "name": "Mosquito",
@@ -1426,7 +3588,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MOSQUITO",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Moth"
+    ],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Cascade",
+      "Rabbit Cat"
+    ],
+    "_wiki_chameleon_origin": [
+      "Moth"
+    ]
   },
   "U106": {
     "name": "Rabbit Cat",
@@ -1437,7 +3614,20 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "RABBIT_CAT",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sylvan",
+      "Cascade",
+      "Bolt"
+    ],
+    "_wiki_chameleon_origin": [
+      "Mosquito"
+    ]
   },
   "R1": {
     "name": "Sylvan",
@@ -1446,9 +3636,50 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Forest&Rare",
+    "input1": "Rare&Forest",
     "input2": "Epic+",
-    "id_result": "Beaconmite"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SYLVAN",
+    "_wiki_id_result": "Beaconmite",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Cascade",
+      "Bolt",
+      "Bambloom"
+    ],
+    "_wiki_chameleon_origin": [
+      "Rain Slime",
+      "Zealot Bruiser",
+      "Dustybit",
+      "Shuddersquid",
+      "Rat",
+      "Mite",
+      "Kiwi",
+      "Woodpecker",
+      "Hawk",
+      "Sneaky Tiki",
+      "Rabbit Cat",
+      "Queen Ant",
+      "Dung Beetle",
+      "Keeled Slug",
+      "Mosquito",
+      "June Bug",
+      "Moth",
+      "Sprawl",
+      "Flaming Spider",
+      "Mossybit",
+      "Bloodbat",
+      "Honeybug",
+      "Shrieky Tiki",
+      "Honeymite",
+      "Parched",
+      "Magma Slug",
+      "Red Panda",
+      "Gazer",
+      "Field Mouse"
+    ]
   },
   "R2": {
     "name": "Cascade",
@@ -1457,9 +3688,36 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Water&Rare",
+    "input1": "Rare&Water",
     "input2": "Epic+",
-    "id_result": "Piranha"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CASCADE",
+    "_wiki_id_result": "Piranha",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Bolt",
+      "Bambloom",
+      "Toad"
+    ],
+    "_wiki_chameleon_origin": [
+      "Sylvan",
+      "Rat",
+      "Mite",
+      "Hawk",
+      "Sneaky Tiki",
+      "Rabbit Cat",
+      "Queen Ant",
+      "Dung Beetle",
+      "Keeled Slug",
+      "Mosquito",
+      "June Bug",
+      "Moth",
+      "Sprawl",
+      "Kiwi",
+      "Honeymite"
+    ]
   },
   "R3": {
     "name": "Bolt",
@@ -1468,9 +3726,24 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Combat&Rare",
+    "input1": "Rare&Combat",
     "input2": "Epic+",
-    "id_result": "Glacite Walker"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BOLT",
+    "_wiki_id_result": "Glacite Walker",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Bambloom",
+      "Toad",
+      "Glacite Walker"
+    ],
+    "_wiki_chameleon_origin": [
+      "Cascade",
+      "Sylvan",
+      "Rabbit Cat"
+    ]
   },
   "R4": {
     "name": "Bambloom",
@@ -1481,7 +3754,22 @@
     ],
     "input1": "Panda",
     "input2": "Uncommon+",
-    "id_result": "Beaconmite"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BAMBLOOM",
+    "_wiki_id_result": "Beaconmite",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Toad",
+      "Glacite Walker",
+      "Beaconmite"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bolt",
+      "Cascade",
+      "Sylvan"
+    ]
   },
   "R5": {
     "name": "Toad",
@@ -1492,8 +3780,23 @@
       "Amphibian"
     ],
     "input1": "Frog",
-    "input2": "Forest&Uncommon+",
-    "id_result": "Piranha"
+    "input2": "Uncommon+&Forest",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TOAD",
+    "_wiki_id_result": "Piranha",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Glacite Walker",
+      "Beaconmite",
+      "Lizard King"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bambloom",
+      "Bolt",
+      "Cascade"
+    ]
   },
   "R6": {
     "name": "Glacite Walker",
@@ -1502,7 +3805,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Drowned"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GLACITE_WALKER",
+    "_wiki_id_result": "Drowned",
+    "_wiki_id_origin": [
+      "Bolt"
+    ],
+    "_wiki_chameleon_result": [
+      "Beaconmite",
+      "Lizard King",
+      "Python"
+    ],
+    "_wiki_chameleon_origin": [
+      "Toad",
+      "Bambloom",
+      "Bolt"
+    ]
   },
   "R7": {
     "name": "Beaconmite",
@@ -1513,7 +3833,25 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Invisibug"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BEACONMITE",
+    "_wiki_id_result": "Invisibug",
+    "_wiki_id_origin": [
+      "Sylvan",
+      "Bambloom"
+    ],
+    "_wiki_chameleon_result": [
+      "Lizard King",
+      "Python",
+      "Invisibug"
+    ],
+    "_wiki_chameleon_origin": [
+      "Glacite Walker",
+      "Toad",
+      "Bambloom"
+    ]
   },
   "R8": {
     "name": "Lizard King",
@@ -1524,8 +3862,23 @@
       "Lizard"
     ],
     "input1": "Lizard",
-    "input2": "Water&Uncommon+",
-    "id_result": "Piranha"
+    "input2": "Uncommon+&Water",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LIZARD_KING",
+    "_wiki_id_result": "Piranha",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Python",
+      "Invisibug",
+      "Piranha"
+    ],
+    "_wiki_chameleon_origin": [
+      "Beaconmite",
+      "Glacite Walker",
+      "Toad"
+    ]
   },
   "R9": {
     "name": "Python",
@@ -1536,8 +3889,23 @@
       "Serpent"
     ],
     "input1": "Viper Shard",
-    "input2": "Combat&Uncommon+",
-    "id_result": "Drowned"
+    "input2": "Uncommon+&Combat",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "PYTHON",
+    "_wiki_id_result": "Drowned",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Invisibug",
+      "Piranha",
+      "Terra"
+    ],
+    "_wiki_chameleon_origin": [
+      "Lizard King",
+      "Beaconmite",
+      "Glacite Walker"
+    ]
   },
   "R10": {
     "name": "Invisibug",
@@ -1548,7 +3916,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Beetle"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "INVISIBUG",
+    "_wiki_id_result": "Beetle",
+    "_wiki_id_origin": [
+      "Beaconmite"
+    ],
+    "_wiki_chameleon_result": [
+      "Piranha",
+      "Terra",
+      "Hideongeon"
+    ],
+    "_wiki_chameleon_origin": [
+      "Python",
+      "Lizard King",
+      "Beaconmite"
+    ]
   },
   "R11": {
     "name": "Piranha",
@@ -1559,7 +3944,26 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Abyssal Lanternfish"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "PIRANHA",
+    "_wiki_id_result": "Abyssal Lanternfish",
+    "_wiki_id_origin": [
+      "Lizard King",
+      "Toad",
+      "Cascade"
+    ],
+    "_wiki_chameleon_result": [
+      "Terra",
+      "Hideongeon",
+      "Cryo"
+    ],
+    "_wiki_chameleon_origin": [
+      "Invisibug",
+      "Python",
+      "Lizard King"
+    ]
   },
   "R13": {
     "name": "Hideongeon",
@@ -1570,7 +3974,21 @@
     ],
     "input1": "Shulker",
     "input2": "Wither Shard",
-    "id_result": "Beetle"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HIDEONGEON",
+    "_wiki_id_result": "Beetle",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Terra",
+      "Lapis Skeleton",
+      "Beetle"
+    ],
+    "_wiki_chameleon_origin": [
+      "Piranha",
+      "Invisibug"
+    ]
   },
   "R15": {
     "name": "Lapis Skeleton",
@@ -1581,7 +3999,20 @@
     ],
     "input1": "Lapis Zombie Shard",
     "input2": "Rare+",
-    "id_result": "Drowned"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LAPIS_SKELETON",
+    "_wiki_id_result": "Drowned",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Beetle",
+      "Terra",
+      "Drowned"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hideongeon"
+    ]
   },
   "R16": {
     "name": "Beetle",
@@ -1593,7 +4024,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Thyst"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CROPEETLE",
+    "_wiki_id_result": "Thyst",
+    "_wiki_id_origin": [
+      "Hideongeon",
+      "Invisibug"
+    ],
+    "_wiki_chameleon_result": [
+      "Terra",
+      "Drowned",
+      "Vulture"
+    ],
+    "_wiki_chameleon_origin": [
+      "Lapis Skeleton",
+      "Hideongeon"
+    ]
   },
   "R18": {
     "name": "Drowned",
@@ -1604,7 +4052,25 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Star Sentry"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "DROWNED",
+    "_wiki_id_result": "Star Sentry",
+    "_wiki_id_origin": [
+      "Glacite Walker",
+      "Python",
+      "Lapis Skeleton"
+    ],
+    "_wiki_chameleon_result": [
+      "Vulture",
+      "Terra",
+      "Star Sentry"
+    ],
+    "_wiki_chameleon_origin": [
+      "Beetle",
+      "Lapis Skeleton"
+    ]
   },
   "R19": {
     "name": "Vulture",
@@ -1615,7 +4081,21 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Thyst"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "VULTURE",
+    "_wiki_id_result": "Thyst",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Terra",
+      "Star Sentry",
+      "Hideondra"
+    ],
+    "_wiki_chameleon_origin": [
+      "Drowned",
+      "Beetle"
+    ]
   },
   "R21": {
     "name": "Star Sentry",
@@ -1624,7 +4104,23 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Arachne"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "STAR_SENTRY",
+    "_wiki_id_result": "Arachne",
+    "_wiki_id_origin": [
+      "Drowned"
+    ],
+    "_wiki_chameleon_result": [
+      "Hideondra",
+      "Abyssal Lanternfish",
+      "Arachne"
+    ],
+    "_wiki_chameleon_origin": [
+      "Vulture",
+      "Drowned"
+    ]
   },
   "R22": {
     "name": "Hideondra",
@@ -1635,7 +4131,20 @@
     ],
     "input1": "Shulker",
     "input2": "Demon",
-    "id_result": "Thyst"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HIDEONDRA",
+    "_wiki_id_result": "Thyst",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Abyssal Lanternfish",
+      "Arachne"
+    ],
+    "_wiki_chameleon_origin": [
+      "Star Sentry",
+      "Vulture"
+    ]
   },
   "R23": {
     "name": "Abyssal Lanternfish",
@@ -1646,7 +4155,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Lava Leech"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ABYSSAL_LANTERN",
+    "_wiki_id_result": "Lava Leech",
+    "_wiki_id_origin": [
+      "Piranha"
+    ],
+    "_wiki_chameleon_result": [
+      "Arachne",
+      "Lava Leech"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hideondra",
+      "Star Sentry"
+    ]
   },
   "R24": {
     "name": "Arachne",
@@ -1657,7 +4181,23 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Revenant"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ARACHNE",
+    "_wiki_id_result": "Revenant",
+    "_wiki_id_origin": [
+      "Star Sentry"
+    ],
+    "_wiki_chameleon_result": [
+      "Lava Leech",
+      "Revenant"
+    ],
+    "_wiki_chameleon_origin": [
+      "Abyssal Lanternfish",
+      "Hideondra",
+      "Star Sentry"
+    ]
   },
   "R25": {
     "name": "Bitbug",
@@ -1668,7 +4208,18 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Thyst"
+    "synthesized": false,
+    "chameleon": false,
+    "recipe_type": null,
+    "_wiki_internal_id": "BITBUG",
+    "_wiki_id_result": "Thyst",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Lava Leech",
+      "Revenant",
+      "Terra"
+    ],
+    "_wiki_chameleon_origin": []
   },
   "R26": {
     "name": "Lava Leech",
@@ -1677,7 +4228,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Silentdepth"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LAVA_LEECH",
+    "_wiki_id_result": "Silentdepth",
+    "_wiki_id_origin": [
+      "Abyssal Lanternfish"
+    ],
+    "_wiki_chameleon_result": [
+      "Revenant",
+      "Terra",
+      "Silentdepth"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bitbug",
+      "Arachne",
+      "Abyssal Lanternfish"
+    ]
   },
   "R27": {
     "name": "Revenant",
@@ -1686,7 +4254,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Skeletor"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "REVENANT",
+    "_wiki_id_result": "Skeletor",
+    "_wiki_id_origin": [
+      "Arachne"
+    ],
+    "_wiki_chameleon_result": [
+      "Terra",
+      "Silentdepth",
+      "Skeletor"
+    ],
+    "_wiki_chameleon_origin": [
+      "Lava Leech",
+      "Bitbug",
+      "Arachne"
+    ]
   },
   "R29": {
     "name": "Silentdepth",
@@ -1697,7 +4282,23 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Seashine"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SILENTDEPTH",
+    "_wiki_id_result": "Seashine",
+    "_wiki_id_origin": [
+      "Lava Leech"
+    ],
+    "_wiki_chameleon_result": [
+      "Skeletor",
+      "Thyst",
+      "Seashine"
+    ],
+    "_wiki_chameleon_origin": [
+      "Revenant",
+      "Lava Leech"
+    ]
   },
   "R30": {
     "name": "Skeletor",
@@ -1706,7 +4307,23 @@
     "family": [],
     "input1": "Lapis Skeleton Shard",
     "input2": "Rare+",
-    "id_result": "Kada Knight"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": "GENERIC_PLUS",
+    "_wiki_internal_id": "SKELETOR",
+    "_wiki_id_result": "Kada Knight",
+    "_wiki_id_origin": [
+      "Revenant"
+    ],
+    "_wiki_chameleon_result": [
+      "Thyst",
+      "Seashine",
+      "Quartzfang"
+    ],
+    "_wiki_chameleon_origin": [
+      "Silentdepth",
+      "Revenant"
+    ]
   },
   "R31": {
     "name": "Thyst",
@@ -1717,7 +4334,26 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Dreadwing"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "THYST",
+    "_wiki_id_result": "Dreadwing",
+    "_wiki_id_origin": [
+      "Hideondra",
+      "Vulture",
+      "Beetle",
+      "Bitbug"
+    ],
+    "_wiki_chameleon_result": [
+      "Seashine",
+      "Quartzfang",
+      "Hideonring"
+    ],
+    "_wiki_chameleon_origin": [
+      "Skeletor",
+      "Silentdepth"
+    ]
   },
   "R32": {
     "name": "Seashine",
@@ -1728,7 +4364,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Snowfin"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SEA_SHINE",
+    "_wiki_id_result": "Snowfin",
+    "_wiki_id_origin": [
+      "Silentdepth"
+    ],
+    "_wiki_chameleon_result": [
+      "Quartzfang",
+      "Hideonring",
+      "Snowfin"
+    ],
+    "_wiki_chameleon_origin": [
+      "Thyst",
+      "Skeletor",
+      "Silentdepth"
+    ]
   },
   "R33": {
     "name": "Quartzfang",
@@ -1738,8 +4391,23 @@
       "Cave Dweller"
     ],
     "input1": "Troglobyte Shard",
-    "input2": "Cave Dweller|Abyssal Lanternfish Shard",
-    "id_result": "Kada Knight"
+    "input2": "Abyssal Lanternfish Shard|Cave Dweller",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "QUARTZFANG",
+    "_wiki_id_result": "Kada Knight",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Hideonring",
+      "Snowfin",
+      "Kada Knight"
+    ],
+    "_wiki_chameleon_origin": [
+      "Seashine",
+      "Thyst",
+      "Skeletor"
+    ]
   },
   "R34": {
     "name": "Hideonring",
@@ -1748,9 +4416,24 @@
     "family": [
       "Shulker"
     ],
-    "input1": "Shulker&Rare+",
+    "input1": "Rare+&Shulker",
     "input2": "Rare+",
-    "id_result": "Dreadwing"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HIDEONRING",
+    "_wiki_id_result": "Dreadwing",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Snowfin",
+      "Kada Knight",
+      "Hummingbird"
+    ],
+    "_wiki_chameleon_origin": [
+      "Quartzfang",
+      "Seashine",
+      "Thyst"
+    ]
   },
   "R35": {
     "name": "Snowfin",
@@ -1761,7 +4444,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Carrot King"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SNOWFIN",
+    "_wiki_id_result": "Carrot King",
+    "_wiki_id_origin": [
+      "Seashine"
+    ],
+    "_wiki_chameleon_result": [
+      "Kada Knight",
+      "Hummingbird",
+      "Carrot King"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hideonring",
+      "Quartzfang",
+      "Seashine"
+    ]
   },
   "R36": {
     "name": "Kada Knight",
@@ -1770,7 +4470,25 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Wither Spectre"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "KADA_KNIGHT",
+    "_wiki_id_result": "Wither Spectre",
+    "_wiki_id_origin": [
+      "Skeletor",
+      "Quartzfang"
+    ],
+    "_wiki_chameleon_result": [
+      "Hummingbird",
+      "Carrot King",
+      "Wither Spectre"
+    ],
+    "_wiki_chameleon_origin": [
+      "Snowfin",
+      "Hideonring",
+      "Quartzfang"
+    ]
   },
   "R37": {
     "name": "Hummingbird",
@@ -1781,7 +4499,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Dreadwing"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HUMMINGBIRD",
+    "_wiki_id_result": "Dreadwing",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Carrot King",
+      "Wither Spectre",
+      "Badger"
+    ],
+    "_wiki_chameleon_origin": [
+      "Kada Knight",
+      "Snowfin",
+      "Hideonring"
+    ]
   },
   "R38": {
     "name": "Carrot King",
@@ -1790,7 +4523,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Lumisquid"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CARROT_KING",
+    "_wiki_id_result": "Lumisquid",
+    "_wiki_id_origin": [
+      "Snowfin"
+    ],
+    "_wiki_chameleon_result": [
+      "Wither Spectre",
+      "Badger",
+      "Terra"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hummingbird",
+      "Kada Knight",
+      "Snowfin"
+    ]
   },
   "R39": {
     "name": "Wither Spectre",
@@ -1799,7 +4549,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Matcho"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "WITHER_SPECTER",
+    "_wiki_id_result": "Matcho",
+    "_wiki_id_origin": [
+      "Kada Knight"
+    ],
+    "_wiki_chameleon_result": [
+      "Badger",
+      "Terra",
+      "Matcho"
+    ],
+    "_wiki_chameleon_origin": [
+      "Carrot King",
+      "Hummingbird",
+      "Kada Knight"
+    ]
   },
   "R40": {
     "name": "Badger",
@@ -1808,7 +4575,22 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Dreadwing"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BADGER",
+    "_wiki_id_result": "Dreadwing",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Terra",
+      "Matcho",
+      "Ladybug"
+    ],
+    "_wiki_chameleon_origin": [
+      "Wither Spectre",
+      "Carrot King",
+      "Hummingbird"
+    ]
   },
   "R42": {
     "name": "Matcho",
@@ -1817,7 +4599,23 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Crocodile"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MATCHO",
+    "_wiki_id_result": "Crocodile",
+    "_wiki_id_origin": [
+      "Wither Spectre"
+    ],
+    "_wiki_chameleon_result": [
+      "Ladybug",
+      "Lumisquid",
+      "Crocodile"
+    ],
+    "_wiki_chameleon_origin": [
+      "Badger",
+      "Wither Spectre"
+    ]
   },
   "R43": {
     "name": "Ladybug",
@@ -1828,7 +4626,21 @@
     ],
     "input1": "Earthworm Shard",
     "input2": "Invisibug Shard",
-    "id_result": "Dreadwing"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LADYBUG",
+    "_wiki_id_result": "Dreadwing",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Lumisquid",
+      "Crocodile",
+      "Wild Hog"
+    ],
+    "_wiki_chameleon_origin": [
+      "Matcho",
+      "Badger"
+    ]
   },
   "R44": {
     "name": "Lumisquid",
@@ -1839,7 +4651,23 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Joydive"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LUMISQUID",
+    "_wiki_id_result": "Joydive",
+    "_wiki_id_origin": [
+      "Carrot King"
+    ],
+    "_wiki_chameleon_result": [
+      "Crocodile",
+      "Wild Hog",
+      "Bullfrog"
+    ],
+    "_wiki_chameleon_origin": [
+      "Ladybug",
+      "Matcho"
+    ]
   },
   "R45": {
     "name": "Crocodile",
@@ -1851,7 +4679,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Draconic"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CROCODILE",
+    "_wiki_id_result": "Draconic",
+    "_wiki_id_origin": [
+      "Matcho"
+    ],
+    "_wiki_chameleon_result": [
+      "Wild Hog",
+      "Bullfrog",
+      "Terra"
+    ],
+    "_wiki_chameleon_origin": [
+      "Lumisquid",
+      "Ladybug",
+      "Matcho"
+    ]
   },
   "R46": {
     "name": "Wild Hog",
@@ -1860,7 +4705,22 @@
     "family": [],
     "input1": "Groundhog Shard",
     "input2": "Honeyhog Shard",
-    "id_result": "Dreadwing"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "WILD_HOG",
+    "_wiki_id_result": "Dreadwing",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Bullfrog",
+      "Terra",
+      "Dreadwing"
+    ],
+    "_wiki_chameleon_origin": [
+      "Crocodile",
+      "Lumisquid",
+      "Ladybug"
+    ]
   },
   "R47": {
     "name": "Bullfrog",
@@ -1871,8 +4731,23 @@
       "Amphibian"
     ],
     "input1": "Frog",
-    "input2": "Forest&Rare+",
-    "id_result": "Joydive"
+    "input2": "Rare+&Forest",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BULLFROG",
+    "_wiki_id_result": "Joydive",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Terra",
+      "Dreadwing",
+      "Joydive"
+    ],
+    "_wiki_chameleon_origin": [
+      "Wild Hog",
+      "Crocodile",
+      "Lumisquid"
+    ]
   },
   "R49": {
     "name": "Dreadwing",
@@ -1883,7 +4758,28 @@
     ],
     "input1": "Phanpyre Shard|Phanflare Shard",
     "input2": "Rare+",
-    "id_result": "Fungloom"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": "GENERIC_PLUS",
+    "_wiki_internal_id": "DREADWING",
+    "_wiki_id_result": "Fungloom",
+    "_wiki_id_origin": [
+      "Wild Hog",
+      "Badger",
+      "Hideonring",
+      "Thyst",
+      "Hummingbird",
+      "Ladybug"
+    ],
+    "_wiki_chameleon_result": [
+      "Joydive",
+      "Stalagmight",
+      "Fungloom"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bullfrog",
+      "Wild Hog"
+    ]
   },
   "R50": {
     "name": "Joydive",
@@ -1892,7 +4788,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Eel"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "JOYDIVE",
+    "_wiki_id_result": "Eel",
+    "_wiki_id_origin": [
+      "Lumisquid",
+      "Bullfrog"
+    ],
+    "_wiki_chameleon_result": [
+      "Stalagmight",
+      "Fungloom",
+      "Eel"
+    ],
+    "_wiki_chameleon_origin": [
+      "Dreadwing",
+      "Bullfrog"
+    ]
   },
   "R51": {
     "name": "Stalagmight",
@@ -1902,8 +4815,22 @@
       "Cave Dweller"
     ],
     "input1": "Quartzfang Shard",
-    "input2": "Cave Dweller|Silentdepth Shard",
-    "id_result": "Draconic"
+    "input2": "Silentdepth Shard|Cave Dweller",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "STALAGMIGHT",
+    "_wiki_id_result": "Draconic",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Fungloom",
+      "Eel",
+      "King Cobra"
+    ],
+    "_wiki_chameleon_origin": [
+      "Joydive",
+      "Dreadwing"
+    ]
   },
   "R52": {
     "name": "Fungloom",
@@ -1913,8 +4840,25 @@
       "Cave Dweller"
     ],
     "input1": "Cave Dweller",
-    "input2": "Forest&Epic+",
-    "id_result": "Hewver"
+    "input2": "Epic+&Forest",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": "GENERIC_PLUS",
+    "_wiki_internal_id": "FUNGLOOM",
+    "_wiki_id_result": "Hewver",
+    "_wiki_id_origin": [
+      "Dreadwing"
+    ],
+    "_wiki_chameleon_result": [
+      "Eel",
+      "King Cobra",
+      "Hewver"
+    ],
+    "_wiki_chameleon_origin": [
+      "Stalagmight",
+      "Joydive",
+      "Dreadwing"
+    ]
   },
   "R53": {
     "name": "Eel",
@@ -1926,7 +4870,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Lava Flame"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "EEL",
+    "_wiki_id_result": "Lava Flame",
+    "_wiki_id_origin": [
+      "Joydive"
+    ],
+    "_wiki_chameleon_result": [
+      "King Cobra",
+      "Hewver",
+      "Lava Flame"
+    ],
+    "_wiki_chameleon_origin": [
+      "Fungloom",
+      "Stalagmight",
+      "Joydive"
+    ]
   },
   "R54": {
     "name": "King Cobra",
@@ -1937,8 +4898,23 @@
       "Serpent"
     ],
     "input1": "Python Shard",
-    "input2": "Combat&Uncommon+",
-    "id_result": "Draconic"
+    "input2": "Uncommon+&Combat",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "KING_COBRA",
+    "_wiki_id_result": "Draconic",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Hewver",
+      "Lava Flame",
+      "Draconic"
+    ],
+    "_wiki_chameleon_origin": [
+      "Eel",
+      "Fungloom",
+      "Stalagmight"
+    ]
   },
   "R55": {
     "name": "Hewver",
@@ -1947,7 +4923,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Hivethief"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HEWVER",
+    "_wiki_id_result": "Hivethief",
+    "_wiki_id_origin": [
+      "Fungloom"
+    ],
+    "_wiki_chameleon_result": [
+      "Lava Flame",
+      "Draconic",
+      "Falcon"
+    ],
+    "_wiki_chameleon_origin": [
+      "King Cobra",
+      "Eel",
+      "Fungloom"
+    ]
   },
   "R56": {
     "name": "Lava Flame",
@@ -1956,7 +4949,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Inferno Koi"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LAVA_FLAME",
+    "_wiki_id_result": "Inferno Koi",
+    "_wiki_id_origin": [
+      "Eel"
+    ],
+    "_wiki_chameleon_result": [
+      "Draconic",
+      "Falcon",
+      "Inferno Koi"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hewver",
+      "King Cobra",
+      "Eel"
+    ]
   },
   "R57": {
     "name": "Draconic",
@@ -1967,7 +4977,26 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Wither"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "DRACONIC",
+    "_wiki_id_result": "Wither",
+    "_wiki_id_origin": [
+      "King Cobra",
+      "Stalagmight",
+      "Crocodile"
+    ],
+    "_wiki_chameleon_result": [
+      "Falcon",
+      "Inferno Koi",
+      "Wither"
+    ],
+    "_wiki_chameleon_origin": [
+      "Lava Flame",
+      "Hewver",
+      "King Cobra"
+    ]
   },
   "R58": {
     "name": "Falcon",
@@ -1978,7 +5007,22 @@
     ],
     "input1": "Bird",
     "input2": "Rare+",
-    "id_result": "Hivethief"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "FALCON",
+    "_wiki_id_result": "Hivethief",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Inferno Koi",
+      "Wither",
+      "Gecko"
+    ],
+    "_wiki_chameleon_origin": [
+      "Draconic",
+      "Lava Flame",
+      "Hewver"
+    ]
   },
   "R59": {
     "name": "Inferno Koi",
@@ -1989,7 +5033,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Thunder"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "INFERNO_KOI",
+    "_wiki_id_result": "Thunder",
+    "_wiki_id_origin": [
+      "Lava Flame"
+    ],
+    "_wiki_chameleon_result": [
+      "Wither",
+      "Gecko",
+      "Wiki Tiki"
+    ],
+    "_wiki_chameleon_origin": [
+      "Falcon",
+      "Draconic",
+      "Lava Flame"
+    ]
   },
   "R60": {
     "name": "Wither",
@@ -1998,7 +5059,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Minotaur"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "WITHER",
+    "_wiki_id_result": "Minotaur",
+    "_wiki_id_origin": [
+      "Draconic"
+    ],
+    "_wiki_chameleon_result": [
+      "Gecko",
+      "Wiki Tiki",
+      "Minotaur"
+    ],
+    "_wiki_chameleon_origin": [
+      "Inferno Koi",
+      "Falcon",
+      "Draconic"
+    ]
   },
   "R61": {
     "name": "Gecko",
@@ -2010,7 +5088,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Hivethief"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GECKO",
+    "_wiki_id_result": "Hivethief",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Wiki Tiki",
+      "Minotaur",
+      "Hivethief"
+    ],
+    "_wiki_chameleon_origin": [
+      "Wither",
+      "Inferno Koi",
+      "Falcon"
+    ]
   },
   "R62": {
     "name": "Wiki Tiki",
@@ -2020,9 +5113,24 @@
       "Creation",
       "Elusive"
     ],
-    "input1": "Creation&Epic+",
-    "input2": "Shrieky Tiki Shard|Sneaky Tiki Shard|Cheeky Tiki Shard",
-    "id_result": "Thunder"
+    "input1": "Epic+&Creation",
+    "input2": "Sneaky Tiki Shard|Shrieky Tiki Shard|Cheeky Tiki Shard",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "WIKI_TIKI",
+    "_wiki_id_result": "Thunder",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Minotaur",
+      "Hivethief",
+      "Maggot"
+    ],
+    "_wiki_chameleon_origin": [
+      "Gecko",
+      "Wither",
+      "Inferno Koi"
+    ]
   },
   "R63": {
     "name": "Minotaur",
@@ -2031,7 +5139,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Stoneworm"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MINOTAUR",
+    "_wiki_id_result": "Stoneworm",
+    "_wiki_id_origin": [
+      "Wither"
+    ],
+    "_wiki_chameleon_result": [
+      "Hivethief",
+      "Maggot",
+      "Snoozle"
+    ],
+    "_wiki_chameleon_origin": [
+      "Wiki Tiki",
+      "Gecko",
+      "Wither"
+    ]
   },
   "R64": {
     "name": "Hivethief",
@@ -2040,7 +5165,26 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Puck"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HIVETHIEF",
+    "_wiki_id_result": "Puck",
+    "_wiki_id_origin": [
+      "Hewver",
+      "Gecko",
+      "Falcon"
+    ],
+    "_wiki_chameleon_result": [
+      "Maggot",
+      "Snoozle",
+      "Parakeet"
+    ],
+    "_wiki_chameleon_origin": [
+      "Minotaur",
+      "Wiki Tiki",
+      "Gecko"
+    ]
   },
   "R65": {
     "name": "Maggot",
@@ -2051,8 +5195,23 @@
       "Trash Lover"
     ],
     "input1": "Trash Lover",
-    "input2": "Bug&Uncommon+",
-    "id_result": "Thunder"
+    "input2": "Uncommon+&Bug",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MAGGOT",
+    "_wiki_id_result": "Thunder",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Snoozle",
+      "Parakeet",
+      "Thunder"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hivethief",
+      "Minotaur",
+      "Wiki Tiki"
+    ]
   },
   "R66": {
     "name": "Snoozle",
@@ -2061,7 +5220,22 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Stoneworm"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SNOOZLE",
+    "_wiki_id_result": "Stoneworm",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Parakeet",
+      "Thunder",
+      "Rockmite"
+    ],
+    "_wiki_chameleon_origin": [
+      "Maggot",
+      "Hivethief",
+      "Minotaur"
+    ]
   },
   "R67": {
     "name": "Parakeet",
@@ -2072,7 +5246,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Puck"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "PARAKEET",
+    "_wiki_id_result": "Puck",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Thunder",
+      "Rockmite",
+      "Anteater"
+    ],
+    "_wiki_chameleon_origin": [
+      "Snoozle",
+      "Maggot",
+      "Hivethief"
+    ]
   },
   "R68": {
     "name": "Thunder",
@@ -2083,7 +5272,26 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Stingray"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "THUNDER",
+    "_wiki_id_result": "Stingray",
+    "_wiki_id_origin": [
+      "Maggot",
+      "Inferno Koi",
+      "Wiki Tiki"
+    ],
+    "_wiki_chameleon_result": [
+      "Rockmite",
+      "Anteater",
+      "Terra"
+    ],
+    "_wiki_chameleon_origin": [
+      "Parakeet",
+      "Snoozle",
+      "Maggot"
+    ]
   },
   "R69": {
     "name": "Rockmite",
@@ -2095,7 +5303,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Stoneworm"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ROCKMITE",
+    "_wiki_id_result": "Stoneworm",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Anteater",
+      "Terra",
+      "Scrappy"
+    ],
+    "_wiki_chameleon_origin": [
+      "Thunder",
+      "Parakeet",
+      "Snoozle"
+    ]
   },
   "R70": {
     "name": "Anteater",
@@ -2104,7 +5327,22 @@
     "family": [],
     "input1": "Queen Ant Shard",
     "input2": "King Cobra Shard",
-    "id_result": "Puck"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ANTEATER",
+    "_wiki_id_result": "Puck",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Terra",
+      "Scrappy",
+      "Hideyho"
+    ],
+    "_wiki_chameleon_origin": [
+      "Rockmite",
+      "Thunder",
+      "Parakeet"
+    ]
   },
   "R72": {
     "name": "Scrappy",
@@ -2115,7 +5353,21 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Stoneworm"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SCRAPPY",
+    "_wiki_id_result": "Stoneworm",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Hideyho",
+      "Mantis Shrimp",
+      "Chuckwalla"
+    ],
+    "_wiki_chameleon_origin": [
+      "Anteater",
+      "Rockmite"
+    ]
   },
   "R73": {
     "name": "Hideyho",
@@ -2126,7 +5378,21 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Puck"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HIDEYHO",
+    "_wiki_id_result": "Puck",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Mantis Shrimp",
+      "Chuckwalla",
+      "Hideonfloor"
+    ],
+    "_wiki_chameleon_origin": [
+      "Scrappy",
+      "Anteater"
+    ]
   },
   "R74": {
     "name": "Mantis Shrimp",
@@ -2137,7 +5403,21 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Stingray"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MANTIS_SHRIMP",
+    "_wiki_id_result": "Stingray",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Chuckwalla",
+      "Hideonfloor",
+      "Gimmiegold"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hideyho",
+      "Scrappy"
+    ]
   },
   "R75": {
     "name": "Chuckwalla",
@@ -2149,7 +5429,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Stoneworm"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CHUCKWALLA",
+    "_wiki_id_result": "Stoneworm",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Hideonfloor",
+      "Gimmiegold",
+      "Billygoat"
+    ],
+    "_wiki_chameleon_origin": [
+      "Mantis Shrimp",
+      "Hideyho",
+      "Scrappy"
+    ]
   },
   "R76": {
     "name": "Hideonfloor",
@@ -2160,7 +5455,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Puck"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HIDEONFLOOR",
+    "_wiki_id_result": "Puck",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Gimmiegold",
+      "Billygoat",
+      "Hideonwall"
+    ],
+    "_wiki_chameleon_origin": [
+      "Chuckwalla",
+      "Mantis Shrimp",
+      "Hideyho"
+    ]
   },
   "R77": {
     "name": "Gimmiegold",
@@ -2171,7 +5481,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Stingray"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GIMMIEGOLD",
+    "_wiki_id_result": "Stingray",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Billygoat",
+      "Hideonwall",
+      "Nozzlenose"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hideonfloor",
+      "Chuckwalla",
+      "Mantis Shrimp"
+    ]
   },
   "R78": {
     "name": "Billygoat",
@@ -2182,7 +5507,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Stoneworm"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BILLYGOAT",
+    "_wiki_id_result": "Stoneworm",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Hideonwall",
+      "Nozzlenose",
+      "Stoneworm"
+    ],
+    "_wiki_chameleon_origin": [
+      "Gimmiegold",
+      "Hideonfloor",
+      "Chuckwalla"
+    ]
   },
   "R79": {
     "name": "Hideonwall",
@@ -2193,7 +5533,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Puck"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HIDEONWALL",
+    "_wiki_id_result": "Puck",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Nozzlenose",
+      "Stoneworm",
+      "Fluffling"
+    ],
+    "_wiki_chameleon_origin": [
+      "Billygoat",
+      "Gimmiegold",
+      "Hideonfloor"
+    ]
   },
   "R80": {
     "name": "Nozzlenose",
@@ -2202,7 +5557,22 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Stingray"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "NOZZLENOSE",
+    "_wiki_id_result": "Stingray",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Stoneworm",
+      "Fluffling",
+      "Stingray"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hideonwall",
+      "Billygoat",
+      "Gimmiegold"
+    ]
   },
   "R81": {
     "name": "Stoneworm",
@@ -2213,7 +5583,29 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Zombuddy"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "STONEWORM",
+    "_wiki_id_result": "Zombuddy",
+    "_wiki_id_origin": [
+      "Chuckwalla",
+      "Snoozle",
+      "Rockmite",
+      "Scrappy",
+      "Billygoat",
+      "Minotaur"
+    ],
+    "_wiki_chameleon_result": [
+      "Fluffling",
+      "Stingray",
+      "Zombuddy"
+    ],
+    "_wiki_chameleon_origin": [
+      "Nozzlenose",
+      "Hideonwall",
+      "Billygoat"
+    ]
   },
   "R82": {
     "name": "Fluffling",
@@ -2224,7 +5616,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Puck"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "FLUFFLING",
+    "_wiki_id_result": "Puck",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Stingray",
+      "Zombuddy",
+      "Puck"
+    ],
+    "_wiki_chameleon_origin": [
+      "Stoneworm",
+      "Nozzlenose",
+      "Hideonwall"
+    ]
   },
   "R83": {
     "name": "Stingray",
@@ -2235,7 +5642,27 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Giant Water Bug"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "STINGRAY",
+    "_wiki_id_result": "Giant Water Bug",
+    "_wiki_id_origin": [
+      "Thunder",
+      "Gimmiegold",
+      "Mantis Shrimp",
+      "Nozzlenose"
+    ],
+    "_wiki_chameleon_result": [
+      "Zombuddy",
+      "Puck",
+      "Troodon"
+    ],
+    "_wiki_chameleon_origin": [
+      "Fluffling",
+      "Stoneworm",
+      "Nozzlenose"
+    ]
   },
   "R84": {
     "name": "Zombuddy",
@@ -2244,7 +5671,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ZOMBUDDY",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Stoneworm"
+    ],
+    "_wiki_chameleon_result": [
+      "Puck",
+      "Troodon",
+      "Black Widow"
+    ],
+    "_wiki_chameleon_origin": [
+      "Stingray",
+      "Fluffling",
+      "Stoneworm"
+    ]
   },
   "R85": {
     "name": "Puck",
@@ -2255,7 +5699,30 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Pangolin"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "PUCK",
+    "_wiki_id_result": "Pangolin",
+    "_wiki_id_origin": [
+      "Anteater",
+      "Hivethief",
+      "Hideonwall",
+      "Hideyho",
+      "Fluffling",
+      "Parakeet",
+      "Hideonfloor"
+    ],
+    "_wiki_chameleon_result": [
+      "Troodon",
+      "Black Widow",
+      "Pangolin"
+    ],
+    "_wiki_chameleon_origin": [
+      "Zombuddy",
+      "Stingray",
+      "Fluffling"
+    ]
   },
   "R86": {
     "name": "Troodon",
@@ -2266,7 +5733,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Giant Water Bug"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TROODON",
+    "_wiki_id_result": "Giant Water Bug",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Black Widow",
+      "Pangolin",
+      "Giant Water Bug"
+    ],
+    "_wiki_chameleon_origin": [
+      "Puck",
+      "Zombuddy",
+      "Stingray"
+    ]
   },
   "R87": {
     "name": "Black Widow",
@@ -2278,7 +5760,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BLACK_WIDOW",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Pangolin",
+      "Giant Water Bug",
+      "Terra"
+    ],
+    "_wiki_chameleon_origin": [
+      "Troodon",
+      "Puck",
+      "Zombuddy"
+    ]
   },
   "R88": {
     "name": "Pangolin",
@@ -2287,7 +5784,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Murkbat"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "PANGOLIN",
+    "_wiki_id_result": "Murkbat",
+    "_wiki_id_origin": [
+      "Puck"
+    ],
+    "_wiki_chameleon_result": [
+      "Giant Water Bug",
+      "Terra",
+      "Murkbat"
+    ],
+    "_wiki_chameleon_origin": [
+      "Black Widow",
+      "Troodon",
+      "Puck"
+    ]
   },
   "R89": {
     "name": "Giant Water Bug",
@@ -2298,7 +5812,25 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Goldolot"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GIANT_WATER_BUG",
+    "_wiki_id_result": "Goldolot",
+    "_wiki_id_origin": [
+      "Troodon",
+      "Stingray"
+    ],
+    "_wiki_chameleon_result": [
+      "Terra",
+      "Murkbat",
+      "Goldolot"
+    ],
+    "_wiki_chameleon_origin": [
+      "Pangolin",
+      "Black Widow",
+      "Troodon"
+    ]
   },
   "R91": {
     "name": "Murkbat",
@@ -2307,19 +5839,50 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Drybark"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MURKBAT",
+    "_wiki_id_result": "Drybark",
+    "_wiki_id_origin": [
+      "Pangolin"
+    ],
+    "_wiki_chameleon_result": [
+      "Goldolot",
+      "Terra",
+      "Rabbit Neighbor"
+    ],
+    "_wiki_chameleon_origin": [
+      "Giant Water Bug",
+      "Pangolin"
+    ]
   },
   "R92": {
     "name": "Goldolot",
     "rarity": "Rare",
     "category": "Water",
     "family": [
-      "Axolotl",
-      "Amphibian"
+      "Axolotl"
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Torrid"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GOLDOLOT",
+    "_wiki_id_result": "Torrid",
+    "_wiki_id_origin": [
+      "Giant Water Bug"
+    ],
+    "_wiki_chameleon_result": [
+      "Terra",
+      "Rabbit Neighbor",
+      "Torrid"
+    ],
+    "_wiki_chameleon_origin": [
+      "Murkbat",
+      "Giant Water Bug"
+    ]
   },
   "R94": {
     "name": "Rabbit Neighbor",
@@ -2330,7 +5893,21 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Drybark"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "RABBIT_NEIGHBOR",
+    "_wiki_id_result": "Drybark",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Torrid",
+      "Terra",
+      "Drybark"
+    ],
+    "_wiki_chameleon_origin": [
+      "Goldolot",
+      "Murkbat"
+    ]
   },
   "R95": {
     "name": "Torrid",
@@ -2341,7 +5918,23 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TORRID",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Goldolot"
+    ],
+    "_wiki_chameleon_result": [
+      "Terra",
+      "Drybark",
+      "Cryo"
+    ],
+    "_wiki_chameleon_origin": [
+      "Rabbit Neighbor",
+      "Goldolot"
+    ]
   },
   "R97": {
     "name": "Drybark",
@@ -2350,7 +5943,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "DRYBARK",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Murkbat",
+      "Rabbit Neighbor"
+    ],
+    "_wiki_chameleon_result": [
+      "Terra",
+      "Cryo",
+      "Aero"
+    ],
+    "_wiki_chameleon_origin": [
+      "Torrid",
+      "Rabbit Neighbor"
+    ]
   },
   "E1": {
     "name": "Terra",
@@ -2359,9 +5969,49 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Forest&Epic",
+    "input1": "Epic&Forest",
     "input2": "Legendary+",
-    "id_result": "XYZ"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TERRA",
+    "_wiki_id_result": "XYZ",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Cryo",
+      "Aero",
+      "Pandarai"
+    ],
+    "_wiki_chameleon_origin": [
+      "Drybark",
+      "Badger",
+      "Anteater",
+      "Revenant",
+      "Hideongeon",
+      "Bullfrog",
+      "Torrid",
+      "Goldolot",
+      "Piranha",
+      "Vulture",
+      "Giant Water Bug",
+      "Beetle",
+      "Wild Hog",
+      "Lava Leech",
+      "Drowned",
+      "Murkbat",
+      "Pangolin",
+      "Wither Spectre",
+      "Rockmite",
+      "Rabbit Neighbor",
+      "Invisibug",
+      "Lapis Skeleton",
+      "Python",
+      "Thunder",
+      "Carrot King",
+      "Black Widow",
+      "Crocodile",
+      "Bitbug"
+    ]
   },
   "E2": {
     "name": "Cryo",
@@ -2370,9 +6020,25 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Water&Epic",
+    "input1": "Epic&Water",
     "input2": "Legendary+",
-    "id_result": "Abyssal Miner"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CRYO",
+    "_wiki_id_result": "Abyssal Miner",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Aero",
+      "Pandarai",
+      "Leviathan"
+    ],
+    "_wiki_chameleon_origin": [
+      "Terra",
+      "Drybark",
+      "Torrid",
+      "Piranha"
+    ]
   },
   "E3": {
     "name": "Aero",
@@ -2381,9 +6047,24 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Combat&Epic",
+    "input1": "Epic&Combat",
     "input2": "Legendary+",
-    "id_result": "Special Zealot"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "AERO",
+    "_wiki_id_result": "Special Zealot",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Pandarai",
+      "Leviathan",
+      "Alligator"
+    ],
+    "_wiki_chameleon_origin": [
+      "Cryo",
+      "Terra",
+      "Drybark"
+    ]
   },
   "E4": {
     "name": "Pandarai",
@@ -2394,7 +6075,22 @@
     ],
     "input1": "Panda",
     "input2": "Rare+",
-    "id_result": "XYZ"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "PANDARAI",
+    "_wiki_id_result": "XYZ",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Leviathan",
+      "Alligator",
+      "Fenlord"
+    ],
+    "_wiki_chameleon_origin": [
+      "Aero",
+      "Cryo",
+      "Terra"
+    ]
   },
   "E5": {
     "name": "Leviathan",
@@ -2405,8 +6101,23 @@
       "Lizard"
     ],
     "input1": "Lizard",
-    "input2": "Water&Rare+",
-    "id_result": "Abyssal Miner"
+    "input2": "Rare+&Water",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LEVIATHAN",
+    "_wiki_id_result": "Abyssal Miner",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Alligator",
+      "Fenlord",
+      "Abyssal Miner"
+    ],
+    "_wiki_chameleon_origin": [
+      "Pandarai",
+      "Aero",
+      "Cryo"
+    ]
   },
   "E6": {
     "name": "Alligator",
@@ -2417,8 +6128,23 @@
       "Croco"
     ],
     "input1": "Crocodile Shard",
-    "input2": "Combat&Rare+",
-    "id_result": "Special Zealot"
+    "input2": "Rare+&Combat",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ALLIGATOR",
+    "_wiki_id_result": "Special Zealot",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Fenlord",
+      "Abyssal Miner",
+      "Basilisk"
+    ],
+    "_wiki_chameleon_origin": [
+      "Leviathan",
+      "Pandarai",
+      "Aero"
+    ]
   },
   "E7": {
     "name": "Fenlord",
@@ -2429,8 +6155,23 @@
       "Amphibian"
     ],
     "input1": "Bullfrog Shard",
-    "input2": "Forest&Rare+",
-    "id_result": "XYZ"
+    "input2": "Rare+&Forest",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "FENLORD",
+    "_wiki_id_result": "XYZ",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Abyssal Miner",
+      "Basilisk",
+      "Iguana"
+    ],
+    "_wiki_chameleon_origin": [
+      "Alligator",
+      "Leviathan",
+      "Pandarai"
+    ]
   },
   "E8": {
     "name": "Abyssal Miner",
@@ -2442,7 +6183,25 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Water Hydra"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ABYSSAL_MINER",
+    "_wiki_id_result": "Water Hydra",
+    "_wiki_id_origin": [
+      "Leviathan",
+      "Cryo"
+    ],
+    "_wiki_chameleon_result": [
+      "Basilisk",
+      "Iguana",
+      "Moray Eel"
+    ],
+    "_wiki_chameleon_origin": [
+      "Fenlord",
+      "Alligator",
+      "Leviathan"
+    ]
   },
   "E9": {
     "name": "Basilisk",
@@ -2453,8 +6212,23 @@
       "Serpent"
     ],
     "input1": "King Cobra Shard",
-    "input2": "Combat&Rare+",
-    "id_result": "Special Zealot"
+    "input2": "Rare+&Combat",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BASILISK",
+    "_wiki_id_result": "Special Zealot",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Iguana",
+      "Moray Eel",
+      "Special Zealot"
+    ],
+    "_wiki_chameleon_origin": [
+      "Abyssal Miner",
+      "Fenlord",
+      "Alligator"
+    ]
   },
   "E10": {
     "name": "Iguana",
@@ -2465,8 +6239,23 @@
       "Scaled"
     ],
     "input1": "Gecko Shard",
-    "input2": "Forest&Rare+",
-    "id_result": "XYZ"
+    "input2": "Rare+&Forest",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "IGUANA",
+    "_wiki_id_result": "XYZ",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Moray Eel",
+      "Special Zealot",
+      "Lunar Moth"
+    ],
+    "_wiki_chameleon_origin": [
+      "Basilisk",
+      "Abyssal Miner",
+      "Fenlord"
+    ]
   },
   "E11": {
     "name": "Moray Eel",
@@ -2477,8 +6266,23 @@
       "Amphibian"
     ],
     "input1": "Eel Shard",
-    "input2": "Water&Rare+",
-    "id_result": "Water Hydra"
+    "input2": "Rare+&Water",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MORAY_EEL",
+    "_wiki_id_result": "Water Hydra",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Special Zealot",
+      "Lunar Moth",
+      "Fire Eel"
+    ],
+    "_wiki_chameleon_origin": [
+      "Iguana",
+      "Basilisk",
+      "Abyssal Miner"
+    ]
   },
   "E12": {
     "name": "Special Zealot",
@@ -2489,7 +6293,26 @@
     ],
     "input1": "Zealot Shard",
     "input2": "Combat&Elusive",
-    "id_result": "Bal"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": "GENERIC_PLUS",
+    "_wiki_internal_id": "SPECIAL_ZEALOT",
+    "_wiki_id_result": "Bal",
+    "_wiki_id_origin": [
+      "Basilisk",
+      "Aero",
+      "Alligator"
+    ],
+    "_wiki_chameleon_result": [
+      "Lunar Moth",
+      "Fire Eel",
+      "Bal"
+    ],
+    "_wiki_chameleon_origin": [
+      "Moray Eel",
+      "Iguana",
+      "Basilisk"
+    ]
   },
   "E13": {
     "name": "Lunar Moth",
@@ -2499,8 +6322,23 @@
       "Bug"
     ],
     "input1": "Ladybug Shard",
-    "input2": "Bug&Rare+",
-    "id_result": "XYZ"
+    "input2": "Rare+&Bug",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LUNAR_MOTH",
+    "_wiki_id_result": "XYZ",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Fire Eel",
+      "Bal",
+      "Hideonsack"
+    ],
+    "_wiki_chameleon_origin": [
+      "Special Zealot",
+      "Moray Eel",
+      "Iguana"
+    ]
   },
   "E14": {
     "name": "Fire Eel",
@@ -2511,8 +6349,23 @@
       "Amphibian"
     ],
     "input1": "Moray Eel Shard",
-    "input2": "Firefox Shard|Firefly Shard|Eel Shard",
-    "id_result": "Water Hydra"
+    "input2": "Eel Shard|Firefly Shard|Firefox Shard",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "FIRE_EEL",
+    "_wiki_id_result": "Water Hydra",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Bal",
+      "Hideonsack",
+      "Water Hydra"
+    ],
+    "_wiki_chameleon_origin": [
+      "Lunar Moth",
+      "Special Zealot",
+      "Moray Eel"
+    ]
   },
   "E15": {
     "name": "Bal",
@@ -2523,7 +6376,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Flare"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BAL",
+    "_wiki_id_result": "Flare",
+    "_wiki_id_origin": [
+      "Special Zealot"
+    ],
+    "_wiki_chameleon_result": [
+      "Hideonsack",
+      "Water Hydra",
+      "Flare"
+    ],
+    "_wiki_chameleon_origin": [
+      "Fire Eel",
+      "Lunar Moth",
+      "Special Zealot"
+    ]
   },
   "E16": {
     "name": "Hideonsack",
@@ -2532,9 +6402,24 @@
     "family": [
       "Shulker"
     ],
-    "input1": "Shulker&Rare+",
+    "input1": "Rare+&Shulker",
     "input2": "Epic+",
-    "id_result": "XYZ"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HIDEONSACK",
+    "_wiki_id_result": "XYZ",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Water Hydra",
+      "Flare",
+      "Murderwing"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bal",
+      "Fire Eel",
+      "Lunar Moth"
+    ]
   },
   "E17": {
     "name": "Water Hydra",
@@ -2543,7 +6428,26 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Loch Emperor"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "WATER_HYDRA",
+    "_wiki_id_result": "Loch Emperor",
+    "_wiki_id_origin": [
+      "Abyssal Miner",
+      "Moray Eel",
+      "Fire Eel"
+    ],
+    "_wiki_chameleon_result": [
+      "Flare",
+      "Murderwing",
+      "Loch Emperor"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hideonsack",
+      "Bal",
+      "Fire Eel"
+    ]
   },
   "E18": {
     "name": "Flare",
@@ -2552,7 +6456,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Prince"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "FLARE",
+    "_wiki_id_result": "Prince",
+    "_wiki_id_origin": [
+      "Bal"
+    ],
+    "_wiki_chameleon_result": [
+      "Murderwing",
+      "Loch Emperor",
+      "Prince"
+    ],
+    "_wiki_chameleon_origin": [
+      "Water Hydra",
+      "Hideonsack",
+      "Bal"
+    ]
   },
   "E19": {
     "name": "Murderwing",
@@ -2563,7 +6484,22 @@
     ],
     "input1": "Phantom",
     "input2": "Epic+",
-    "id_result": "XYZ"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MURDERWING",
+    "_wiki_id_result": "XYZ",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Loch Emperor",
+      "Prince",
+      "Komodo Dragon"
+    ],
+    "_wiki_chameleon_origin": [
+      "Flare",
+      "Water Hydra",
+      "Hideonsack"
+    ]
   },
   "E20": {
     "name": "Loch Emperor",
@@ -2572,7 +6508,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Shellwise"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SEA_EMPEROR",
+    "_wiki_id_result": "Shellwise",
+    "_wiki_id_origin": [
+      "Water Hydra"
+    ],
+    "_wiki_chameleon_result": [
+      "Prince",
+      "Komodo Dragon",
+      "Blue Crab"
+    ],
+    "_wiki_chameleon_origin": [
+      "Murderwing",
+      "Flare",
+      "Water Hydra"
+    ]
   },
   "E21": {
     "name": "Prince",
@@ -2581,7 +6534,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Mimic"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "PRINCE",
+    "_wiki_id_result": "Mimic",
+    "_wiki_id_origin": [
+      "Flare"
+    ],
+    "_wiki_chameleon_result": [
+      "Komodo Dragon",
+      "Blue Crab",
+      "Mimic"
+    ],
+    "_wiki_chameleon_origin": [
+      "Loch Emperor",
+      "Murderwing",
+      "Flare"
+    ]
   },
   "E22": {
     "name": "Komodo Dragon",
@@ -2592,8 +6562,23 @@
       "Scaled"
     ],
     "input1": "Iguana Shard",
-    "input2": "Forest&Rare+",
-    "id_result": "XYZ"
+    "input2": "Rare+&Forest",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "KOMODO_DRAGON",
+    "_wiki_id_result": "XYZ",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Blue Crab",
+      "Mimic",
+      "Wolverine"
+    ],
+    "_wiki_chameleon_origin": [
+      "Prince",
+      "Loch Emperor",
+      "Murderwing"
+    ]
   },
   "E23": {
     "name": "Blue Crab",
@@ -2602,9 +6587,24 @@
     "family": [
       "Crustacean"
     ],
-    "input1": "Crustacean&Rare+",
-    "input2": "Treasure Fish&Rare+",
-    "id_result": "Shellwise"
+    "input1": "Rare+&Crustacean",
+    "input2": "Rare+&Treasure Fish",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BLUE_CRAB",
+    "_wiki_id_result": "Shellwise",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Mimic",
+      "Wolverine",
+      "Shellwise"
+    ],
+    "_wiki_chameleon_origin": [
+      "Komodo Dragon",
+      "Prince",
+      "Loch Emperor"
+    ]
   },
   "E24": {
     "name": "Mimic",
@@ -2616,7 +6616,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Barbarian Duke X"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MIMIC",
+    "_wiki_id_result": "Barbarian Duke X",
+    "_wiki_id_origin": [
+      "Prince"
+    ],
+    "_wiki_chameleon_result": [
+      "Wolverine",
+      "Shellwise",
+      "Barbarian Duke X"
+    ],
+    "_wiki_chameleon_origin": [
+      "Blue Crab",
+      "Komodo Dragon",
+      "Prince"
+    ]
   },
   "E25": {
     "name": "Wolverine",
@@ -2627,7 +6644,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "XYZ"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "WOLVERINE",
+    "_wiki_id_result": "XYZ",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Shellwise",
+      "Barbarian Duke X",
+      "Toucan"
+    ],
+    "_wiki_chameleon_origin": [
+      "Mimic",
+      "Blue Crab",
+      "Komodo Dragon"
+    ]
   },
   "E26": {
     "name": "Shellwise",
@@ -2639,7 +6671,25 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Silkbreeze"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SHELLWISE",
+    "_wiki_id_result": "Silkbreeze",
+    "_wiki_id_origin": [
+      "Loch Emperor",
+      "Blue Crab"
+    ],
+    "_wiki_chameleon_result": [
+      "Barbarian Duke X",
+      "Toucan",
+      "Tenebris"
+    ],
+    "_wiki_chameleon_origin": [
+      "Wolverine",
+      "Mimic",
+      "Blue Crab"
+    ]
   },
   "E27": {
     "name": "Barbarian Duke X",
@@ -2650,7 +6700,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Ghost"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BARBARIAN_DUKE_X",
+    "_wiki_id_result": "Ghost",
+    "_wiki_id_origin": [
+      "Mimic"
+    ],
+    "_wiki_chameleon_result": [
+      "Toucan",
+      "Tenebris",
+      "Caiman"
+    ],
+    "_wiki_chameleon_origin": [
+      "Shellwise",
+      "Wolverine",
+      "Mimic"
+    ]
   },
   "E28": {
     "name": "Toucan",
@@ -2661,7 +6728,22 @@
     ],
     "input1": "Bird",
     "input2": "Epic+",
-    "id_result": "XYZ"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TOUCAN",
+    "_wiki_id_result": "XYZ",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Tenebris",
+      "Caiman",
+      "Firefly"
+    ],
+    "_wiki_chameleon_origin": [
+      "Barbarian Duke X",
+      "Shellwise",
+      "Wolverine"
+    ]
   },
   "E30": {
     "name": "Caiman",
@@ -2672,8 +6754,22 @@
       "Croco"
     ],
     "input1": "Alligator Shard",
-    "input2": "Combat&Rare+",
-    "id_result": "Ghost"
+    "input2": "Rare+&Combat",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CAIMAN",
+    "_wiki_id_result": "Ghost",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Firefly",
+      "Sea Serpent",
+      "Ghost"
+    ],
+    "_wiki_chameleon_origin": [
+      "Toucan",
+      "Barbarian Duke X"
+    ]
   },
   "E31": {
     "name": "Firefly",
@@ -2683,8 +6779,22 @@
       "Bug"
     ],
     "input1": "Praying Mantis Shard",
-    "input2": "Bezal Shard|Cinderbat Shard|Flare Shard|Lava Flame Shard|Fire Eel Shard|Bal Shard|Flaming Spider Shard",
-    "id_result": "XYZ"
+    "input2": "Bezal Shard|Lava Flame Shard|Fire Eel Shard|Bal Shard|Flare Shard|Cinderbat Shard|Flaming Spider Shard",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "FIREFLY",
+    "_wiki_id_result": "XYZ",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sea Serpent",
+      "Ghost",
+      "XYZ"
+    ],
+    "_wiki_chameleon_origin": [
+      "Caiman",
+      "Toucan"
+    ]
   },
   "E32": {
     "name": "Sea Serpent",
@@ -2696,8 +6806,22 @@
       "Amphibian"
     ],
     "input1": "Moray Eel Shard",
-    "input2": "Water&Rare+",
-    "id_result": "Silkbreeze"
+    "input2": "Rare+&Water",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SEA_SERPENT",
+    "_wiki_id_result": "Silkbreeze",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Ghost",
+      "XYZ",
+      "Leatherback"
+    ],
+    "_wiki_chameleon_origin": [
+      "Firefly",
+      "Caiman"
+    ]
   },
   "E33": {
     "name": "Ghost",
@@ -2708,7 +6832,25 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Sphinx"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GHOST",
+    "_wiki_id_result": "Sphinx",
+    "_wiki_id_origin": [
+      "Barbarian Duke X",
+      "Caiman"
+    ],
+    "_wiki_chameleon_result": [
+      "XYZ",
+      "Leatherback",
+      "Cavernshade"
+    ],
+    "_wiki_chameleon_origin": [
+      "Sea Serpent",
+      "Firefly",
+      "Caiman"
+    ]
   },
   "E34": {
     "name": "XYZ",
@@ -2717,7 +6859,34 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Dive Ghast"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "XYZ",
+    "_wiki_id_result": "Dive Ghast",
+    "_wiki_id_origin": [
+      "Iguana",
+      "Komodo Dragon",
+      "Hideonsack",
+      "Fenlord",
+      "Wolverine",
+      "Murderwing",
+      "Terra",
+      "Pandarai",
+      "Toucan",
+      "Firefly",
+      "Lunar Moth"
+    ],
+    "_wiki_chameleon_result": [
+      "Leatherback",
+      "Cavernshade",
+      "Dragonfly"
+    ],
+    "_wiki_chameleon_origin": [
+      "Ghost",
+      "Sea Serpent",
+      "Firefly"
+    ]
   },
   "E35": {
     "name": "Leatherback",
@@ -2728,8 +6897,23 @@
       "Turtle"
     ],
     "input1": "Shellwise Shard",
-    "input2": "Water&Rare+",
-    "id_result": "Silkbreeze"
+    "input2": "Rare+&Water",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LEATHERBACK",
+    "_wiki_id_result": "Silkbreeze",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Cavernshade",
+      "Dragonfly",
+      "Tenebris"
+    ],
+    "_wiki_chameleon_origin": [
+      "XYZ",
+      "Ghost",
+      "Sea Serpent"
+    ]
   },
   "E36": {
     "name": "Cavernshade",
@@ -2738,9 +6922,24 @@
     "family": [
       "Cave Dweller"
     ],
-    "input1": "Cave Dweller&Rare+",
-    "input2": "Cave Dweller&Epic+",
-    "id_result": "Sphinx"
+    "input1": "Rare+&Cave Dweller",
+    "input2": "Epic+&Cave Dweller",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CAVERNSHADE",
+    "_wiki_id_result": "Sphinx",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Dragonfly",
+      "Tenebris",
+      "Sphinx"
+    ],
+    "_wiki_chameleon_origin": [
+      "Leatherback",
+      "XYZ",
+      "Ghost"
+    ]
   },
   "E37": {
     "name": "Dragonfly",
@@ -2751,7 +6950,22 @@
     ],
     "input1": "Firefly Shard",
     "input2": "Dragon",
-    "id_result": "Dive Ghast"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "DRAGONFLY",
+    "_wiki_id_result": "Dive Ghast",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Tenebris",
+      "Sphinx",
+      "Blizzard"
+    ],
+    "_wiki_chameleon_origin": [
+      "Cavernshade",
+      "Leatherback",
+      "XYZ"
+    ]
   },
   "E39": {
     "name": "Sphinx",
@@ -2760,7 +6974,24 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "King Minos"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SPHINX",
+    "_wiki_id_result": "King Minos",
+    "_wiki_id_origin": [
+      "Ghost",
+      "Cavernshade"
+    ],
+    "_wiki_chameleon_result": [
+      "Tenebris",
+      "Blizzard",
+      "King Minos"
+    ],
+    "_wiki_chameleon_origin": [
+      "Dragonfly",
+      "Cavernshade"
+    ]
   },
   "E42": {
     "name": "King Minos",
@@ -2769,7 +7000,22 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Inferno Demonlord"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "KING_MINOS",
+    "_wiki_id_result": "Inferno Demonlord",
+    "_wiki_id_origin": [
+      "Sphinx"
+    ],
+    "_wiki_chameleon_result": [
+      "Dive Ghast",
+      "Silkbreeze",
+      "Gemzie"
+    ],
+    "_wiki_chameleon_origin": [
+      "Sphinx"
+    ]
   },
   "E43": {
     "name": "Dive Ghast",
@@ -2778,7 +7024,23 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Mountain Goat"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "DIVE_GHAST",
+    "_wiki_id_result": "Mountain Goat",
+    "_wiki_id_origin": [
+      "XYZ",
+      "Dragonfly"
+    ],
+    "_wiki_chameleon_result": [
+      "Silkbreeze",
+      "Gemzie",
+      "Rabbit Godmother"
+    ],
+    "_wiki_chameleon_origin": [
+      "King Minos"
+    ]
   },
   "E44": {
     "name": "Silkbreeze",
@@ -2787,7 +7049,25 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Giant Isopod"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SILKBREEZE",
+    "_wiki_id_result": "Giant Isopod",
+    "_wiki_id_origin": [
+      "Leatherback",
+      "Shellwise",
+      "Sea Serpent"
+    ],
+    "_wiki_chameleon_result": [
+      "Gemzie",
+      "Rabbit Godmother",
+      "Giant Isopod"
+    ],
+    "_wiki_chameleon_origin": [
+      "Dive Ghast",
+      "King Minos"
+    ]
   },
   "E45": {
     "name": "Gemzie",
@@ -2798,7 +7078,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Inferno Demonlord"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GEMZIE",
+    "_wiki_id_result": "Inferno Demonlord",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Rabbit Godmother",
+      "Giant Isopod",
+      "Inferno Demonlord"
+    ],
+    "_wiki_chameleon_origin": [
+      "Silkbreeze",
+      "Dive Ghast",
+      "King Minos"
+    ]
   },
   "E46": {
     "name": "Rabbit Godmother",
@@ -2809,7 +7104,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Mountain Goat"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "RABBIT_GODMOTHER",
+    "_wiki_id_result": "Mountain Goat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Giant Isopod",
+      "Inferno Demonlord",
+      "Queen Bee"
+    ],
+    "_wiki_chameleon_origin": [
+      "Gemzie",
+      "Silkbreeze",
+      "Dive Ghast"
+    ]
   },
   "E47": {
     "name": "Giant Isopod",
@@ -2821,7 +7131,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GIANT_ISOPOD",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Silkbreeze"
+    ],
+    "_wiki_chameleon_result": [
+      "Inferno Demonlord",
+      "Queen Bee",
+      "Tenebris"
+    ],
+    "_wiki_chameleon_origin": [
+      "Rabbit Godmother",
+      "Gemzie",
+      "Silkbreeze"
+    ]
   },
   "E48": {
     "name": "Inferno Demonlord",
@@ -2832,7 +7159,25 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Scatha"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BURNINGSOUL",
+    "_wiki_id_result": "Scatha",
+    "_wiki_id_origin": [
+      "Gemzie",
+      "King Minos"
+    ],
+    "_wiki_chameleon_result": [
+      "Queen Bee",
+      "Tenebris",
+      "Bonzo"
+    ],
+    "_wiki_chameleon_origin": [
+      "Giant Isopod",
+      "Rabbit Godmother",
+      "Gemzie"
+    ]
   },
   "E49": {
     "name": "Queen Bee",
@@ -2843,7 +7188,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Mountain Goat"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "QUEEN_BEE",
+    "_wiki_id_result": "Mountain Goat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Tenebris",
+      "Bonzo",
+      "Beeheemoth"
+    ],
+    "_wiki_chameleon_origin": [
+      "Inferno Demonlord",
+      "Giant Isopod",
+      "Rabbit Godmother"
+    ]
   },
   "E51": {
     "name": "Bonzo",
@@ -2854,7 +7214,21 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Scatha"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BONZO",
+    "_wiki_id_result": "Scatha",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Beeheemoth",
+      "Tenebris",
+      "Scarf"
+    ],
+    "_wiki_chameleon_origin": [
+      "Queen Bee",
+      "Inferno Demonlord"
+    ]
   },
   "E52": {
     "name": "Beeheemoth",
@@ -2866,7 +7240,21 @@
     ],
     "input1": "Queen Bee Shard",
     "input2": "Lunar Moth Shard",
-    "id_result": "Mountain Goat"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BEEHEEMOTH",
+    "_wiki_id_result": "Mountain Goat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Tenebris",
+      "Scarf",
+      "Blizzard"
+    ],
+    "_wiki_chameleon_origin": [
+      "Bonzo",
+      "Queen Bee"
+    ]
   },
   "E54": {
     "name": "Scarf",
@@ -2875,7 +7263,21 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Scatha"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SCARF",
+    "_wiki_id_result": "Scatha",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Tenebris",
+      "Blizzard",
+      "Thorn"
+    ],
+    "_wiki_chameleon_origin": [
+      "Beeheemoth",
+      "Bonzo"
+    ]
   },
   "E57": {
     "name": "Thorn",
@@ -2884,7 +7286,20 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Scatha"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "THORN",
+    "_wiki_id_result": "Scatha",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Mountain Goat",
+      "Tenebris",
+      "Scatha"
+    ],
+    "_wiki_chameleon_origin": [
+      "Scarf"
+    ]
   },
   "E58": {
     "name": "Mountain Goat",
@@ -2893,7 +7308,25 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MOUNTAIN_GOAT",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Dive Ghast",
+      "Rabbit Godmother",
+      "Queen Bee",
+      "Beeheemoth"
+    ],
+    "_wiki_chameleon_result": [
+      "Tenebris",
+      "Scatha",
+      "Blizzard"
+    ],
+    "_wiki_chameleon_origin": [
+      "Thorn"
+    ]
   },
   "E60": {
     "name": "Scatha",
@@ -2904,7 +7337,26 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Littlefoot"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SCATHA",
+    "_wiki_id_result": "Littlefoot",
+    "_wiki_id_origin": [
+      "Thorn",
+      "Inferno Demonlord",
+      "Scarf",
+      "Bonzo"
+    ],
+    "_wiki_chameleon_result": [
+      "Tenebris",
+      "Blizzard",
+      "Nilbog"
+    ],
+    "_wiki_chameleon_origin": [
+      "Mountain Goat",
+      "Thorn"
+    ]
   },
   "E63": {
     "name": "Nilbog",
@@ -2916,7 +7368,20 @@
     ],
     "input1": "Gimmiegold Shard",
     "input2": "Legendary+",
-    "id_result": "Littlefoot"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "NILBOG",
+    "_wiki_id_result": "Littlefoot",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Tenebris",
+      "Blizzard",
+      "Littlefoot"
+    ],
+    "_wiki_chameleon_origin": [
+      "Scatha"
+    ]
   },
   "E66": {
     "name": "Littlefoot",
@@ -2927,7 +7392,23 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LITTLEFOOT",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Scatha",
+      "Nilbog"
+    ],
+    "_wiki_chameleon_result": [
+      "Tenebris",
+      "Blizzard",
+      "Tempest"
+    ],
+    "_wiki_chameleon_origin": [
+      "Nilbog"
+    ]
   },
   "L1": {
     "name": "Tenebris",
@@ -2936,9 +7417,38 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Forest&Legendary",
-    "input2": "Elemental&Epic+",
-    "id_result": "Cinderbat"
+    "input1": "Legendary&Forest",
+    "input2": "Epic+&Elemental",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TENEBRIS",
+    "_wiki_id_result": "Cinderbat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Blizzard",
+      "Tempest"
+    ],
+    "_wiki_chameleon_origin": [
+      "Mountain Goat",
+      "Littlefoot",
+      "Scarf",
+      "Scatha",
+      "Nilbog",
+      "Toucan",
+      "Queen Bee",
+      "Dragonfly",
+      "Beeheemoth",
+      "Sphinx",
+      "Thorn",
+      "Barbarian Duke X",
+      "Inferno Demonlord",
+      "Cavernshade",
+      "Bonzo",
+      "Leatherback",
+      "Shellwise",
+      "Giant Isopod"
+    ]
   },
   "L2": {
     "name": "Blizzard",
@@ -2947,9 +7457,29 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Water&Legendary",
-    "input2": "Elemental&Epic+",
-    "id_result": "Nessie"
+    "input1": "Legendary&Water",
+    "input2": "Epic+&Elemental",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "BLIZZARD",
+    "_wiki_id_result": "Nessie",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Tempest",
+      "Nessie"
+    ],
+    "_wiki_chameleon_origin": [
+      "Tenebris",
+      "Littlefoot",
+      "Scarf",
+      "Scatha",
+      "Nilbog",
+      "Sphinx",
+      "Mountain Goat",
+      "Dragonfly",
+      "Beeheemoth"
+    ]
   },
   "L3": {
     "name": "Tempest",
@@ -2958,9 +7488,23 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Combat&Legendary",
-    "input2": "Elemental&Epic+",
-    "id_result": "End Stone Protector"
+    "input1": "Legendary&Combat",
+    "input2": "Epic+&Elemental",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TEMPEST",
+    "_wiki_id_result": "End Stone Protector",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Nessie",
+      "Tiamat"
+    ],
+    "_wiki_chameleon_origin": [
+      "Blizzard",
+      "Tenebris",
+      "Littlefoot"
+    ]
   },
   "L4": {
     "name": "Chameleon",
@@ -2971,7 +7515,18 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Phanpyre"
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CHAMELEON",
+    "_wiki_id_result": "Cinderbat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Nessie",
+      "Tiamat",
+      "Wyvern"
+    ],
+    "_wiki_chameleon_origin": []
   },
   "L5": {
     "name": "Nessie",
@@ -2982,7 +7537,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Spike"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "NESSIE",
+    "_wiki_id_result": "Spike",
+    "_wiki_id_origin": [
+      "Blizzard"
+    ],
+    "_wiki_chameleon_result": [
+      "Tiamat",
+      "Wyvern",
+      "Tortoise"
+    ],
+    "_wiki_chameleon_origin": [
+      "Chameleon",
+      "Tempest",
+      "Blizzard"
+    ]
   },
   "L6": {
     "name": "Tiamat",
@@ -2993,8 +7565,23 @@
       "Croco"
     ],
     "input1": "Caiman Shard",
-    "input2": "Combat&Epic+",
-    "id_result": "End Stone Protector"
+    "input2": "Epic+&Combat",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TIAMAT",
+    "_wiki_id_result": "End Stone Protector",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Wyvern",
+      "Tortoise",
+      "End Stone Protector"
+    ],
+    "_wiki_chameleon_origin": [
+      "Nessie",
+      "Chameleon",
+      "Tempest"
+    ]
   },
   "L7": {
     "name": "Wyvern",
@@ -3005,8 +7592,23 @@
       "Scaled"
     ],
     "input1": "Komodo Dragon Shard",
-    "input2": "Forest&Epic+",
-    "id_result": "Cinderbat"
+    "input2": "Epic+&Forest",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "WYVERN",
+    "_wiki_id_result": "Cinderbat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Tortoise",
+      "End Stone Protector",
+      "Rabbit Godfather"
+    ],
+    "_wiki_chameleon_origin": [
+      "Tiamat",
+      "Nessie",
+      "Chameleon"
+    ]
   },
   "L8": {
     "name": "Tortoise",
@@ -3017,8 +7619,23 @@
       "Turtle"
     ],
     "input1": "Leatherback Shard",
-    "input2": "Water&Epic+",
-    "id_result": "Spike"
+    "input2": "Epic+&Water",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TORTOISE",
+    "_wiki_id_result": "Spike",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "End Stone Protector",
+      "Rabbit Godfather",
+      "Naga"
+    ],
+    "_wiki_chameleon_origin": [
+      "Wyvern",
+      "Tiamat",
+      "Nessie"
+    ]
   },
   "L9": {
     "name": "End Stone Protector",
@@ -3027,7 +7644,25 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Kraken"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ENDSTONE_PROTECTOR",
+    "_wiki_id_result": "Kraken",
+    "_wiki_id_origin": [
+      "Tempest",
+      "Tiamat"
+    ],
+    "_wiki_chameleon_result": [
+      "Rabbit Godfather",
+      "Naga",
+      "Lapis Creeper"
+    ],
+    "_wiki_chameleon_origin": [
+      "Tortoise",
+      "Wyvern",
+      "Tiamat"
+    ]
   },
   "L10": {
     "name": "Rabbit Godfather",
@@ -3037,8 +7672,23 @@
       "Crime"
     ],
     "input1": "Rabbit Godmother Shard",
-    "input2": "Combat&Legendary+",
-    "id_result": "Cinderbat"
+    "input2": "Legendary+&Combat",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "RABBIT_GODFATHER",
+    "_wiki_id_result": "Cinderbat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Naga",
+      "Lapis Creeper",
+      "Wartybug"
+    ],
+    "_wiki_chameleon_origin": [
+      "End Stone Protector",
+      "Tortoise",
+      "Wyvern"
+    ]
   },
   "L11": {
     "name": "Naga",
@@ -3049,8 +7699,23 @@
       "Amphibian"
     ],
     "input1": "Sea Serpent Shard",
-    "input2": "Water&Epic+",
-    "id_result": "Spike"
+    "input2": "Epic+&Water",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "NAGA",
+    "_wiki_id_result": "Spike",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Lapis Creeper",
+      "Wartybug",
+      "Spike"
+    ],
+    "_wiki_chameleon_origin": [
+      "Rabbit Godfather",
+      "End Stone Protector",
+      "Tortoise"
+    ]
   },
   "L12": {
     "name": "Lapis Creeper",
@@ -3061,7 +7726,22 @@
     ],
     "input1": "Lapis Skeleton Shard",
     "input2": "Ghost Shard|Legendary+",
-    "id_result": "Kraken"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LAPIS_CREEPER",
+    "_wiki_id_result": "Kraken",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Wartybug",
+      "Spike",
+      "Kraken"
+    ],
+    "_wiki_chameleon_origin": [
+      "Naga",
+      "Rabbit Godfather",
+      "End Stone Protector"
+    ]
   },
   "L13": {
     "name": "Wartybug",
@@ -3072,7 +7752,21 @@
     ],
     "input1": "Dragonfly Shard",
     "input2": "Lunar Moth Shard",
-    "id_result": "Cinderbat"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "WARTYBUG",
+    "_wiki_id_result": "Cinderbat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Spike",
+      "Kraken"
+    ],
+    "_wiki_chameleon_origin": [
+      "Lapis Creeper",
+      "Naga",
+      "Rabbit Godfather"
+    ]
   },
   "L14": {
     "name": "Spike",
@@ -3081,7 +7775,25 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Taurus"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SPIKE",
+    "_wiki_id_result": "Taurus",
+    "_wiki_id_origin": [
+      "Nessie",
+      "Tortoise",
+      "Naga"
+    ],
+    "_wiki_chameleon_result": [
+      "Kraken",
+      "Taurus"
+    ],
+    "_wiki_chameleon_origin": [
+      "Wartybug",
+      "Lapis Creeper",
+      "Naga"
+    ]
   },
   "L15": {
     "name": "Kraken",
@@ -3092,7 +7804,24 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Hellwisp"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "KRAKEN",
+    "_wiki_id_result": "Hellwisp",
+    "_wiki_id_origin": [
+      "End Stone Protector",
+      "Lapis Creeper"
+    ],
+    "_wiki_chameleon_result": [
+      "Taurus",
+      "Daemon"
+    ],
+    "_wiki_chameleon_origin": [
+      "Spike",
+      "Wartybug",
+      "Lapis Creeper"
+    ]
   },
   "L17": {
     "name": "Taurus",
@@ -3101,7 +7830,22 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Shinyfish"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TAURUS",
+    "_wiki_id_result": "Lord Jawbus",
+    "_wiki_id_origin": [
+      "Spike"
+    ],
+    "_wiki_chameleon_result": [
+      "Daemon",
+      "Moltenfish"
+    ],
+    "_wiki_chameleon_origin": [
+      "Kraken",
+      "Spike"
+    ]
   },
   "L18": {
     "name": "Daemon",
@@ -3112,7 +7856,19 @@
     ],
     "input1": "Kraken Shard",
     "input2": "Kraken Shard",
-    "id_result": "Hellwisp"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "DAEMON",
+    "_wiki_id_result": "Hellwisp",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Moltenfish"
+    ],
+    "_wiki_chameleon_origin": [
+      "Taurus",
+      "Kraken"
+    ]
   },
   "L20": {
     "name": "Moltenfish",
@@ -3123,7 +7879,17 @@
     ],
     "input1": "Kraken Shard",
     "input2": "Water",
-    "id_result": "Shinyfish"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MOLTENFISH",
+    "_wiki_id_result": "Lord Jawbus",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [],
+    "_wiki_chameleon_origin": [
+      "Daemon",
+      "Taurus"
+    ]
   },
   "L21": {
     "name": "Doomspiral",
@@ -3135,7 +7901,16 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Hellwisp"
+    "synthesized": false,
+    "chameleon": false,
+    "recipe_type": null,
+    "_wiki_internal_id": "DOOMSPIRAL",
+    "_wiki_id_result": "Hellwisp",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Ananke"
+    ],
+    "_wiki_chameleon_origin": []
   },
   "L22": {
     "name": "Macaw",
@@ -3146,7 +7921,17 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Cinderbat"
+    "synthesized": false,
+    "chameleon": false,
+    "recipe_type": null,
+    "_wiki_internal_id": "MACAW",
+    "_wiki_id_result": "Cinderbat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Ananke",
+      "Hideonbox"
+    ],
+    "_wiki_chameleon_origin": []
   },
   "L23": {
     "name": "Shinyfish",
@@ -3155,7 +7940,18 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Lord Jawbus"
+    "synthesized": false,
+    "chameleon": false,
+    "recipe_type": null,
+    "_wiki_internal_id": "SHINYFISH",
+    "_wiki_id_result": "Lord Jawbus",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Ananke",
+      "Hideonbox",
+      "Lord Jawbus"
+    ],
+    "_wiki_chameleon_origin": []
   },
   "L24": {
     "name": "Ananke",
@@ -3167,7 +7963,22 @@
     ],
     "input1": "Kraken Shard",
     "input2": "Bird",
-    "id_result": "Hellwisp"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ANANKE",
+    "_wiki_id_result": "Hellwisp",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Hideonbox",
+      "Lord Jawbus",
+      "Hellwisp"
+    ],
+    "_wiki_chameleon_origin": [
+      "Shinyfish",
+      "Macaw",
+      "Doomspiral"
+    ]
   },
   "L25": {
     "name": "Hideonbox",
@@ -3176,9 +7987,24 @@
     "family": [
       "Shulker"
     ],
-    "input1": "Shulker&Epic+",
+    "input1": "Epic+&Shulker",
     "input2": "Legendary+",
-    "id_result": "Cinderbat"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HIDEONBOX",
+    "_wiki_id_result": "Cinderbat",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Lord Jawbus",
+      "Hellwisp",
+      "Cinderbat"
+    ],
+    "_wiki_chameleon_origin": [
+      "Ananke",
+      "Shinyfish",
+      "Macaw"
+    ]
   },
   "L26": {
     "name": "Lord Jawbus",
@@ -3190,7 +8016,26 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": "Titanoboa"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "LORD_JAWBUS",
+    "_wiki_id_result": "Titanoboa",
+    "_wiki_id_origin": [
+      "Taurus",
+      "Shinyfish",
+      "Moltenfish"
+    ],
+    "_wiki_chameleon_result": [
+      "Hellwisp",
+      "Cinderbat",
+      "Megalith"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hideonbox",
+      "Ananke",
+      "Shinyfish"
+    ]
   },
   "L27": {
     "name": "Hellwisp",
@@ -3201,7 +8046,27 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "HELLWISP",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Doomspiral",
+      "Daemon",
+      "Ananke",
+      "Kraken"
+    ],
+    "_wiki_chameleon_result": [
+      "Cinderbat",
+      "Megalith",
+      "Power Dragon"
+    ],
+    "_wiki_chameleon_origin": [
+      "Lord Jawbus",
+      "Hideonbox",
+      "Ananke"
+    ]
   },
   "L28": {
     "name": "Cinderbat",
@@ -3210,7 +8075,30 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": "Grizzly Bear"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CINDER_BAT",
+    "_wiki_id_result": "Grizzly Bear",
+    "_wiki_id_origin": [
+      "Chameleon",
+      "Wyvern",
+      "Hideonbox",
+      "Tenebris",
+      "Macaw",
+      "Rabbit Godfather",
+      "Wartybug"
+    ],
+    "_wiki_chameleon_result": [
+      "Megalith",
+      "Power Dragon",
+      "Condor"
+    ],
+    "_wiki_chameleon_origin": [
+      "Hellwisp",
+      "Lord Jawbus",
+      "Hideonbox"
+    ]
   },
   "L29": {
     "name": "Megalith",
@@ -3221,8 +8109,23 @@
       "Turtle"
     ],
     "input1": "Tortoise Shard",
-    "input2": "Water&Epic+",
-    "id_result": "Titanoboa"
+    "input2": "Epic+&Water",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "MEGALITH",
+    "_wiki_id_result": "Titanoboa",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Power Dragon",
+      "Condor",
+      "Sun Fish"
+    ],
+    "_wiki_chameleon_origin": [
+      "Cinderbat",
+      "Hellwisp",
+      "Lord Jawbus"
+    ]
   },
   "L30": {
     "name": "Power Dragon",
@@ -3233,7 +8136,22 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "POWER_DRAGON",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Condor",
+      "Sun Fish",
+      "Apex Dragon"
+    ],
+    "_wiki_chameleon_origin": [
+      "Megalith",
+      "Cinderbat",
+      "Hellwisp"
+    ]
   },
   "L31": {
     "name": "Condor",
@@ -3244,7 +8162,22 @@
     ],
     "input1": "Bird",
     "input2": "Legendary+",
-    "id_result": "Grizzly Bear"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "CONDOR",
+    "_wiki_id_result": "Grizzly Bear",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Sun Fish",
+      "Apex Dragon",
+      "Dodo"
+    ],
+    "_wiki_chameleon_origin": [
+      "Power Dragon",
+      "Megalith",
+      "Cinderbat"
+    ]
   },
   "L32": {
     "name": "Sun Fish",
@@ -3252,8 +8185,23 @@
     "category": "Water",
     "family": [],
     "input1": "Shinyfish Shard",
-    "input2": "Bezal Shard|Cinderbat Shard|Flare Shard|Lava Flame Shard|Fire Eel Shard|Bal Shard|Flaming Spider Shard",
-    "id_result": "Titanoboa"
+    "input2": "Bezal Shard|Lava Flame Shard|Fire Eel Shard|Bal Shard|Flare Shard|Cinderbat Shard|Flaming Spider Shard",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "SUN_FISH",
+    "_wiki_id_result": "Titanoboa",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Apex Dragon",
+      "Dodo",
+      "Queen Snake"
+    ],
+    "_wiki_chameleon_origin": [
+      "Condor",
+      "Power Dragon",
+      "Megalith"
+    ]
   },
   "L33": {
     "name": "Apex Dragon",
@@ -3264,7 +8212,22 @@
     ],
     "input1": "Power Dragon Shard",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "APEX_DRAGON",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Dodo",
+      "Queen Snake",
+      "Jormung"
+    ],
+    "_wiki_chameleon_origin": [
+      "Sun Fish",
+      "Condor",
+      "Power Dragon"
+    ]
   },
   "L34": {
     "name": "Dodo",
@@ -3275,7 +8238,21 @@
     ],
     "input1": "Condor Shard",
     "input2": "Legendary+",
-    "id_result": "Grizzly Bear"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "DODO",
+    "_wiki_id_result": "Grizzly Bear",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Queen Snake",
+      "Jormung"
+    ],
+    "_wiki_chameleon_origin": [
+      "Apex Dragon",
+      "Sun Fish",
+      "Condor"
+    ]
   },
   "L35": {
     "name": "Queen Snake",
@@ -3288,7 +8265,21 @@
     ],
     "input1": "Queen Bee Shard",
     "input2": "Queen Ant Shard",
-    "id_result": "Titanoboa"
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "QUEEN_SNAKE",
+    "_wiki_id_result": "Titanoboa",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Jormung",
+      "Ghost Crab"
+    ],
+    "_wiki_chameleon_origin": [
+      "Dodo",
+      "Apex Dragon",
+      "Sun Fish"
+    ]
   },
   "L36": {
     "name": "Jormung",
@@ -3300,7 +8291,21 @@
     ],
     "input1": "Power Dragon Shard",
     "input2": "Kraken Shard",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "JORMUNG",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Ghost Crab",
+      "Etherdrake"
+    ],
+    "_wiki_chameleon_origin": [
+      "Queen Snake",
+      "Dodo",
+      "Apex Dragon"
+    ]
   },
   "L38": {
     "name": "Ghost Crab",
@@ -3310,8 +8315,21 @@
       "Crustacean"
     ],
     "input1": "Blue Crab Shard",
-    "input2": "Poltergeist&Rare+",
-    "id_result": "Titanoboa"
+    "input2": "Rare+&Poltergeist",
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GHOST_CRAB",
+    "_wiki_id_result": "Titanoboa",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Etherdrake",
+      "Grizzly Bear"
+    ],
+    "_wiki_chameleon_origin": [
+      "Jormung",
+      "Queen Snake"
+    ]
   },
   "L39": {
     "name": "Etherdrake",
@@ -3323,7 +8341,19 @@
     ],
     "input1": "Apex Dragon Shard",
     "input2": "Kraken Shard",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "ETHERDRAKE",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Grizzly Bear"
+    ],
+    "_wiki_chameleon_origin": [
+      "Ghost Crab",
+      "Jormung"
+    ]
   },
   "L40": {
     "name": "Grizzly Bear",
@@ -3332,7 +8362,21 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "GRIZZLY_BEAR",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Cinderbat",
+      "Condor",
+      "Dodo"
+    ],
+    "_wiki_chameleon_result": [],
+    "_wiki_chameleon_origin": [
+      "Etherdrake",
+      "Ghost Crab"
+    ]
   },
   "L41": {
     "name": "Galaxy Fish",
@@ -3341,7 +8385,14 @@
     "family": [],
     "input1": "Sun Fish Shard",
     "input2": "Sun Fish Shard",
-    "id_result": "Titanoboa"
+    "synthesized": true,
+    "chameleon": false,
+    "recipe_type": null,
+    "_wiki_internal_id": "GALAXY_FISH",
+    "_wiki_id_result": "Titanoboa",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [],
+    "_wiki_chameleon_origin": []
   },
   "L42": {
     "name": "Molthorn",
@@ -3353,7 +8404,14 @@
     ],
     "input1": "Etherdrake Shard",
     "input2": "Jormung Shard",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": false,
+    "recipe_type": null,
+    "_wiki_internal_id": "MOLTHORN",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [],
+    "_wiki_chameleon_origin": []
   },
   "L44": {
     "name": "Starborn",
@@ -3362,9 +8420,19 @@
     "family": [
       "Elemental"
     ],
-    "input1": "Elemental&Legendary",
+    "input1": "Legendary&Elemental",
     "input2": "Galaxy Fish Shard",
-    "id_result": "Titanoboa"
+    "synthesized": true,
+    "chameleon": false,
+    "recipe_type": null,
+    "_wiki_internal_id": "STARBORN",
+    "_wiki_id_result": "Titanoboa",
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Cocoaleech",
+      "Titanoboa"
+    ],
+    "_wiki_chameleon_origin": []
   },
   "L45": {
     "name": "Primordial",
@@ -3375,7 +8443,17 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": false,
+    "chameleon": false,
+    "recipe_type": null,
+    "_wiki_internal_id": "PRIMORDIAL",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Cocoaleech",
+      "Titanoboa"
+    ],
+    "_wiki_chameleon_origin": []
   },
   "L46": {
     "name": "Cocoaleech",
@@ -3386,7 +8464,19 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": false,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "COCOALEECH",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [
+      "Titanoboa"
+    ],
+    "_wiki_chameleon_origin": [
+      "Primordial",
+      "Starborn"
+    ]
   },
   "L47": {
     "name": "Titanoboa",
@@ -3400,7 +8490,26 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": true,
+    "chameleon": true,
+    "recipe_type": null,
+    "_wiki_internal_id": "TITANOBOA",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [
+      "Megalith",
+      "Queen Snake",
+      "Starborn",
+      "Ghost Crab",
+      "Galaxy Fish",
+      "Sun Fish",
+      "Lord Jawbus"
+    ],
+    "_wiki_chameleon_result": [],
+    "_wiki_chameleon_origin": [
+      "Cocoaleech",
+      "Primordial",
+      "Starborn"
+    ]
   },
   "L49": {
     "name": "Rainbug",
@@ -3412,7 +8521,14 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": false,
+    "chameleon": false,
+    "recipe_type": null,
+    "_wiki_internal_id": "RAINBUG",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [],
+    "_wiki_chameleon_origin": []
   },
   "L54": {
     "name": "Paragon",
@@ -3421,7 +8537,14 @@
     "family": [],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": false,
+    "chameleon": false,
+    "recipe_type": null,
+    "_wiki_internal_id": "PARAGON",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [],
+    "_wiki_chameleon_origin": []
   },
   "L57": {
     "name": "Timestalk Clone",
@@ -3432,7 +8555,14 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": false,
+    "chameleon": false,
+    "recipe_type": null,
+    "_wiki_internal_id": "TIMESTALK_CLONE",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [],
+    "_wiki_chameleon_origin": []
   },
   "L60": {
     "name": "Wumpa",
@@ -3443,6 +8573,13 @@
     ],
     "input1": "",
     "input2": "",
-    "id_result": ""
+    "synthesized": false,
+    "chameleon": false,
+    "recipe_type": null,
+    "_wiki_internal_id": "WUMPA",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [],
+    "_wiki_chameleon_origin": []
   }
 }

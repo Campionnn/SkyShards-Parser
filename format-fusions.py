@@ -47,9 +47,25 @@ data['recipes'] = final_recipes
 with open('shard-data.json', 'r') as f:
     shards = json.load(f)
 
+with open('dist/fusion-properties.json', 'r', encoding='utf-8') as f:
+    properties = json.load(f)
+
+fusion_flags = ('synthesized', 'chameleon', 'recipe_type')
+merged_shards = {}
+for shard_id, shard in shards['shards'].items():
+    merged = OrderedDict()
+    for key, value in shard.items():
+        if key == 'fuse_amount':
+            merged[key] = properties[shard_id]['fuse_amount']
+            for flag in fusion_flags:
+                merged[flag] = properties[shard_id][flag]
+        else:
+            merged[key] = value
+    merged_shards[shard_id] = merged
+
 # sort shards
 sorted_shards = OrderedDict(
-    sorted(shards['shards'].items(), key=lambda item: parse_component(item[0]))
+    sorted(merged_shards.items(), key=lambda item: parse_component(item[0]))
 )
 data['shards'] = sorted_shards
 

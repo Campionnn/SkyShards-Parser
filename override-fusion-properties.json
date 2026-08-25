@@ -1,0 +1,29 @@
+{
+  "_comment": [
+    "Hand-maintained corrections applied on top of the scraped fusion-properties.json.",
+    "Use this when the game disagrees with the wiki, or the wiki lags behind a game update.",
+    "Each entry is a partial patch keyed by shard id. Keys starting with '_' are ignored,",
+    "so '_name' is free to use as a human-readable label.",
+    "Example: { \"R43\": { \"_name\": \"Ladybug\", \"input1\": \"Earthworm Shard\" } }",
+    "'fuse_amount' may also be overridden directly even though it isn't a scraped field.",
+    "While any override is present, the wiki drift assertions in build-properties.py",
+    "report as warnings instead of failing the build."
+  ],
+  "U79": {
+    "_name": "Queen Ant",
+    "_source": "0.27 patch notes: recipe changed from Ant + Elusive Family to Ant + Queen Bee",
+    "input2": "Queen Bee Shard"
+  },
+  "E12": {
+    "_name": "Special Zealot",
+    "_source": "0.27 patch notes: no longer has a Special Fusion recipe, obtainable via Generic Fusion only",
+    "input1": "",
+    "input2": "",
+    "recipe_type": null
+  },
+  "U65": {
+    "_name": "Dustybit",
+    "_source": "Confirmed by an admin: 5x is a known bug, will eventually be fixed to the correct 2x (Frog family)",
+    "fuse_amount": 5
+  }
+}
