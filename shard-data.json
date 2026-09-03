@@ -376,6 +376,14 @@
       "fuse_amount": 5,
       "internal_id": "SHARD_BRINELING"
     },
+    "C48": {
+      "name": "Chocobun",
+      "family": "Crime Family",
+      "type": "Global",
+      "rarity": "common",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_CHOCOBUN"
+    },
     "C49": {
       "name": "Foxtrot",
       "family": "Unknown Family",
