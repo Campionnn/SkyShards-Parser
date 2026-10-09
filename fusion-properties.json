@@ -1279,7 +1279,7 @@
       "Crime"
     ],
     "input1": "Bunbun Shard",
-    "input2": "Crime",
+    "input2": "Cocoaleech Shard|Crime",
     "synthesized": true,
     "chameleon": true,
     "recipe_type": null,
@@ -3158,7 +3158,7 @@
     "chameleon": true,
     "recipe_type": null,
     "_wiki_internal_id": "WOODLOUSE",
-    "_wiki_id_result": "Rat",
+    "_wiki_id_result": "Packrat",
     "_wiki_id_origin": [
       "Mochibear",
       "Driftling",
@@ -3249,7 +3249,7 @@
     "chameleon": true,
     "recipe_type": null,
     "_wiki_internal_id": "RED_PANDA",
-    "_wiki_id_result": "Rat",
+    "_wiki_id_result": "Packrat",
     "_wiki_id_origin": [],
     "_wiki_chameleon_result": [
       "Sprawl",
@@ -3319,7 +3319,7 @@
   "U73": {
     "name": "Packrat",
     "rarity": "Uncommon",
-    "category": "Mining",
+    "category": "Forest",
     "family": [
       "Cave Dweller"
     ],
@@ -3329,8 +3329,11 @@
     "chameleon": true,
     "recipe_type": null,
     "_wiki_internal_id": "PACKRAT_SKULL",
-    "_wiki_id_result": null,
-    "_wiki_id_origin": [],
+    "_wiki_id_result": "Rat",
+    "_wiki_id_origin": [
+      "Red Panda",
+      "Woodlouse"
+    ],
     "_wiki_chameleon_result": [
       "Sylvan",
       "Shrieky Tiki",
@@ -3532,12 +3535,11 @@
     "_wiki_internal_id": "RAT",
     "_wiki_id_result": "Keeled Slug",
     "_wiki_id_origin": [
-      "Red Panda",
+      "Packrat",
       "Woodpecker",
       "Hawk",
       "Queen Ant",
       "Dung Beetle",
-      "Woodlouse",
       "June Bug"
     ],
     "_wiki_chameleon_result": [
@@ -8582,6 +8584,22 @@
     "chameleon": false,
     "recipe_type": null,
     "_wiki_internal_id": "RAINBUG",
+    "_wiki_id_result": null,
+    "_wiki_id_origin": [],
+    "_wiki_chameleon_result": [],
+    "_wiki_chameleon_origin": []
+  },
+  "L52": {
+    "name": "Flora",
+    "rarity": "Legendary",
+    "category": "Forest",
+    "family": [],
+    "input1": "",
+    "input2": "",
+    "synthesized": false,
+    "chameleon": false,
+    "recipe_type": null,
+    "_wiki_internal_id": "FLORA",
     "_wiki_id_result": null,
     "_wiki_id_origin": [],
     "_wiki_chameleon_result": [],

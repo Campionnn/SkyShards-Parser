@@ -984,6 +984,14 @@
       "fuse_amount": 5,
       "internal_id": "SHARD_SNEAKY_TIKI"
     },
+    "U73": {
+      "name": "Packrat",
+      "family": "Cave Dweller Family",
+      "type": "Mining",
+      "rarity": "uncommon",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_PACKRAT_SKULL"
+    },
     "U75": {
       "name": "Shrieky Tiki",
       "family": "Creation Family",
@@ -1271,6 +1279,14 @@
       "rarity": "rare",
       "fuse_amount": 5,
       "internal_id": "SHARD_REVENANT"
+    },
+    "R28": {
+      "name": "Folf",
+      "family": "Unknown Family",
+      "type": "Combat",
+      "rarity": "rare",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FOLF"
     },
     "R29": {
       "name": "Silentdepth",
@@ -2551,6 +2567,14 @@
       "rarity": "legendary",
       "fuse_amount": 5,
       "internal_id": "SHARD_RAINBUG"
+    },
+    "L52": {
+      "name": "Flora",
+      "family": "Unknown Family",
+      "type": "Farming",
+      "rarity": "legendary",
+      "fuse_amount": 5,
+      "internal_id": "SHARD_FLORA"
     },
     "L54": {
       "name": "Paragon",

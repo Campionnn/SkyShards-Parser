@@ -13,7 +13,5 @@
     "build-properties.py report as warnings instead of failing the build.",
     "This file is expected to differ between branches: keep a shard excluded here until",
     "it ships on that branch's release, then delete its entry so the next scrape picks it up."
-  ],
-  "U73": { "_name": "Packrat", "_exclude": true },
-  "R28": { "_name": "Folf", "_exclude": true }
+  ]
 }
